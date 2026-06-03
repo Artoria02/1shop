@@ -1,0 +1,127 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserStatus {
+  ACTIVE
+  DISABLED
+}
+
+enum UserKind {
+  BUYER
+  MERCHANT_STAFF
+  PLATFORM_ADMIN
+}
+
+enum RegisterSource {
+  WEB
+  ADMIN_CREATED
+  SEED
+}
+
+enum AuditActorType {
+  USER
+  SYSTEM
+}
+
+enum AuditAction {
+  USER_CREATED
+  USER_UPDATED
+  ROLE_ASSIGNED
+  ROLE_REVOKED
+  PERMISSION_CHANGED
+  LOGIN
+  LOGOUT
+}
+
+model User {
+  id           String         @id @default(cuid())
+  phone        String?        @unique
+  email        String?        @unique
+  passwordHash String?
+  displayName  String?
+  kind         UserKind       @default(BUYER)
+  status       UserStatus     @default(ACTIVE)
+  source       RegisterSource @default(WEB)
+  lastLoginAt  DateTime?
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  roleAssignments UserRole[]
+  auditLogs       AuditLog[] @relation("AuditActor")
+
+  @@index([kind, status])
+  @@index([createdAt])
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  description String?
+  isSystem    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  userAssignments UserRole[]
+  permissions     RolePermission[]
+}
+
+model Permission {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  roles RolePermission[]
+}
+
+model UserRole {
+  userId    String
+  roleId    String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@id([userId, roleId])
+  @@index([roleId])
+}
+
+model RolePermission {
+  roleId       String
+  permissionId String
+  createdAt    DateTime @default(now())
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@id([roleId, permissionId])
+  @@index([permissionId])
+}
+
+model AuditLog {
+  id          String         @id @default(cuid())
+  actorType   AuditActorType @default(USER)
+  actorId     String?
+  action      AuditAction
+  resource    String
+  resourceId  String?
+  description String?
+  metadata    Json?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime       @default(now())
+
+  actor User? @relation("AuditActor", fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([actorId, createdAt])
+  @@index([action, createdAt])
+  @@index([resource, resourceId])
+}

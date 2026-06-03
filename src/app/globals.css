@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  --background: #f6f5f2;
+  --foreground: #1d252c;
+  --muted: #5f6d76;
+  --panel: #ffffff;
+  --border: #d9dedc;
+  --accent: #0f766e;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+}

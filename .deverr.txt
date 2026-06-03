@@ -1,0 +1,20 @@
+⨯ Error: Could not parse module '[project]/proxy.ts', file not found
+    at module evaluation (D:\Github\1shop\1shop\.next\dev\server\chunks\[root-of-the-server]__20_othu._.js:70:11)
+    at Object.<anonymous> (D:\Github\1shop\1shop\.next\dev\server\middleware.js:4:3) {
+  code: 'MODULE_UNPARSABLE'
+}
+⨯ Error: Could not parse module '[project]/proxy.ts', file not found
+    at module evaluation (D:\Github\1shop\1shop\.next\dev\server\chunks\[root-of-the-server]__20_othu._.js:70:11)
+    at Object.<anonymous> (D:\Github\1shop\1shop\.next\dev\server\middleware.js:4:3) {
+  code: 'MODULE_UNPARSABLE'
+}
+⨯ Error: Could not parse module '[project]/proxy.ts', file not found
+    at module evaluation (D:\Github\1shop\1shop\.next\dev\server\chunks\[root-of-the-server]__20_othu._.js:70:11)
+    at Object.<anonymous> (D:\Github\1shop\1shop\.next\dev\server\middleware.js:4:3) {
+  code: 'MODULE_UNPARSABLE'
+}
+⨯ Error: Could not parse module '[project]/proxy.ts', file not found
+    at module evaluation (D:\Github\1shop\1shop\.next\dev\server\chunks\[root-of-the-server]__20_othu._.js:70:11)
+    at Object.<anonymous> (D:\Github\1shop\1shop\.next\dev\server\middleware.js:4:3) {
+  code: 'MODULE_UNPARSABLE'
+}
