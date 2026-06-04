@@ -6,14 +6,18 @@ async function main() {
   const hash = await bcrypt.hash("buyer123", 12);
   const user = await prisma.user.upsert({
     where: { email: "buyer@1shop.local" },
-    update: { passwordHash: hash, kind: "BUYER" },
+    update: { passwordHash: hash },
     create: {
       email: "buyer@1shop.local",
       displayName: "Test Buyer",
       passwordHash: hash,
-      kind: "BUYER",
       source: "SEED",
     },
+  });
+  await prisma.buyerProfile.upsert({
+    where: { userId: user.id },
+    update: {},
+    create: { userId: user.id, passwordHash: hash }
   });
   console.log("Buyer created:", user.email);
   await prisma.$disconnect();

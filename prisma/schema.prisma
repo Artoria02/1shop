@@ -11,12 +11,6 @@ enum UserStatus {
   DISABLED
 }
 
-enum UserKind {
-  BUYER
-  MERCHANT_STAFF
-  PLATFORM_ADMIN
-}
-
 enum RegisterSource {
   WEB
   ADMIN_CREATED
@@ -28,6 +22,35 @@ enum AuditActorType {
   SYSTEM
 }
 
+enum MerchantType {
+  ENTERPRISE
+  INDIVIDUAL
+}
+
+enum MerchantStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  DISABLED
+}
+
+enum ProductStatus {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum ProductSaleStatus {
+  OFF_SHELF
+  ON_SALE
+}
+
+enum CategoryStatus {
+  ACTIVE
+  DISABLED
+}
+
 enum AuditAction {
   USER_CREATED
   USER_UPDATED
@@ -36,6 +59,16 @@ enum AuditAction {
   PERMISSION_CHANGED
   LOGIN
   LOGOUT
+  MERCHANT_CREATED
+  MERCHANT_UPDATED
+  MERCHANT_REVIEWED
+  PRODUCT_CREATED
+  PRODUCT_UPDATED
+  PRODUCT_REVIEWED
+  CATEGORY_CREATED
+  CATEGORY_UPDATED
+  BRAND_CREATED
+  BRAND_UPDATED
 }
 
 model User {
@@ -44,18 +77,43 @@ model User {
   email        String?        @unique
   passwordHash String?
   displayName  String?
-  kind         UserKind       @default(BUYER)
+  avatar       String?
   status       UserStatus     @default(ACTIVE)
   source       RegisterSource @default(WEB)
   lastLoginAt  DateTime?
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt
 
-  roleAssignments UserRole[]
-  auditLogs       AuditLog[] @relation("AuditActor")
+  roleAssignments    UserRole[]
+  auditLogs          AuditLog[] @relation("AuditActor")
+  merchantStaffs     MerchantStaff[]
+  shippingAddresses  ShippingAddress[]
+  buyerProfile       BuyerProfile?
 
-  @@index([kind, status])
+  @@index([status])
   @@index([createdAt])
+}
+
+model BuyerProfile {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  passwordHash String?
+  displayName  String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model PlatformAdmin {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordHash String
+  displayName  String?
+  avatar       String?
+  status       UserStatus @default(ACTIVE)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
 }
 
 model Role {
@@ -124,4 +182,164 @@ model AuditLog {
   @@index([actorId, createdAt])
   @@index([action, createdAt])
   @@index([resource, resourceId])
+}
+
+model Merchant {
+  id                String         @id @default(cuid())
+  name              String
+  type              MerchantType
+  status            MerchantStatus @default(PENDING)
+  commissionRate    Int            @default(500)
+
+  businessLicense   String?
+  legalPersonName   String?
+  legalPersonIdCard String?
+  registerNo        String?        @unique
+
+  contactName       String
+  contactPhone      String
+  contactEmail      String?
+
+  bankAccountName   String?
+  bankAccountNo     String?
+  bankName          String?
+
+  logo              String?
+  description       String?
+  address           String?
+
+  rejectionReason   String?
+
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  reviewedAt        DateTime?
+  reviewedBy        String?
+
+  staff             MerchantStaff[]
+  products          Product[]
+
+  @@index([status, createdAt])
+  @@index([registerNo])
+}
+
+model MerchantStaff {
+  id          String   @id @default(cuid())
+  merchantId  String
+  userId      String
+  isOwner     Boolean  @default(false)
+  displayName String?
+  createdAt   DateTime @default(now())
+
+  merchant Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([merchantId, userId])
+  @@index([merchantId])
+}
+
+model Category {
+  id          String         @id @default(cuid())
+  parentId    String?
+  name        String
+  sortOrder   Int            @default(0)
+  status      CategoryStatus @default(ACTIVE)
+  icon        String?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  parent   Category?  @relation("CategoryChildren", fields: [parentId], references: [id], onDelete: SetNull)
+  children Category[] @relation("CategoryChildren")
+  products Product[]
+
+  @@index([parentId, sortOrder])
+  @@index([status])
+}
+
+model Brand {
+  id          String         @id @default(cuid())
+  name        String         @unique
+  logo        String?
+  description String?
+  status      CategoryStatus @default(ACTIVE)
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  products Product[]
+}
+
+model Product {
+  id            String            @id @default(cuid())
+  merchantId    String
+  categoryId    String
+  brandId       String?
+
+  name          String
+  subtitle      String?
+  description   String?
+  mainImage     String
+  images        String[]
+
+  status        ProductStatus     @default(DRAFT)
+  saleStatus    ProductSaleStatus @default(OFF_SHELF)
+
+  specTemplate  Json?
+
+  reviewedAt    DateTime?
+  reviewedBy    String?
+  rejectReason  String?
+
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  merchant Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id])
+  brand    Brand?   @relation(fields: [brandId], references: [id])
+  skus     Sku[]
+
+  @@index([merchantId, status, saleStatus])
+  @@index([categoryId])
+  @@index([status, reviewedAt])
+}
+
+model Sku {
+  id            String            @id @default(cuid())
+  productId     String
+  skuCode       String            @unique
+
+  specs         Json
+
+  price         Int
+  originalPrice Int?
+  stock         Int               @default(0)
+  salesCount    Int               @default(0)
+  image         String?
+
+  status        ProductSaleStatus @default(OFF_SHELF)
+
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
+  @@index([skuCode])
+  @@index([status])
+}
+
+model ShippingAddress {
+  id            String   @id @default(cuid())
+  userId        String
+  receiverName  String
+  receiverPhone String
+  province      String
+  city          String
+  district      String
+  detail        String
+  isDefault     Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }

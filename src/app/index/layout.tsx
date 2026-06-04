@@ -1,5 +1,5 @@
 ﻿import { getSessionUser } from "@/lib/auth";
-import { LayoutNavShell } from "./layout-nav-shell";
+import { LayoutNavShell } from "@/components/layout-nav-shell";
 
 export default async function IndexLayout({ children }: { children: React.ReactNode }) {
   const user = await getSessionUser();

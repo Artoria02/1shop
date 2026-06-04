@@ -1,24 +1,31 @@
 ﻿import { getSessionUser } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { headers } from "next/headers";
+import { prisma } from "@/db";
 import { logoutAction } from "@/server/actions/auth.actions";
 import { NavLink } from "@/components/nav-link";
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const h = await headers();
-  const path = h.get("x-invoke-path") || "";
+  const path = h.get("x-pathname") || "";
 
   if (path === "/admin/login") return <>{children}</>;
 
   const user = await getSessionUser();
-  if (!user || user.kind !== "PLATFORM_ADMIN") redirect("/admin/login");
+  if (!user || user.end !== "PLATFORM_ADMIN") redirect("/admin/login");
+
+  const dbUser = await prisma.user.findUnique({
+    where: { id: user.userId },
+    select: { email: true }
+  });
+  const email = dbUser?.email ?? "Admin";
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <header style={{ height: 48, borderBottom: "1px solid #e0e0e0", background: "#fff", display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 24px", flexShrink: 0 }}>
         <span style={{ fontWeight: 700, fontSize: 16, color: "#111" }}>1Shop - 平台管理</span>
         <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
-          <span style={{ fontSize: 13, color: "#666" }}>{user.email}</span>
+          <span style={{ fontSize: 13, color: "#666" }}>{email}</span>
           <form action={logoutAction}>
             <input type="hidden" name="redirectTo" value="/admin/login" />
             <button type="submit" style={{ fontSize: 12, background: "none", border: "1px solid #ccc", borderRadius: 4, padding: "2px 10px", cursor: "pointer", color: "#666" }}>退出</button>

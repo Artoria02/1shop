@@ -1,5 +1,5 @@
 import { prisma } from "@/db";
-import { Prisma, UserKind, RegisterSource } from "@prisma/client";
+import { RegisterSource } from "@prisma/client";
 import { UnauthorizedError } from "@/lib/errors";
 import { compare } from "bcryptjs";
 import { hash } from "bcryptjs";
@@ -24,7 +24,6 @@ export async function createUser(input: {
   phone?: string;
   password: string;
   displayName?: string;
-  kind?: UserKind;
 }) {
   const passwordHash = await hash(input.password, 12);
 
@@ -34,7 +33,6 @@ export async function createUser(input: {
       phone: input.phone,
       passwordHash,
       displayName: input.displayName,
-      kind: input.kind ?? UserKind.BUYER,
       source: RegisterSource.WEB
     }
   });

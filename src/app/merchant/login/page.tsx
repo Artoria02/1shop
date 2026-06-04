@@ -1,5 +1,6 @@
 ﻿"use client";
 import { useActionState } from "react";
+import Link from "next/link";
 import { merchantLoginAction, type LoginState } from "@/server/actions/auth.actions";
 
 const initialState: LoginState = {};
@@ -17,8 +18,8 @@ export default function MerchantLoginPage() {
           </p>
         )}
         <div>
-          <label htmlFor="email" style={{ display: "block", marginBottom: 4, fontWeight: 500 }}>邮箱</label>
-          <input id="email" name="email" type="email" required autoComplete="email"
+          <label htmlFor="account" style={{ display: "block", marginBottom: 4, fontWeight: 500 }}>邮箱 / 手机号</label>
+          <input id="account" name="account" type="text" required autoComplete="username"
             style={{ width: "100%", padding: "8px 12px", fontSize: 14, boxSizing: "border-box" }} />
         </div>
         <div>
@@ -30,6 +31,10 @@ export default function MerchantLoginPage() {
           登录
         </button>
       </form>
+      <div style={{ marginTop: 24, textAlign: "center", fontSize: 14 }}>
+        <span style={{ color: "#666" }}>还没有店铺？</span>
+        <Link href="/merchant/apply" style={{ color: "#2563eb", textDecoration: "none", marginLeft: 4 }}>申请入驻</Link>
+      </div>
     </div>
   );
 }

@@ -39,7 +39,9 @@
 ### 3. 建立基础数据模型
 
 - 设计并创建 Prisma Schema：
-  - `User` — 手机号、邮箱、密码 hash、身份类型（BUYER / MERCHANT_STAFF / PLATFORM_ADMIN）、状态、注册来源
+  - `User` — 手机号、邮箱、密码 hash（商家端）、头像、状态、注册来源。**无 kind 字段**
+  - `BuyerProfile` — 买家身份详情（密码哈希、显示昵称），与 User 1:1
+  - `PlatformAdmin` — 平台管理员独立认证表（邮箱、密码哈希、昵称、头像）
   - `Role` — 角色 code、名称、是否系统角色
   - `Permission` — 权限 code、名称
   - `UserRole` — 用户与角色关联

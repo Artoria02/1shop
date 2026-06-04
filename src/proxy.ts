@@ -58,12 +58,12 @@ export default async function proxy(request: NextRequest) {
     return NextResponse.redirect(loginUrl);
   }
 
-  if (isAdminRoute && session.kind !== "PLATFORM_ADMIN") {
+  if (isAdminRoute && session.end !== "PLATFORM_ADMIN") {
     logRequest({ method: request.method, path: pathname, statusCode: 403, durationMs: Date.now() - start });
     return new NextResponse("Forbidden", { status: 403 });
   }
 
-  if (isMerchantRoute && session.kind !== "MERCHANT_STAFF") {
+  if (isMerchantRoute && session.end !== "MERCHANT_STAFF") {
     logRequest({ method: request.method, path: pathname, statusCode: 403, durationMs: Date.now() - start });
     return new NextResponse("Forbidden", { status: 403 });
   }

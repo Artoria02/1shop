@@ -1,0 +1,7 @@
+import { getSessionUser } from "@/lib/auth";
+import { LayoutNavShell } from "@/components/layout-nav-shell";
+
+export default async function ProductsLayout({ children }: { children: React.ReactNode }) {
+  const user = await getSessionUser();
+  return <LayoutNavShell user={user}>{children}</LayoutNavShell>;
+}

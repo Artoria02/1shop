@@ -4,8 +4,7 @@ describe('auth tokens', () => {
   it('should sign and verify a token successfully', async () => {
     const token = await signToken({
       sub: 'user-1',
-      email: 'test@example.com',
-      kind: 'BUYER',
+      end: 'BUYER',
       roles: ['buyer']
     });
     expect(token).toBeTruthy();
@@ -20,8 +19,7 @@ describe('auth tokens', () => {
   it('should return null for a tampered token', async () => {
     const token = await signToken({
       sub: 'user-2',
-      email: 'u@test.com',
-      kind: 'BUYER',
+      end: 'BUYER',
       roles: []
     });
     const parts = token.split('.');
