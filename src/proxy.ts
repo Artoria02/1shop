@@ -5,13 +5,24 @@ import type { SessionPayload } from "@/lib/types";
 import { logRequest } from "@/lib/request-logger";
 
 const AUTH_SECRET = new TextEncoder().encode(process.env.AUTH_SECRET ?? "fallback-secret");
-const PUBLIC_PATHS = ["/index/login", "/admin/login", "/merchant/login", "/api/public"];
+const PUBLIC_PATHS = ["/index/login", "/admin/login", "/merchant/login", "/merchant/apply", "/api/public"];
 
-async function getSessionFromCookie(request: NextRequest): Promise<SessionPayload | null> {
-  const token = request.cookies.get("session")?.value;
+const SESSION_COOKIE_MAP = {
+  admin:    "session_platform_admin",
+  merchant: "session_merchant",
+  buyer:    "session_buyer"
+} as const;
+
+async function getSessionForRoute(
+  request: NextRequest,
+  cookieName: string,
+  allowedEnd: string
+): Promise<SessionPayload | null> {
+  const token = request.cookies.get(cookieName)?.value;
   if (!token) return null;
   try {
     const { payload } = await jwtVerify<SessionPayload>(token, AUTH_SECRET, { algorithms: ["HS256"] });
+    if (payload.end !== allowedEnd) return null;
     return payload;
   } catch {
     return null;
@@ -20,11 +31,11 @@ async function getSessionFromCookie(request: NextRequest): Promise<SessionPayloa
 
 function nextWithPathname(request: NextRequest, pathname: string) {
   const headers = new Headers(request.headers);
-  headers.set("x-invoke-path", pathname);
+  headers.set("x-pathname", pathname);
   return NextResponse.next({ request: { headers } });
 }
 
-export default async function proxy(request: NextRequest) {
+export default async function middleware(request: NextRequest) {
   const start = Date.now();
   const { pathname } = request.nextUrl;
 
@@ -49,23 +60,20 @@ export default async function proxy(request: NextRequest) {
     return nextWithPathname(request, pathname);
   }
 
-  const session = await getSessionFromCookie(request);
-
-  if (!session) {
-    const loginPath = isAdminRoute ? "/admin/login" : "/merchant/login";
-    const loginUrl = new URL(loginPath, request.url);
-    logRequest({ method: request.method, path: pathname, statusCode: 302, durationMs: Date.now() - start });
-    return NextResponse.redirect(loginUrl);
-  }
-
-  if (isAdminRoute && session.end !== "PLATFORM_ADMIN") {
-    logRequest({ method: request.method, path: pathname, statusCode: 403, durationMs: Date.now() - start });
-    return new NextResponse("Forbidden", { status: 403 });
-  }
-
-  if (isMerchantRoute && session.end !== "MERCHANT_STAFF") {
-    logRequest({ method: request.method, path: pathname, statusCode: 403, durationMs: Date.now() - start });
-    return new NextResponse("Forbidden", { status: 403 });
+  if (isAdminRoute) {
+    const session = await getSessionForRoute(request, SESSION_COOKIE_MAP.admin, "PLATFORM_ADMIN");
+    if (!session) {
+      const loginUrl = new URL("/admin/login", request.url);
+      logRequest({ method: request.method, path: pathname, statusCode: 302, durationMs: Date.now() - start });
+      return NextResponse.redirect(loginUrl);
+    }
+  } else if (isMerchantRoute) {
+    const session = await getSessionForRoute(request, SESSION_COOKIE_MAP.merchant, "MERCHANT");
+    if (!session) {
+      const loginUrl = new URL("/merchant/login", request.url);
+      logRequest({ method: request.method, path: pathname, statusCode: 302, durationMs: Date.now() - start });
+      return NextResponse.redirect(loginUrl);
+    }
   }
 
   logRequest({ method: request.method, path: pathname, statusCode: 200, durationMs: Date.now() - start });

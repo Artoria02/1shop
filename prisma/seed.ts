@@ -13,9 +13,9 @@ async function main() {
   });
 
   const merchantRole = await prisma.role.upsert({
-    where: { code: "MERCHANT_STAFF" },
+    where: { code: "MERCHANT" },
     update: {},
-    create: { code: "MERCHANT_STAFF", name: "商家员工", isSystem: true }
+    create: { code: "MERCHANT", name: "商家", isSystem: true }
   });
 
   const buyerRole = await prisma.role.upsert({
@@ -26,12 +26,14 @@ async function main() {
 
   console.log("Roles created.");
 
-  // Create permissions for Phase 2
+  // Create permissions for Phase 2 + Phase 3
   const permissions = [
     { code: "merchant:review", name: "商家审核" },
     { code: "product:review", name: "商品审核" },
     { code: "category:manage", name: "类目管理" },
-    { code: "brand:manage", name: "品牌管理" }
+    { code: "brand:manage", name: "品牌管理" },
+    { code: "order:view", name: "查看全部订单" },
+    { code: "order:intervene", name: "平台介入订单" },
   ];
 
   for (const p of permissions) {
@@ -117,15 +119,10 @@ async function main() {
     }
   });
 
-  await prisma.merchantStaff.upsert({
-    where: { merchantId_userId: { merchantId: testMerchant.id, userId: merchantUser.id } },
-    update: {},
-    create: {
-      merchantId: testMerchant.id,
-      userId: merchantUser.id,
-      isOwner: true,
-      displayName: "测试商家"
-    }
+  // 主账号：通过 User.merchantId 直接关联店铺
+  await prisma.user.update({
+    where: { id: merchantUser.id },
+    data: { merchantId: testMerchant.id }
   });
 
   console.log("Default merchant user created: merchant@1shop.local / merchant123");
@@ -148,12 +145,6 @@ async function main() {
     where: { userId_roleId: { userId: buyerUser.id, roleId: buyerRole.id } },
     update: {},
     create: { userId: buyerUser.id, roleId: buyerRole.id }
-  });
-
-  await prisma.buyerProfile.upsert({
-    where: { userId: buyerUser.id },
-    update: {},
-    create: { userId: buyerUser.id, passwordHash: buyerPasswordHash, displayName: "测试买家" }
   });
 
   console.log("Default buyer user created: buyer@1shop.local / buyer123");
@@ -217,6 +208,57 @@ async function main() {
   });
 
   console.log("Sample brands created.");
+
+  // Seed sample approved products for testing
+  const testProduct = await prisma.product.upsert({
+    where: { id: "seed_product_1" },
+    update: {},
+    create: {
+      id: "seed_product_1",
+      merchantId: testMerchant.id,
+      categoryId: "seed_cat_phone",
+      brandId: "seed_brand_apple",
+      name: "iPhone 15 Pro 测试手机",
+      subtitle: "256GB 原色钛金属",
+      mainImage: "",
+      images: [],
+      status: "APPROVED",
+      saleStatus: "ON_SALE",
+      specTemplate: [{ name: "颜色", values: ["原色钛金属", "蓝色钛金属"] }, { name: "容量", values: ["256GB", "512GB"] }],
+    },
+  });
+
+  await prisma.sku.upsert({
+    where: { id: "seed_sku_1a" },
+    update: {},
+    create: {
+      id: "seed_sku_1a",
+      productId: testProduct.id,
+      skuCode: "IP15P-256-NAT",
+      specs: { "颜色": "原色钛金属", "容量": "256GB" },
+      price: 899900,
+      originalPrice: 999900,
+      stock: 100,
+      status: "ON_SALE",
+    },
+  });
+
+  await prisma.sku.upsert({
+    where: { id: "seed_sku_1b" },
+    update: {},
+    create: {
+      id: "seed_sku_1b",
+      productId: testProduct.id,
+      skuCode: "IP15P-512-BLU",
+      specs: { "颜色": "蓝色钛金属", "容量": "512GB" },
+      price: 1099900,
+      originalPrice: 1199900,
+      stock: 50,
+      status: "ON_SALE",
+    },
+  });
+
+  console.log("Sample test products created.");
 }
 
 main()

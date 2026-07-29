@@ -29,6 +29,17 @@ export function LayoutNavShell({
       <header style={{ borderBottom: "1px solid #e0e0e0", padding: "8px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", background: "#fff" }}>
         <Link href="/index" style={{ fontWeight: 700, fontSize: 18, textDecoration: "none", color: "#111" }}>1Shop</Link>
         <nav style={{ display: "flex", gap: 16, alignItems: "center" }}>
+          {user && (
+            <>
+              <Link href="/orders" style={{ fontSize: 14, textDecoration: "none", color: "#333" }}>我的订单</Link>
+              <Link href="/cart" style={{ display: "flex", alignItems: "center", gap: 4, textDecoration: "none", position: "relative" }}>
+              <svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke="#333" strokeWidth={1.5}>
+                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span style={{ fontSize: 13, color: "#333" }}>购物车</span>
+            </Link>
+            </>
+          )}
           {user ? (
             <Link href="/index/user" style={{ display: "flex", alignItems: "center", gap: 8, textDecoration: "none" }}>
               <div style={{

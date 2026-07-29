@@ -11,7 +11,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
 
   if (path === "/admin/login") return <>{children}</>;
 
-  const user = await getSessionUser();
+  const user = await getSessionUser("PLATFORM_ADMIN");
   if (!user || user.end !== "PLATFORM_ADMIN") redirect("/admin/login");
 
   const dbUser = await prisma.user.findUnique({

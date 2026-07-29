@@ -1,0 +1,2444 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e4]:
+    - banner [ref=f8e5]:
+      - generic [ref=f8e6]:
+        - link "Pixabay" [ref=f8e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f8e15]:
+          - button "Search Pixabay" [ref=f8e16] [cursor=pointer]:
+            - img "Search" [ref=f8e17]
+          - searchbox "Search Pixabay" [ref=f8e21]: laptop computer
+          - button "Clear" [ref=f8e23] [cursor=pointer]:
+            - generic:
+              - img "Close"
+          - button "All images" [ref=f8e26] [cursor=pointer]
+        - generic [ref=f8e27]:
+          - button "Explore" [ref=f8e31] [cursor=pointer]
+          - button "Log in" [ref=f8e33] [cursor=pointer]
+          - button "Join" [ref=f8e34] [cursor=pointer]
+          - button "Upload" [ref=f8e36] [cursor=pointer]
+    - generic [ref=f8e38]:
+      - generic [ref=f8e39]:
+        - button "All images" [ref=f8e41] [cursor=pointer]
+        - button "Orientation" [ref=f8e43] [cursor=pointer]
+        - button "Size" [ref=f8e45] [cursor=pointer]
+        - button "Color" [ref=f8e47] [cursor=pointer]
+        - button "Published date" [ref=f8e49] [cursor=pointer]
+        - button "Content type New" [ref=f8e51] [cursor=pointer]:
+          - generic:
+            - generic:
+              - generic: Content type
+              - generic: New
+      - generic [ref=f8e52]:
+        - button "Search settings" [ref=f8e55] [cursor=pointer]:
+          - generic:
+            - img "Settings"
+        - button "Most relevant" [ref=f8e57] [cursor=pointer]
+    - generic [ref=f8e58]:
+      - generic [ref=f8e59]:
+        - heading "24,930 Free images of Laptop Computer" [level=1] [ref=f8e60]
+        - paragraph [ref=f8e61]: Find an image of laptop computer to use in your next project. Free laptop computer photos for download.
+        - generic [ref=f8e65]:
+          - link "computer" [ref=f8e67] [cursor=pointer]:
+            - /url: /images/search/computer/
+          - link "laptop" [ref=f8e70] [cursor=pointer]:
+            - /url: /images/search/laptop/
+          - link "office" [ref=f8e73] [cursor=pointer]:
+            - /url: /images/search/office/
+          - link "technology" [ref=f8e76] [cursor=pointer]:
+            - /url: /images/search/technology/
+          - link "business" [ref=f8e79] [cursor=pointer]:
+            - /url: /images/search/business/
+          - link "work" [ref=f8e82] [cursor=pointer]:
+            - /url: /images/search/work/
+          - link "internet" [ref=f8e85] [cursor=pointer]:
+            - /url: /images/search/internet/
+          - link "desk" [ref=f8e88] [cursor=pointer]:
+            - /url: /images/search/desk/
+          - link "keyboard" [ref=f8e91] [cursor=pointer]:
+            - /url: /images/search/keyboard/
+          - link "macbook" [ref=f8e94] [cursor=pointer]:
+            - /url: /images/search/macbook/
+      - generic [ref=f8e96]:
+        - generic [ref=f8e97]:
+          - generic [ref=f8e98]: Sponsored Images iStock
+          - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e99] [cursor=pointer]':
+            - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_coupon&utm_term=laptop+computer
+          - button "About this advertiser" [ref=f8e100] [cursor=pointer]:
+            - generic [ref=f8e101]: 
+        - generic [ref=f8e102]:
+          - link "Sponsored Images" [ref=f8e104] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/at-hand-of-a-male-construction-management-engineer-who-organizes-materials-on-a-gm1388759096-446294811?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=laptop+computer
+          - link "Sponsored Images" [ref=f8e107] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/a-laptop-with-a-blank-screen-sits-on-a-stylish-wooden-desk-within-a-loft-style-gm1954422116-557412334?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=laptop+computer
+          - link "Sponsored Images" [ref=f8e110] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/laptop-with-an-empty-blank-screen-cgi-render-gm2195461294-613544012?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=laptop+computer
+          - generic [ref=f8e112]:
+            - link "Sponsored Images" [ref=f8e113] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/laptop-blank-screen-on-wood-table-with-blurred-coffee-shop-cafe-interior-background-gm1389603578-446846126?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=laptop+computer
+            - link "View more " [ref=f8e115] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/en/search/2/image?phrase=laptop%20computer&utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_viewmore&utm_term=laptop+computer
+              - text: View more
+              - generic [ref=f8e116]: 
+      - generic [ref=f8e117]: Royalty-free images
+      - generic [ref=f8e120]:
+        - generic [ref=f8e121]:
+          - generic [ref=f8e124]:
+            - link [ref=f8e125] [cursor=pointer]:
+              - /url: /vectors/laptop-computer-portable-pc-2298286/
+              - img "Free Laptop Computer vector and picture" [ref=f8e127]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e129] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e134] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 914" [ref=f8e135] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "914"
+                - button "Download" [ref=f8e136] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Sara_Torda" [ref=f8e137] [cursor=pointer]:
+                  - /url: /users/sara_torda-888816/
+                - link "Edit image" [ref=f8e138] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g31544821ce54319e523de88ff0d9a7217984a03e4389fa4d2b511d41046126ccdbe9c6c5221eb05d61e9db4f083b47ff_1920.png%3Flonglived%3D&external-id=2298286&canva-media-id=
+          - generic [ref=f8e141]:
+            - link [ref=f8e142] [cursor=pointer]:
+              - /url: /photos/dog-containment-telework-bichon-4977599/
+              - img "Free Dog Containment photo and picture" [ref=f8e144]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e146] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e151] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 470" [ref=f8e152] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "470"
+                - button "Download" [ref=f8e153] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "MarlyneArt" [ref=f8e154] [cursor=pointer]:
+                  - /url: /users/marlyneart-15261801/
+                - link "Edit image" [ref=f8e155] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8e7449bb7b2bf0d2a9ea754495c0a36b0fb03353c68ec257dd1f3655f440f470c7b0712b3cc4aab4b4203e3441abcbc1_1920.jpg%3Flonglived%3D&external-id=4977599&canva-media-id=
+          - generic [ref=f8e158]:
+            - link [ref=f8e159] [cursor=pointer]:
+              - /url: /photos/coffee-cup-computer-home-laptop-7567749/
+              - img "Free Coffee Cup photo and picture" [ref=f8e161]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e163] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e168] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 149" [ref=f8e169] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "149"
+                - button "Download" [ref=f8e170] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Deeezy" [ref=f8e171] [cursor=pointer]:
+                  - /url: /users/deeezy-15467098/
+                - link "Edit image" [ref=f8e172] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gd37ea9211ec29f71cf84972478338b22142927c6973db6c97d714cfc567143074899377711d9fbb68cf274556541170c_1920.jpg%3Flonglived%3D&external-id=7567749&canva-media-id=
+          - generic [ref=f8e175]:
+            - link [ref=f8e176] [cursor=pointer]:
+              - /url: /photos/laptop-woman-education-study-young-3087585/
+              - img "Free Laptop Woman photo and picture" [ref=f8e178]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e180] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e185] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1653" [ref=f8e186] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1653"
+                - button "Download" [ref=f8e187] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "JESHOOTS-com" [ref=f8e188] [cursor=pointer]:
+                  - /url: /users/jeshoots-com-264599/
+                - link "Edit image" [ref=f8e189] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga1d9fbffd4f52b1e39616f85b80f586616cb47cebd65a6b21363b221fce5e46c9618f2c246561361f8dba0328f3882c4_1920.jpg%3Flonglived%3D&external-id=3087585&canva-media-id=
+          - generic [ref=f8e192]:
+            - link [ref=f8e193] [cursor=pointer]:
+              - /url: /photos/workspace-coffee-laptop-macbook-1280538/
+              - img "Free Workspace Coffee photo and picture" [ref=f8e195]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e197] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e202] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1444" [ref=f8e203] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1444"
+                - button "Download" [ref=f8e204] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "freephotocc" [ref=f8e205] [cursor=pointer]:
+                  - /url: /users/freephotocc-2275370/
+                - link "Edit image" [ref=f8e206] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gf3471cc1087f23201eced0c44ecfd5ee502e83c4e25e83c06181c1d8a1f0d9f77644c6db2253c91f33444154a3d10b23_1920.jpg%3Flonglived%3D&external-id=1280538&canva-media-id=
+          - generic [ref=f8e209]:
+            - link [ref=f8e210] [cursor=pointer]:
+              - /url: /photos/computer-laptop-connection-desk-1846056/
+              - img "Free Computer Laptop photo and picture" [ref=f8e212]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e214] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e219] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 139" [ref=f8e220] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "139"
+                - button "Download" [ref=f8e221] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e222] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e223] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g5e67a478c218a6e3d3f6fc7a1c1c30c547b23fd74a22cee6e0a1e05f71868f89498d3d029ee5336cf7fb4683a7e52214_1920.jpg%3Flonglived%3D&external-id=1846056&canva-media-id=
+          - generic [ref=f8e226]:
+            - link [ref=f8e227] [cursor=pointer]:
+              - /url: /photos/entrepreneur-startup-start-up-man-593378/
+              - img "Free Entrepreneur Startup photo and picture" [ref=f8e229]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e231] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e236] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 601" [ref=f8e237] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "601"
+                - button "Download" [ref=f8e238] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e239] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e240] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2e5361d3c985165dd52a8b0711473107ca644a88ce0810052a069418b5b289310132035cb96f7aa0db59a3d2b4df199f_1920.jpg%3Flonglived%3D&external-id=593378&canva-media-id=
+          - generic [ref=f8e243]:
+            - link [ref=f8e244] [cursor=pointer]:
+              - /url: /photos/office-home-office-creative-apple-581131/
+              - img "Free Office Home Office photo and picture" [ref=f8e246]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e249] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e254] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 502" [ref=f8e255] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "502"
+                - button "Download" [ref=f8e256] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "markusspiske" [ref=f8e257] [cursor=pointer]:
+                  - /url: /users/markusspiske-670330/
+                - link "Edit image" [ref=f8e258] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g7e914189f8d0aa64b99a0632c0b10f64f0eb52082c876e4f4256ed1f28173a0f599830cb678798c4e82e55a625a28d3d_1920.jpg%3Flonglived%3D&external-id=581131&canva-media-id=
+          - generic [ref=f8e261]:
+            - link [ref=f8e262] [cursor=pointer]:
+              - /url: /photos/laptops-meeting-businessmen-593296/
+              - img "Free Laptops Meeting photo and picture" [ref=f8e264]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e267] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e272] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 384" [ref=f8e273] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "384"
+                - button "Download" [ref=f8e274] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e275] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e276] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ge1ba711081f84531ee06c359fa1e356a14d0ff0e6fb9e50e19b5bf8808f5c07feaca369e538a145d1554c196a93e6953_1920.jpg%3Flonglived%3D&external-id=593296&canva-media-id=
+          - generic [ref=f8e278]:
+            - link [ref=f8e279] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/close-up-photo-of-woman-hands-typing-business-report-on-a-laptop-keyboard-in-the-cafe-gm1456192902-491300902?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e284]:
+              - generic [ref=f8e285]:
+                - generic [ref=f8e286]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e287] [cursor=pointer]:
+                  - img "Question" [ref=f8e288]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e291] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e294]:
+            - link [ref=f8e295] [cursor=pointer]:
+              - /url: /photos/home-office-notebook-home-couch-569153/
+              - img "Free Home Office Notebook photo and picture" [ref=f8e297]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e300] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e305] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 529" [ref=f8e306] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "529"
+                - button "Download" [ref=f8e307] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Life-Of-Pix" [ref=f8e308] [cursor=pointer]:
+                  - /url: /users/life-of-pix-364018/
+                - link "Edit image" [ref=f8e309] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g67827d0bc20d2ba10ec987118371d42acc56c8fca883e9739776a757e5c49c6763f2a1911b2b2690420584faef529bb7_1920.jpg%3Flonglived%3D&external-id=569153&canva-media-id=
+          - generic [ref=f8e312]:
+            - link [ref=f8e313] [cursor=pointer]:
+              - /url: /photos/home-office-computer-desk-display-1867761/
+              - img "Free Home Office Computer photo and picture" [ref=f8e315]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e318] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e323] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 559" [ref=f8e324] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "559"
+                - button "Download" [ref=f8e325] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e326] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e327] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2b6309be7810f1d37e5525113f14b983c4653cbfca59d97ca5f9e0087a161bfe908d808929099f7653ae5cd2cca26ba4_1920.jpg%3Flonglived%3D&external-id=1867761&canva-media-id=
+          - generic [ref=f8e330]:
+            - link [ref=f8e331] [cursor=pointer]:
+              - /url: /photos/office-startup-business-home-office-594132/
+              - img "Free Office Startup photo and picture" [ref=f8e333]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e336] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e341] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1032" [ref=f8e342] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1032"
+                - button "Download" [ref=f8e343] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e344] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e345] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gd92229a2c8adfab181835f3cfa71d91b37992a987d9b096f6abab08964306359b0d21d0f0c99b146097e879b96f05d9d_1920.jpg%3Flonglived%3D&external-id=594132&canva-media-id=
+          - generic [ref=f8e348]:
+            - link [ref=f8e349] [cursor=pointer]:
+              - /url: /photos/notebook-typing-coffee-computer-1850613/
+              - img "Free Notebook Typing photo and picture" [ref=f8e351]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e354] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e359] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 406" [ref=f8e360] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "406"
+                - button "Download" [ref=f8e361] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e362] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e363] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g56e33c5e4177c005f66075b71c77b1f670058611080aeb3472f84560c7e5899b354e398d3e2c8e2c36c44b08eb2cad47_1920.jpg%3Flonglived%3D&external-id=1850613&canva-media-id=
+          - generic [ref=f8e366]:
+            - link [ref=f8e367] [cursor=pointer]:
+              - /url: /photos/woman-laptop-desk-workspace-1851464/
+              - img "Free Woman Laptop photo and picture" [ref=f8e369]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e372] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e377] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 557" [ref=f8e378] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "557"
+                - button "Download" [ref=f8e379] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e380] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e381] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga3f7d5c1bf75048e14d60f46a85026b9702ad62a2bfb68b05302a3c6596af603e00856f4c0a0edb992cfd8e0abd0765f_1920.jpg%3Flonglived%3D&external-id=1851464&canva-media-id=
+          - generic [ref=f8e384]:
+            - link [ref=f8e385] [cursor=pointer]:
+              - /url: /photos/girl-woman-office-work-coffee-2583442/
+              - img "Free Girl Woman photo and picture" [ref=f8e387]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e390] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e395] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 333" [ref=f8e396] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "333"
+                - button "Download" [ref=f8e397] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e398] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e399] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g422623a558e8772dc57b68b81a7e58a5b7d95fde49531e1da808a9e72a9764f5aefb215e0d664db94293e6bf98367d23_1920.jpg%3Flonglived%3D&external-id=2583442&canva-media-id=
+          - generic [ref=f8e402]:
+            - link [ref=f8e403] [cursor=pointer]:
+              - /url: /vectors/woman-laptop-notebook-sitting-1459220/
+              - img "Free Woman Laptop vector and picture" [ref=f8e405]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e408] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e413] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 613" [ref=f8e414] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "613"
+                - button "Download" [ref=f8e415] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "GraphicMama-team" [ref=f8e416] [cursor=pointer]:
+                  - /url: /users/graphicmama-team-2641041/
+                - link "Edit image" [ref=f8e417] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gee22184fe0306fa8ced1861c36e1f73406ef8e9d55365256f9961d07d3a2bfbbed32f8d475b924610dbc5ded768ba1a8_1920.png%3Flonglived%3D&external-id=1459220&canva-media-id=
+          - generic [ref=f8e420]:
+            - link [ref=f8e421] [cursor=pointer]:
+              - /url: /photos/grandmother-kids-laptop-myanmar-1822560/
+              - img "Free Grandmother Kids photo and picture" [ref=f8e423]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e426] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e431] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 403" [ref=f8e432] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "403"
+                - button "Download" [ref=f8e433] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "sasint" [ref=f8e434] [cursor=pointer]:
+                  - /url: /users/sasint-3639875/
+                - link "Edit image" [ref=f8e435] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g36ae528e64efa05ac7ac16c20164f57ce444f6e01d471a7da19d0f1ba6bf3759a092d6ac0b76517958f5aadf7dfc1d1e_1920.jpg%3Flonglived%3D&external-id=1822560&canva-media-id=
+          - generic [ref=f8e438]:
+            - link [ref=f8e439] [cursor=pointer]:
+              - /url: /photos/student-woman-startup-business-849821/
+              - img "Free Student Woman photo and picture" [ref=f8e441]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e444] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e449] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 549" [ref=f8e450] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "549"
+                - button "Download" [ref=f8e451] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e452] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e453] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g9f0a29fdbb67427e1cb3e4db14dbdab6380b0363f6cb4912899aa4e4893cf1fe8b662edfccbf151ce74abdfdbe864aa1_1920.jpg%3Flonglived%3D&external-id=849821&canva-media-id=
+          - generic [ref=f8e456]:
+            - link [ref=f8e457] [cursor=pointer]:
+              - /url: /photos/wordpress-blogging-writing-typing-923188/
+              - img "Free Wordpress Blogging photo and picture" [ref=f8e459]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e462] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e467] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 426" [ref=f8e468] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "426"
+                - button "Download" [ref=f8e469] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e470] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e471] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gfea91991f2b545e304c3bb579911bc303934c29f8a8ddcf904fc8077547b048d1355fabecbedfe506da27ad893899b9c_1920.jpg%3Flonglived%3D&external-id=923188&canva-media-id=
+          - generic [ref=f8e474]:
+            - link [ref=f8e475] [cursor=pointer]:
+              - /url: /vectors/work-home-laptop-blogging-author-4997565/
+              - img "Free Work Home vector and picture" [ref=f8e477]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e480] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e485] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 487" [ref=f8e486] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "487"
+                - button "Download" [ref=f8e487] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "arivleone" [ref=f8e488] [cursor=pointer]:
+                  - /url: /users/arivleone-14275976/
+                - link "Edit image" [ref=f8e489] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2dd5de5853e383b85c54b6221eaf553e7654b5fabeb6933b861ed55ed297e3114dca73ee9d4d35aee2372948605f460d_1920.png%3Flonglived%3D&external-id=4997565&canva-media-id=
+          - generic [ref=f8e492]:
+            - link [ref=f8e493] [cursor=pointer]:
+              - /url: /photos/technology-laptop-keyboard-computer-791029/
+              - img "Free Technology Laptop photo and picture" [ref=f8e495]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e498] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e503] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 448" [ref=f8e504] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "448"
+                - button "Download" [ref=f8e505] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "kaboompics" [ref=f8e506] [cursor=pointer]:
+                  - /url: /users/kaboompics-1013994/
+                - link "Edit image" [ref=f8e507] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gbd65cbdad09e624b7812ad68aaffa86b001f906a86bb5668b4eed3741f074360d59aabfc4f4a3a675d905a84f6e88da8_1920.jpg%3Flonglived%3D&external-id=791029&canva-media-id=
+          - generic [ref=f8e510]:
+            - link [ref=f8e511] [cursor=pointer]:
+              - /url: /photos/hands-laptop-working-businessman-2178566/
+              - img "Free Hands Laptop photo and picture" [ref=f8e513]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e516] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e521] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 422" [ref=f8e522] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "422"
+                - button "Download" [ref=f8e523] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e524] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e525] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g02a5dabc675b76ffcde8df73e4c31df4095643923322acf0e1b3ae62c7cf72017a6335513f639da405302e60fb67ee1c_1920.jpg%3Flonglived%3D&external-id=2178566&canva-media-id=
+          - generic [ref=f8e528]:
+            - link [ref=f8e529] [cursor=pointer]:
+              - /url: /photos/child-girl-young-caucasian-1073638/
+              - img "Free Child Girl photo and picture" [ref=f8e531]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e534] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e539] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 458" [ref=f8e540] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "458"
+                - button "Download" [ref=f8e541] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "finelightarts" [ref=f8e542] [cursor=pointer]:
+                  - /url: /users/finelightarts-890049/
+                - link "Edit image" [ref=f8e543] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g667ab1eeed60dc64428478e180d473f27109acad5f01041996904f79fac11fcfacba7eed41dda7b23fbb8e0cf1223989_1920.jpg%3Flonglived%3D&external-id=1073638&canva-media-id=
+          - generic [ref=f8e546]:
+            - link [ref=f8e547] [cursor=pointer]:
+              - /url: /photos/cup-of-coffee-laptop-office-macbook-1280537/
+              - img "Free Cup Of Coffee Laptop photo and picture" [ref=f8e549]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e552] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e557] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1585" [ref=f8e558] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1585"
+                - button "Download" [ref=f8e559] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "freephotocc" [ref=f8e560] [cursor=pointer]:
+                  - /url: /users/freephotocc-2275370/
+                - link "Edit image" [ref=f8e561] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g64de78e7d02ea612b83c13f42b7c0985902486ac4defaee5285656441c38ad37fe4bdf31a8c2946762d04cd4ee1c3cf6_1920.jpg%3Flonglived%3D&external-id=1280537&canva-media-id=
+          - generic [ref=f8e564]:
+            - link [ref=f8e565] [cursor=pointer]:
+              - /url: /photos/pen-notebook-notepad-diary-4337524/
+              - img "Free Pen Notebook photo and picture" [ref=f8e567]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e570] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e575] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 185" [ref=f8e576] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "185"
+                - button "Download" [ref=f8e577] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "rupixen" [ref=f8e578] [cursor=pointer]:
+                  - /url: /users/rupixen-11154019/
+                - link "Edit image" [ref=f8e579] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga8418484232a97b593f4ad01cf3cf5bba9523524594aa20273a1448b92fa0d4b3d40b6cc5b8e80c6cde865fa63a80945_1920.jpg%3Flonglived%3D&external-id=4337524&canva-media-id=
+          - generic [ref=f8e581]:
+            - link [ref=f8e582] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/smiling-woman-working-remotely-on-laptop-in-modern-workspace-gm2187502380-606081761?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e587]:
+              - generic [ref=f8e588]:
+                - generic [ref=f8e589]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e590] [cursor=pointer]:
+                  - img "Question" [ref=f8e591]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e594] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e597]:
+            - link [ref=f8e598] [cursor=pointer]:
+              - /url: /photos/laptop-typing-working-pink-woman-8499942/
+              - img "Free Laptop Typing photo and picture" [ref=f8e600]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e603] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e608] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 92" [ref=f8e609] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "92"
+                - button "Download" [ref=f8e610] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "This_is_Engineering" [ref=f8e611] [cursor=pointer]:
+                  - /url: /users/this_is_engineering-11384528/
+                - link "Edit image" [ref=f8e612] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g67cb3ae491021f6b24d7423acede801a734552dea9016126a9c14de1335cb5dbd164e0f1a23d0eda82e82fae2caa911d_1920.jpg%3Flonglived%3D&external-id=8499942&canva-media-id=
+          - generic [ref=f8e615]:
+            - link [ref=f8e616] [cursor=pointer]:
+              - /url: /photos/laptop-macbook-codes-coding-2620118/
+              - img "Free Laptop Macbook photo and picture" [ref=f8e618]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e621] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e626] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 294" [ref=f8e627] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "294"
+                - button "Download" [ref=f8e628] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e629] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e630] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gae00a878692d80f9a1601c7c23acbaa7ab77ba77545d69027c073824adee037059a1a2174843942f4bb9cf4d16c6f72d_1920.jpg%3Flonglived%3D&external-id=2620118&canva-media-id=
+          - generic [ref=f8e633]:
+            - link [ref=f8e634] [cursor=pointer]:
+              - /url: /illustrations/screen-laptop-png-computer-1515324/
+              - img "Free Screen Laptop illustration and picture" [ref=f8e636]
+            - generic:
+              - generic:
+                - button "BookmarkOutline" [ref=f8e638] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 59" [ref=f8e639] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "59"
+                - button "Download" [ref=f8e640] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "mstrand" [ref=f8e641] [cursor=pointer]:
+                  - /url: /users/mstrand-2883454/
+                - link "Edit image" [ref=f8e642] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g87ffb4c09e2a32abc4fc4f2a2d371ac64fd88f817037a16401a8e21b6ccc9a254418974e5f4d9f77996cf767d0825f23_1920.png%3Flonglived%3D&external-id=1515324&canva-media-id=
+          - generic [ref=f8e645]:
+            - link [ref=f8e646] [cursor=pointer]:
+              - /url: /photos/playstation-computer-console-1845880/
+              - img "Free Playstation Computer photo and picture" [ref=f8e648]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e651] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e656] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 191" [ref=f8e657] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "191"
+                - button "Download" [ref=f8e658] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e659] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e660] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gabbb7d7da36749961fcee7acc1154c00f31df4c2b2a3d9ecf06efd4a08af185f5b1f9524ac97e6bc695a73537de268b5_1920.jpg%3Flonglived%3D&external-id=1845880&canva-media-id=
+          - generic [ref=f8e663]:
+            - link [ref=f8e664] [cursor=pointer]:
+              - /url: /illustrations/laptop-hand-computer-design-7723139/
+              - img "Free Laptop Hand illustration and picture" [ref=f8e666]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e669] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e674] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 167" [ref=f8e675] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "167"
+                - button "Download" [ref=f8e676] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Ylanite_NietjuhArt" [ref=f8e677] [cursor=pointer]:
+                  - /url: /users/ylanite_nietjuhart-30460544/
+                - link "Edit image" [ref=f8e678] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc0ad1dbab4b7d5ed8d458de1da74c2442f9185cd9710a389bf5385f936083fc93bd8fa00088296b4e6ecbc51429a4493_1920.jpg%3Flonglived%3D&external-id=7723139&canva-media-id=
+          - generic [ref=f8e681]:
+            - link [ref=f8e682] [cursor=pointer]:
+              - /url: /photos/computer-keyboard-typing-1869236/
+              - img "Free Computer Keyboard photo and picture" [ref=f8e684]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e687] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e692] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 212" [ref=f8e693] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "212"
+                - button "Download" [ref=f8e694] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e695] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e696] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g9fd12ab00cc74dc569cd8f536336fde01b456de071780b728e88a088b7639fa2a6e1a821f23ef3e27b070f387c56902c_1920.jpg%3Flonglived%3D&external-id=1869236&canva-media-id=
+          - generic [ref=f8e699]:
+            - link [ref=f8e700] [cursor=pointer]:
+              - /url: /photos/cellular-man-person-technology-4599956/
+              - img "Free Cellular Man photo and picture" [ref=f8e702]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e705] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e710] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 194" [ref=f8e711] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "194"
+                - button "Download" [ref=f8e712] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "GustavoWandalen" [ref=f8e713] [cursor=pointer]:
+                  - /url: /users/gustavowandalen-10110273/
+                - link "Edit image" [ref=f8e714] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g1a1e81b5e8a71d22237b0024ad58374a5496700bc1336f394b7e723e469cd3f3629a8860942a54b84e9d2e30918ac385_1920.jpg%3Flonglived%3D&external-id=4599956&canva-media-id=
+          - generic [ref=f8e717]:
+            - link [ref=f8e718] [cursor=pointer]:
+              - /url: /photos/apple-computer-girl-iphone-working-1853337/
+              - img "Free Apple Computer photo and picture" [ref=f8e720]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e723] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e728] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 105" [ref=f8e729] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "105"
+                - button "Download" [ref=f8e730] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e731] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e732] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2d0628f050cddf68be7a38055a95df2c838b2278b9a62ed91e6ea8a3512e0334f7186dbf39b41f95be8104d4681abf13_1920.jpg%3Flonglived%3D&external-id=1853337&canva-media-id=
+          - generic [ref=f8e735]:
+            - link [ref=f8e736] [cursor=pointer]:
+              - /url: /illustrations/man-office-worker-desk-cartoon-9481358/
+              - img "Free Man Office illustration and picture" [ref=f8e738]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e741] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e746] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 70" [ref=f8e747] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "70"
+                - button "Download" [ref=f8e748] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "RichardsDrawings" [ref=f8e749] [cursor=pointer]:
+                  - /url: /users/richardsdrawings-858383/
+                - link "Edit image" [ref=f8e750] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc4b63010b1c866bf5317b9bc3d1aeaab4be3035d8eb04600ab21adf34e9ec45489a60d2d95b71540a09e0964fb17b7f2_1920.jpg%3Flonglived%3D&external-id=9481358&canva-media-id=
+        - generic [ref=f8e751]:
+          - generic [ref=f8e754]:
+            - link [ref=f8e755] [cursor=pointer]:
+              - /url: /photos/pen-notebook-notepad-diary-4337521/
+              - img "Free Pen Notebook photo and picture" [ref=f8e757]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e759] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e764] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 165" [ref=f8e765] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "165"
+                - button "Download" [ref=f8e766] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "rupixen" [ref=f8e767] [cursor=pointer]:
+                  - /url: /users/rupixen-11154019/
+                - link "Edit image" [ref=f8e768] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8d7fc127859b74799cda574857cee5d46ff77ba21adeed019cea682514c84e294a73ea4c9685ad20a03786959d5e71dd_1920.jpg%3Flonglived%3D&external-id=4337521&canva-media-id=
+          - generic [ref=f8e771]:
+            - link [ref=f8e772] [cursor=pointer]:
+              - /url: /photos/coding-programming-css-1853305/
+              - img "Free Coding Programming photo and picture" [ref=f8e774]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e776] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e781] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 305" [ref=f8e782] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "305"
+                - button "Download" [ref=f8e783] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e784] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e785] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gfc7a7c537040331a11c35d82a4d6c4d48787c8095c5f30e4ff03047f550138e7a7a5a42f63f511423c05e815387fba6e_1920.jpg%3Flonglived%3D&external-id=1853305&canva-media-id=
+          - generic [ref=f8e788]:
+            - link [ref=f8e789] [cursor=pointer]:
+              - /url: /photos/laptop-apple-computer-desk-macbook-1846277/
+              - img "Free Laptop Apple photo and picture" [ref=f8e791]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e793] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e798] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 176" [ref=f8e799] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "176"
+                - button "Download" [ref=f8e800] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e801] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e802] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g501677ecb8aaca16973810890da68a02b2b5e65fcfcb3011e0704f6fbc222d8e97b5f805ca023e347b1c5887986e3729_1920.jpg%3Flonglived%3D&external-id=1846277&canva-media-id=
+          - generic [ref=f8e804]:
+            - link [ref=f8e805] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/close-up-of-woman-working-on-computer-gm538467538-95751391?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e810]:
+              - generic [ref=f8e811]:
+                - generic [ref=f8e812]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e813] [cursor=pointer]:
+                  - img "Question" [ref=f8e814]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e817] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e820]:
+            - link [ref=f8e821] [cursor=pointer]:
+              - /url: /photos/office-business-accountant-620822/
+              - img "Free Office Business photo and picture" [ref=f8e823]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e825] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e830] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 2077" [ref=f8e831] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "2077"
+                - button "Download" [ref=f8e832] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Firmbee" [ref=f8e833] [cursor=pointer]:
+                  - /url: /users/firmbee-663163/
+                - link "Edit image" [ref=f8e834] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g00b29ed6ca9dc6e15a578040fb9d124a6aa9b17a8b3389c0495369522fd7ee68dcd4571defa24f74809792cc66bd374f_1920.jpg%3Flonglived%3D&external-id=620822&canva-media-id=
+          - generic [ref=f8e837]:
+            - link [ref=f8e838] [cursor=pointer]:
+              - /url: /photos/coffee-cup-macbook-laptop-working-1284041/
+              - img "Free Coffee Cup photo and picture" [ref=f8e840]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e842] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e847] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 773" [ref=f8e848] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "773"
+                - button "Download" [ref=f8e849] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e850] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e851] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga8cc013e93da750f3388fbf09d9d84fd2b313358750fae1dc148d484c65458ca822d89b2fcfd04a8554e59caa49d015b_1920.jpg%3Flonglived%3D&external-id=1284041&canva-media-id=
+          - generic [ref=f8e854]:
+            - link [ref=f8e855] [cursor=pointer]:
+              - /url: /photos/laptop-coffee-notebook-pen-glasses-1478822/
+              - img "Free Laptop Coffee photo and picture" [ref=f8e857]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e859] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e864] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 805" [ref=f8e865] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "805"
+                - button "Download" [ref=f8e866] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "freephotocc" [ref=f8e867] [cursor=pointer]:
+                  - /url: /users/freephotocc-2275370/
+                - link "Edit image" [ref=f8e868] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g559858f5029640e1698e4ac0385032a17356a129e0ea77e3ebc34919fabe00467f0f9301b811e1a28c86f24fae3fc478_1920.jpg%3Flonglived%3D&external-id=1478822&canva-media-id=
+          - generic [ref=f8e871]:
+            - link [ref=f8e872] [cursor=pointer]:
+              - /url: /photos/office-desk-business-working-925806/
+              - img "Free Office Desk photo and picture" [ref=f8e874]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e877] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e882] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 526" [ref=f8e883] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "526"
+                - button "Download" [ref=f8e884] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e885] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e886] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g40c85880bb5d9d24b8124d26b8888725befdb8251d946e2b3db618f65c774256d394b67ea2d4ae4af02264fad5d20cff_1920.jpg%3Flonglived%3D&external-id=925806&canva-media-id=
+          - generic [ref=f8e889]:
+            - link [ref=f8e890] [cursor=pointer]:
+              - /url: /photos/children-win-success-video-game-593313/
+              - img "Free Children Win photo and picture" [ref=f8e892]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e895] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e900] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1966" [ref=f8e901] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1966"
+                - button "Download" [ref=f8e902] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e903] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e904] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g34138326b5c4ac488be0b0c67dd6a42fa92dcb5dad96263de019f119c9a56aeb244b89e34f09ef68301a9eac0cc1d4a3_1920.jpg%3Flonglived%3D&external-id=593313&canva-media-id=
+          - generic [ref=f8e907]:
+            - link [ref=f8e908] [cursor=pointer]:
+              - /url: /photos/laptop-wordpress-wordpress-design-593673/
+              - img "Free Laptop Wordpress photo and picture" [ref=f8e910]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e913] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e918] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 472" [ref=f8e919] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "472"
+                - button "Download" [ref=f8e920] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - link "Edit image" [ref=f8e921] [cursor=pointer]:
+                - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g0a2e288295f1282dbb9ecb7089462c0ae4902e67b865422454bebd1b0649cfd23fd9ebbc249da501d5744ec3e0ab9489_1920.jpg%3Flonglived%3D&external-id=593673&canva-media-id=
+          - generic [ref=f8e924]:
+            - link [ref=f8e925] [cursor=pointer]:
+              - /url: /vectors/man-adult-businessman-laptop-1459246/
+              - img "Free Man Adult vector and picture" [ref=f8e927]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e930] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e935] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 931" [ref=f8e936] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "931"
+                - button "Download" [ref=f8e937] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "GraphicMama-team" [ref=f8e938] [cursor=pointer]:
+                  - /url: /users/graphicmama-team-2641041/
+                - link "Edit image" [ref=f8e939] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g9112809a0247ef3fdbf4ddf51c505bf1a063cc457aaf3b4de196cde0fd53edaeeaaa4696ac0e82890aadff1ed04ef8c7_1920.png%3Flonglived%3D&external-id=1459246&canva-media-id=
+          - generic [ref=f8e942]:
+            - link [ref=f8e943] [cursor=pointer]:
+              - /url: /photos/computer-summary-chart-business-767776/
+              - img "Free Computer Summary photo and picture" [ref=f8e945]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e948] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e953] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 585" [ref=f8e954] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "585"
+                - button "Download" [ref=f8e955] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Lalmch" [ref=f8e956] [cursor=pointer]:
+                  - /url: /users/lalmch-1026205/
+                - link "Edit image" [ref=f8e957] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gae12caed204364715b8733f5ec5b673619cb8b856bcf16262ec0babad567ac3b9764890e91285619ea5ecc0e152c4d95_1920.jpg%3Flonglived%3D&external-id=767776&canva-media-id=
+          - generic [ref=f8e960]:
+            - link [ref=f8e961] [cursor=pointer]:
+              - /url: /photos/keyboard-keys-hardware-pc-computer-338505/
+              - img "Free Keyboard Keys photo and picture" [ref=f8e963]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e966] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e971] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 166" [ref=f8e972] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "166"
+                - button "Download" [ref=f8e973] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "TheAngryTeddy" [ref=f8e974] [cursor=pointer]:
+                  - /url: /users/theangryteddy-123386/
+                - link "Edit image" [ref=f8e975] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ge6b3dfa80b86654fefbd389d478b9db518d100bebec21d430df1be52399812a6b2fd782869990fdcefaec6bcb49a44de_1920.jpg%3Flonglived%3D&external-id=338505&canva-media-id=
+          - generic [ref=f8e978]:
+            - link [ref=f8e979] [cursor=pointer]:
+              - /url: /photos/student-typing-keyboard-text-849826/
+              - img "Free Student Typing photo and picture" [ref=f8e981]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e984] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e989] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 418" [ref=f8e990] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "418"
+                - button "Download" [ref=f8e991] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e992] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e993] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g43d43b0a54b6afa4369efd254d620a001008c504a6e143d5691de411867321f532a1d242d39babc051d5a9f9132f411d_1920.jpg%3Flonglived%3D&external-id=849826&canva-media-id=
+          - generic [ref=f8e996]:
+            - link [ref=f8e997] [cursor=pointer]:
+              - /url: /photos/notebook-work-girl-computer-woman-2386034/
+              - img "Free Notebook Work photo and picture" [ref=f8e999]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1002] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1007] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 663" [ref=f8e1008] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "663"
+                - button "Download" [ref=f8e1009] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "hamonazaryan1" [ref=f8e1010] [cursor=pointer]:
+                  - /url: /users/hamonazaryan1-5589371/
+                - link "Edit image" [ref=f8e1011] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gfb9707ef5ad557f2b3053390ad2ed424de056f27c5454101376cadfd844d7803ce3ce95fe18c537daf996f2bdebfa23a_1920.jpg%3Flonglived%3D&external-id=2386034&canva-media-id=
+          - generic [ref=f8e1014]:
+            - link [ref=f8e1015] [cursor=pointer]:
+              - /url: /photos/laptop-notebook-cellphone-computer-1839876/
+              - img "Free Laptop Notebook photo and picture" [ref=f8e1017]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1020] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1025] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 348" [ref=f8e1026] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "348"
+                - button "Download" [ref=f8e1027] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1028] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1029] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g41709ab61f2212a05f1b682faa4e127c95bfaba24433457d5b3ac9b3a7d964264015ed5dddf1fd6e8d85d725335c7474_1920.jpg%3Flonglived%3D&external-id=1839876&canva-media-id=
+          - generic [ref=f8e1032]:
+            - link [ref=f8e1033] [cursor=pointer]:
+              - /url: /photos/man-writing-laptop-computer-write-2562325/
+              - img "Free Man Writing photo and picture" [ref=f8e1035]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1038] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1043] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 782" [ref=f8e1044] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "782"
+                - button "Download" [ref=f8e1045] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e1046] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e1047] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8e9ffe7519f17513b445e86796426686fb3123a1d81a869be080b6d65ed7ea688953b274ae3c2cfe9052553e393265bc_1920.jpg%3Flonglived%3D&external-id=2562325&canva-media-id=
+          - generic [ref=f8e1050]:
+            - link [ref=f8e1051] [cursor=pointer]:
+              - /url: /photos/computer-desk-typing-laptop-1867758/
+              - img "Free Computer Desk photo and picture" [ref=f8e1053]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1056] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1061] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 267" [ref=f8e1062] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "267"
+                - button "Download" [ref=f8e1063] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1064] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1065] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g7d7c1d824439618588b99235e3a972a765174fbe0cb8dad08e28171d8d4e7162cf5e42045651ae8ebad8df61ff3e1c10_1920.jpg%3Flonglived%3D&external-id=1867758&canva-media-id=
+          - generic [ref=f8e1068]:
+            - link [ref=f8e1069] [cursor=pointer]:
+              - /url: /photos/student-typing-keyboard-text-woman-849828/
+              - img "Free Student Typing photo and picture" [ref=f8e1071]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1074] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1079] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 581" [ref=f8e1080] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "581"
+                - button "Download" [ref=f8e1081] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e1082] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e1083] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g3672a5b830c4373daed923eff1cf1d0ba5c13d725348a9e660e36771a2d4e3eae223c686f66c7e7289ff4a2169d56e79_1920.jpg%3Flonglived%3D&external-id=849828&canva-media-id=
+          - generic [ref=f8e1086]:
+            - link [ref=f8e1087] [cursor=pointer]:
+              - /url: /photos/desk-laptop-notebook-pen-workspace-593327/
+              - img "Free Desk Laptop photo and picture" [ref=f8e1089]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1092] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1097] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1284" [ref=f8e1098] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1284"
+                - button "Download" [ref=f8e1099] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e1100] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e1101] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g27252054f4703f8576192dd148e1af1fd0693783922b9e7f634d6786a210a4f39e5d1caa99d98b97f06d61be677892ac_1920.jpg%3Flonglived%3D&external-id=593327&canva-media-id=
+          - generic [ref=f8e1103]:
+            - link [ref=f8e1104] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/shot-of-an-unrecognizable-businessman-working-on-his-laptop-in-the-office-gm1352603244-427972942?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e1109]:
+              - generic [ref=f8e1110]:
+                - generic [ref=f8e1111]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e1112] [cursor=pointer]:
+                  - img "Question" [ref=f8e1113]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e1116] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e1119]:
+            - link [ref=f8e1120] [cursor=pointer]:
+              - /url: /photos/telework-technology-laptop-6795505/
+              - img "Free Telework Technology photo and picture" [ref=f8e1122]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1125] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1130] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 261" [ref=f8e1131] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "261"
+                - button "Download" [ref=f8e1132] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "OleksandrPidvalnyi" [ref=f8e1133] [cursor=pointer]:
+                  - /url: /users/oleksandrpidvalnyi-4638469/
+                - link "Edit image" [ref=f8e1134] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g48525c79a8b460c99a50dd23bd1a7aafa067ae85b821fd614b672e25971a251b0794235d6f7911d12e810080a7509e52_1920.jpg%3Flonglived%3D&external-id=6795505&canva-media-id=
+          - generic [ref=f8e1137]:
+            - link [ref=f8e1138] [cursor=pointer]:
+              - /url: /photos/office-work-desk-computer-932926/
+              - img "Free Office Work photo and picture" [ref=f8e1140]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1143] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1148] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 692" [ref=f8e1149] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "692"
+                - button "Download" [ref=f8e1150] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "tookapic" [ref=f8e1151] [cursor=pointer]:
+                  - /url: /users/tookapic-1386459/
+                - link "Edit image" [ref=f8e1152] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g3720cf6e8d24e04a9fc28517deef95835e5cdb0d0582af35f69d0231a66d57f2909156db8ff95b73d9fac787a1b0407b_1920.jpg%3Flonglived%3D&external-id=932926&canva-media-id=
+          - generic [ref=f8e1155]:
+            - link [ref=f8e1156] [cursor=pointer]:
+              - /url: /photos/student-typing-keyboard-text-woman-849824/
+              - img "Free Student Typing photo and picture" [ref=f8e1158]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1161] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1166] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 352" [ref=f8e1167] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "352"
+                - button "Download" [ref=f8e1168] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e1169] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e1170] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc06dbca7e0c9285d39cdd94562a8507cf080f39748df68348909e32d2202ba72a3104abcf4a04781c8ecb2796342b51f_1920.jpg%3Flonglived%3D&external-id=849824&canva-media-id=
+          - generic [ref=f8e1173]:
+            - link [ref=f8e1174] [cursor=pointer]:
+              - /url: /photos/computer-notebook-coffee-workspace-820281/
+              - img "Free Computer Notebook photo and picture" [ref=f8e1176]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1179] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1184] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 410" [ref=f8e1185] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "410"
+                - button "Download" [ref=f8e1186] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "fancycrave1" [ref=f8e1187] [cursor=pointer]:
+                  - /url: /users/fancycrave1-1115284/
+                - link "Edit image" [ref=f8e1188] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g33d4e9701aaf6e81aaf155ed11535179493b636e611c9f02e1ea1abad99cfae4a2db79fb517654c1fd8c122072e26307_1920.jpg%3Flonglived%3D&external-id=820281&canva-media-id=
+          - generic [ref=f8e1191]:
+            - link [ref=f8e1192] [cursor=pointer]:
+              - /url: /photos/desk-laptop-office-notebook-mac-1284085/
+              - img "Free Desk Laptop photo and picture" [ref=f8e1194]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1197] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1202] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 368" [ref=f8e1203] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "368"
+                - button "Download" [ref=f8e1204] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1205] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1206] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gcbd07add945125c8c02256dd7d4e156c209dad3e856617e78a24f56eb1a91bed98cf8efe82177848f71a12f9f66a3724_1920.jpg%3Flonglived%3D&external-id=1284085&canva-media-id=
+          - generic [ref=f8e1209]:
+            - link [ref=f8e1210] [cursor=pointer]:
+              - /url: /photos/laptop-camera-technology-computer-6966045/
+              - img "Free Laptop Camera photo and picture" [ref=f8e1212]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1215] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1220] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 117" [ref=f8e1221] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "117"
+                - button "Download" [ref=f8e1222] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Engin_Akyurt" [ref=f8e1223] [cursor=pointer]:
+                  - /url: /users/engin_akyurt-3656355/
+                - link "Edit image" [ref=f8e1224] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g1fcb4bc1003910e395458ded39a141896b27710bd562dcd9242aa3cbf9dc642d48c00bd34fcc8bda865292d703da10e5_1920.jpg%3Flonglived%3D&external-id=6966045&canva-media-id=
+          - generic [ref=f8e1227]:
+            - link [ref=f8e1228] [cursor=pointer]:
+              - /url: /photos/laptop-apple-macbook-computer-2562361/
+              - img "Free Laptop Apple photo and picture" [ref=f8e1230]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1233] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1238] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 253" [ref=f8e1239] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "253"
+                - button "Download" [ref=f8e1240] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e1241] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e1242] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g4068e4ab4c9cad3e3ece025c1b37979b1b2043594968690bc7990359ae20a8c5a172afbe04494065c41c55f56bff46cc_1920.jpg%3Flonglived%3D&external-id=2562361&canva-media-id=
+          - generic [ref=f8e1245]:
+            - link [ref=f8e1246] [cursor=pointer]:
+              - /url: /photos/computer-macbook-tablet-editing-767781/
+              - img "Free Computer Macbook photo and picture" [ref=f8e1248]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1251] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1256] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 327" [ref=f8e1257] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "327"
+                - button "Download" [ref=f8e1258] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Lalmch" [ref=f8e1259] [cursor=pointer]:
+                  - /url: /users/lalmch-1026205/
+                - link "Edit image" [ref=f8e1260] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g135fe1787058edeac6dd9b437d11d5c8b9067b600ad787b079a1e57b90744fd094ec4d6e364ff3d6e50eccc4fb9d068b_1920.jpg%3Flonglived%3D&external-id=767781&canva-media-id=
+          - generic [ref=f8e1263]:
+            - link [ref=f8e1264] [cursor=pointer]:
+              - /url: /photos/laptop-grass-acer-digital-762548/
+              - img "Free Laptop Grass photo and picture" [ref=f8e1266]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1269] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1274] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 163" [ref=f8e1275] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "163"
+                - button "Download" [ref=f8e1276] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "kaboompics" [ref=f8e1277] [cursor=pointer]:
+                  - /url: /users/kaboompics-1013994/
+                - link "Edit image" [ref=f8e1278] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gb2bad323e2bf9dc8bc6a1a833787be08bf8b983c7c61c24aac1fa6445dd18e1cbe704785e2e80bc43bd1a2baa950695b_1920.jpg%3Flonglived%3D&external-id=762548&canva-media-id=
+          - generic [ref=f8e1281]:
+            - link [ref=f8e1282] [cursor=pointer]:
+              - /url: /photos/keyboard-computer-laptop-technology-6105750/
+              - img "Free Keyboard Computer photo and picture" [ref=f8e1284]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1287] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1292] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 139" [ref=f8e1293] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "139"
+                - button "Download" [ref=f8e1294] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "webandi" [ref=f8e1295] [cursor=pointer]:
+                  - /url: /users/webandi-1460261/
+                - link "Edit image" [ref=f8e1296] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g644752fc356170a8a7a1048ed99badf75124b0cade374a57f788a0feb3fe6cfbb92bd4599e9296918cc26cc36dd92afd_1920.jpg%3Flonglived%3D&external-id=6105750&canva-media-id=
+          - generic [ref=f8e1299]:
+            - link [ref=f8e1300] [cursor=pointer]:
+              - /url: /photos/study-workroom-office-glimpse-789631/
+              - img "Free Study Workroom photo and picture" [ref=f8e1302]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1305] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1310] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 271" [ref=f8e1311] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "271"
+                - button "Download" [ref=f8e1312] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "donterase" [ref=f8e1313] [cursor=pointer]:
+                  - /url: /users/donterase-1070369/
+                - link "Edit image" [ref=f8e1314] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g57fbb19e67061bec47f80da8db480cbf1bcb6706ec76b44700bb3de9b96ea144e5e3cf0ff672c66b7d2bd2c0d1d4af66_1920.jpg%3Flonglived%3D&external-id=789631&canva-media-id=
+          - generic [ref=f8e1317]:
+            - link [ref=f8e1318] [cursor=pointer]:
+              - /url: /photos/coffee-drink-caffeine-beverage-cup-6371149/
+              - img "Free Coffee Drink photo and picture" [ref=f8e1320]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1323] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1328] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 174" [ref=f8e1329] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "174"
+                - button "Download" [ref=f8e1330] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Engin_Akyurt" [ref=f8e1331] [cursor=pointer]:
+                  - /url: /users/engin_akyurt-3656355/
+                - link "Edit image" [ref=f8e1332] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g25999c384290deedade0fbabca7838fbc81e3476daf896d0f5dde3989a091bc998edf8043524cdef450a3b94058be8fd_1920.jpg%3Flonglived%3D&external-id=6371149&canva-media-id=
+          - generic [ref=f8e1335]:
+            - link [ref=f8e1336] [cursor=pointer]:
+              - /url: /illustrations/job-design-cartoon-internet-flat-7291427/
+              - img "Free Job Design illustration and picture" [ref=f8e1338]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1341] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1346] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 193" [ref=f8e1347] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "193"
+                - button "Download" [ref=f8e1348] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Annomaria" [ref=f8e1349] [cursor=pointer]:
+                  - /url: /users/annomaria-27807664/
+                - link "Edit image" [ref=f8e1350] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc6eefa70def0b0360843324149f6e50953570947e1c594af70a0926c4555e27dfcc0958284a9a9a05f13231bd2750f2b_1920.png%3Flonglived%3D&external-id=7291427&canva-media-id=
+          - generic [ref=f8e1353]:
+            - link [ref=f8e1354] [cursor=pointer]:
+              - /url: /photos/laptop-technology-electronic-6856557/
+              - img "Free Laptop Technology photo and picture" [ref=f8e1356]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1359] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1364] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 68" [ref=f8e1365] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "68"
+                - button "Download" [ref=f8e1366] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "LUNEMax" [ref=f8e1367] [cursor=pointer]:
+                  - /url: /users/lunemax-24406265/
+                - link "Edit image" [ref=f8e1368] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g3e762112d8765efef708eacd6cce7d099686cede20f47f9def708be5207333279648e7f2f57626dcc7a9fc5c53ffb965_1920.jpg%3Flonglived%3D&external-id=6856557&canva-media-id=
+        - generic [ref=f8e1369]:
+          - generic [ref=f8e1372]:
+            - link [ref=f8e1373] [cursor=pointer]:
+              - /url: /photos/keyboard-computer-keys-white-886462/
+              - img "Free Keyboard Computer photo and picture" [ref=f8e1375]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1377] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1382] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 364" [ref=f8e1383] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "364"
+                - button "Download" [ref=f8e1384] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Simon" [ref=f8e1385] [cursor=pointer]:
+                  - /url: /users/simon-3/
+                - link "Edit image" [ref=f8e1386] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g47780366d8484e4426b2164105e5c2851a06b2cc951328e4e787f4056c94319e87e38bb00f0052830b133d62647fcdd4_1920.jpg%3Flonglived%3D&external-id=886462&canva-media-id=
+          - generic [ref=f8e1389]:
+            - link [ref=f8e1390] [cursor=pointer]:
+              - /url: /photos/desk-work-business-office-finance-3139127/
+              - img "Free Desk Work photo and picture" [ref=f8e1392]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1394] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1399] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 720" [ref=f8e1400] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "720"
+                - button "Download" [ref=f8e1401] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "rawpixel" [ref=f8e1402] [cursor=pointer]:
+                  - /url: /users/rawpixel-4283981/
+                - link "Edit image" [ref=f8e1403] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gb9cd28fb0f4fb0e4f50c6624385b64bc486febd4ce53d303a2715eb4f5a5d8a6c8442ee58b81c7dc7e301a9e08d3fa80_1920.jpg%3Flonglived%3D&external-id=3139127&canva-media-id=
+          - generic [ref=f8e1406]:
+            - link [ref=f8e1407] [cursor=pointer]:
+              - /url: /photos/turntable-computer-workspace-1337986/
+              - img "Free Turntable Computer photo and picture" [ref=f8e1409]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1411] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1416] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 391" [ref=f8e1417] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "391"
+                - button "Download" [ref=f8e1418] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "theglassdesk" [ref=f8e1419] [cursor=pointer]:
+                  - /url: /users/theglassdesk-149631/
+                - link "Edit image" [ref=f8e1420] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g14417b683ecc2d8985b1112f9a5c5615851b4bbb55864fb7c8b53062564cd939cf9d9587a2fb5491caec7fc30ddde459_1920.jpg%3Flonglived%3D&external-id=1337986&canva-media-id=
+          - generic [ref=f8e1423]:
+            - link [ref=f8e1424] [cursor=pointer]:
+              - /url: /photos/laptop-digital-device-technology-5673901/
+              - img "Free Laptop Digital Device photo and picture" [ref=f8e1426]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1428] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1433] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 582" [ref=f8e1434] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "582"
+                - button "Download" [ref=f8e1435] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "JoshuaWoroniecki" [ref=f8e1436] [cursor=pointer]:
+                  - /url: /users/joshuaworoniecki-12734309/
+                - link "Edit image" [ref=f8e1437] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g4fed0237f87af8eb6ea955de7bcc1945728c3607534d75b8cb92dac88ec2cafe2f1c6881ce9398fe66cb0f9d0bbb94c1_1920.jpg%3Flonglived%3D&external-id=5673901&canva-media-id=
+          - generic [ref=f8e1440]:
+            - link [ref=f8e1441] [cursor=pointer]:
+              - /url: /photos/laptop-camera-desk-blogging-blog-4840790/
+              - img "Free Laptop Camera photo and picture" [ref=f8e1443]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1445] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1450] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 76" [ref=f8e1451] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "76"
+                - button "Download" [ref=f8e1452] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "bossytutu" [ref=f8e1453] [cursor=pointer]:
+                  - /url: /users/bossytutu-15226678/
+                - link "Edit image" [ref=f8e1454] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8c02289515ab9e17724e72ec2e41a3fbf71cf7ee392c3e657a18512b0f5c5d1f16c675c6269d86df93b3c2a87674dca9_1920.jpg%3Flonglived%3D&external-id=4840790&canva-media-id=
+          - generic [ref=f8e1457]:
+            - link [ref=f8e1458] [cursor=pointer]:
+              - /url: /photos/keyboard-computer-technology-light-5017973/
+              - img "Free Keyboard Computer photo and picture" [ref=f8e1460]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1462] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1467] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 780" [ref=f8e1468] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "780"
+                - button "Download" [ref=f8e1469] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "JoshuaWoroniecki" [ref=f8e1470] [cursor=pointer]:
+                  - /url: /users/joshuaworoniecki-12734309/
+                - link "Edit image" [ref=f8e1471] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gbcf754478e1d7644843e35796c4e71f5238c3203569e23d1fe19345667175199de8b7fb3d76a4bca64c58a543a16e047_1920.jpg%3Flonglived%3D&external-id=5017973&canva-media-id=
+          - generic [ref=f8e1474]:
+            - generic [ref=f8e1475] [cursor=pointer]:
+              - strong [ref=f8e1476]: Adult Content
+              - generic [ref=f8e1477]: SafeSearch
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1479] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1484] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 180" [ref=f8e1485] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "180"
+                - button "Download" [ref=f8e1486] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "picjumbo_com" [ref=f8e1487] [cursor=pointer]:
+                  - /url: /users/picjumbo_com-2130229/
+                - link "Edit image" [ref=f8e1488] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gcc59843d180507c4c20b7f474d6b902bef3ae665ff638bf1e55d7a23fdbb099679e00dec0a3cb354948422efef8bb552_1920.jpg%3Flonglived%3D&external-id=865111&canva-media-id=
+          - generic [ref=f8e1491]:
+            - link [ref=f8e1492] [cursor=pointer]:
+              - /url: /photos/laptop-coffee-arm-desktop-notebook-1205256/
+              - img "Free Laptop Coffee photo and picture" [ref=f8e1494]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1497] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1502] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 626" [ref=f8e1503] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "626"
+                - button "Download" [ref=f8e1504] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - link "Edit image" [ref=f8e1505] [cursor=pointer]:
+                - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g6411f72a2b17f476ea948edaf33b5ead380b033bb43650bd90fcb1be08639871ae9eb80c159d9f0e415d510caf83564c_1920.jpg%3Flonglived%3D&external-id=1205256&canva-media-id=
+          - generic [ref=f8e1508]:
+            - link [ref=f8e1509] [cursor=pointer]:
+              - /url: /photos/laptop-workstaion-office-work-4906312/
+              - img "Free Laptop Workstaion photo and picture" [ref=f8e1511]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1514] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1519] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 555" [ref=f8e1520] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "555"
+                - button "Download" [ref=f8e1521] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Deeezy" [ref=f8e1522] [cursor=pointer]:
+                  - /url: /users/deeezy-15467098/
+                - link "Edit image" [ref=f8e1523] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g24929d70ed41eae6c6b081ebc47d6e5563cc58ee311111d966ce2e398e83f588abf2a727ac3e3ba006a43b2dc27a551d_1920.jpg%3Flonglived%3D&external-id=4906312&canva-media-id=
+          - generic [ref=f8e1526]:
+            - link [ref=f8e1527] [cursor=pointer]:
+              - /url: /photos/hands-ipad-tablet-technology-820272/
+              - img "Free Hands Ipad photo and picture" [ref=f8e1529]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1532] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1537] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 1214" [ref=f8e1538] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "1214"
+                - button "Download" [ref=f8e1539] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "fancycrave1" [ref=f8e1540] [cursor=pointer]:
+                  - /url: /users/fancycrave1-1115284/
+                - link "Edit image" [ref=f8e1541] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2c63a27e986c0b71685fccd071528decf97f982972c7cd92ed218decdb185fe3f3b4f7cca12cd081a94c2d42ab066a22_1920.jpg%3Flonglived%3D&external-id=820272&canva-media-id=
+          - generic [ref=f8e1544]:
+            - link [ref=f8e1545] [cursor=pointer]:
+              - /url: /photos/home-office-person-work-web-design-4996834/
+              - img "Free Home Office Person photo and picture" [ref=f8e1547]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1550] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1555] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 237" [ref=f8e1556] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "237"
+                - button "Download" [ref=f8e1557] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "cocoandwifi" [ref=f8e1558] [cursor=pointer]:
+                  - /url: /users/cocoandwifi-4330980/
+                - link "Edit image" [ref=f8e1559] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ge913105ecda30eedd9fb3a75b7428f1b84015a4b2dca23669872524768357f9f16e9c945c5f9f06c8b0fb137d9c9af5f_1920.jpg%3Flonglived%3D&external-id=4996834&canva-media-id=
+          - generic [ref=f8e1562]:
+            - link [ref=f8e1563] [cursor=pointer]:
+              - /url: /photos/computer-business-typing-keyboard-1149148/
+              - img "Free Computer Business photo and picture" [ref=f8e1565]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1568] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1573] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 605" [ref=f8e1574] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "605"
+                - button "Download" [ref=f8e1575] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Free-Photos" [ref=f8e1576] [cursor=pointer]:
+                  - /url: /users/free-photos-242387/
+                - link "Edit image" [ref=f8e1577] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gcf18401661794007977de89915ab2c2eb01c4cac927de52636c7fa66d2e42eef46a7b319dda792a9e790a440fa2c31e8_1920.jpg%3Flonglived%3D&external-id=1149148&canva-media-id=
+          - generic [ref=f8e1580]:
+            - link [ref=f8e1581] [cursor=pointer]:
+              - /url: /photos/laptop-apple-macbook-computer-2557571/
+              - img "Free Laptop Apple photo and picture" [ref=f8e1583]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1586] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1591] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 625" [ref=f8e1592] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "625"
+                - button "Download" [ref=f8e1593] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e1594] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e1595] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g83e85b0d34136ea90a6ab23ea64e7480fea3ce30fe1f5f5bf540fb72a9a690dc1f04076499c187772451cce45b0f4727_1920.jpg%3Flonglived%3D&external-id=2557571&canva-media-id=
+          - generic [ref=f8e1598]:
+            - link [ref=f8e1599] [cursor=pointer]:
+              - /url: /photos/apple-smartphone-desk-laptop-1282241/
+              - img "Free Apple Smartphone photo and picture" [ref=f8e1601]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1604] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1609] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 464" [ref=f8e1610] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "464"
+                - button "Download" [ref=f8e1611] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1612] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1613] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g90b2ebd3a69fa9efba27d996eb395db2f5084ac251e58771d1a583a2e63dae9db6378c1e6b346869ba689160a5c2072e_1920.jpg%3Flonglived%3D&external-id=1282241&canva-media-id=
+          - generic [ref=f8e1615]:
+            - link [ref=f8e1616] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/laptop-with-blank-screen-on-white-gm479520746-68035905?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e1621]:
+              - generic [ref=f8e1622]:
+                - generic [ref=f8e1623]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e1624] [cursor=pointer]:
+                  - img "Question" [ref=f8e1625]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e1628] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e1631]:
+            - link [ref=f8e1632] [cursor=pointer]:
+              - /url: /photos/startup-business-people-students-849804/
+              - img "Free Startup Business photo and picture" [ref=f8e1634]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1637] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1642] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 639" [ref=f8e1643] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "639"
+                - button "Download" [ref=f8e1644] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StartupStockPhotos" [ref=f8e1645] [cursor=pointer]:
+                  - /url: /users/startupstockphotos-690514/
+                - link "Edit image" [ref=f8e1646] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g206798b927cf4bc435f04c5a7bcc831fe1de83eb4c13ccef693e5ccc25fa7f6889166fbe7d0952085a564700e3765dd2_1920.jpg%3Flonglived%3D&external-id=849804&canva-media-id=
+          - generic [ref=f8e1649]:
+            - link [ref=f8e1650] [cursor=pointer]:
+              - /url: /photos/macbook-laptop-google-display-459196/
+              - img "Free Macbook Laptop photo and picture" [ref=f8e1652]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1655] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1660] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 899" [ref=f8e1661] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "899"
+                - button "Download" [ref=f8e1662] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - link "Edit image" [ref=f8e1663] [cursor=pointer]:
+                - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga30b3f4bae435b60dcddd463ca3faf12700127bf3321893d638615c99f14db30c260513c374b20eb117bcb3b07bfbdb5_1920.jpg%3Flonglived%3D&external-id=459196&canva-media-id=
+          - generic [ref=f8e1666]:
+            - link [ref=f8e1667] [cursor=pointer]:
+              - /url: /photos/home-office-computer-desk-display-1867759/
+              - img "Free Home Office Computer photo and picture" [ref=f8e1669]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1672] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1677] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 279" [ref=f8e1678] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "279"
+                - button "Download" [ref=f8e1679] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1680] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1681] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g0edf3ab334d7536acd24657f632947ff5c71b5ef75616bec7debf3707ea5d780a1cb515606da8749457d2ac10585ec7d_1920.jpg%3Flonglived%3D&external-id=1867759&canva-media-id=
+          - generic [ref=f8e1684]:
+            - link [ref=f8e1685] [cursor=pointer]:
+              - /url: /illustrations/ball-binary-computer-data-63527/
+              - img "Free Ball Binary illustration and picture" [ref=f8e1687]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1690] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1695] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 594" [ref=f8e1696] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "594"
+                - button "Download" [ref=f8e1697] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "geralt" [ref=f8e1698] [cursor=pointer]:
+                  - /url: /users/geralt-9301/
+                - link "Edit image" [ref=f8e1699] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ga729ae2156d74a32316486ce626bd09f842308adbf5379a2b1e4913004d2f3b20fae8391aa18afde3e93c759f0aeb384_1920.jpg%3Flonglived%3D&external-id=63527&canva-media-id=
+          - generic [ref=f8e1702]:
+            - link [ref=f8e1703] [cursor=pointer]:
+              - /url: /photos/apple-macbook-notebook-computer-1853259/
+              - img "Free Apple Macbook photo and picture" [ref=f8e1705]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1708] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1713] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 218" [ref=f8e1714] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "218"
+                - button "Download" [ref=f8e1715] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1716] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1717] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gd484a9374e6b949eeed29455347758c1d6c7921961d9930970274775ee9fe4a7d0214e1a6e802e067584f35f0a17a98a_1920.jpg%3Flonglived%3D&external-id=1853259&canva-media-id=
+          - generic [ref=f8e1720]:
+            - link [ref=f8e1721] [cursor=pointer]:
+              - /url: /photos/software-developer-web-developer-6521720/
+              - img "Free Software Developer Web Developer photo and picture" [ref=f8e1723]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1726] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1731] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 362" [ref=f8e1732] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "362"
+                - button "Download" [ref=f8e1733] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Innovalabs" [ref=f8e1734] [cursor=pointer]:
+                  - /url: /users/innovalabs-22783312/
+                - link "Edit image" [ref=f8e1735] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g84a436eb461c94fa6deffcd69307c867bfa3b07405c84c2a0d3840359041a016c7e9641969221a4f17d57d1d327359bc_1920.jpg%3Flonglived%3D&external-id=6521720&canva-media-id=
+          - generic [ref=f8e1738]:
+            - link [ref=f8e1739] [cursor=pointer]:
+              - /url: /illustrations/imac-ipad-iphone-macbook-laptop-1999636/
+              - img "Free Imac Ipad illustration and picture" [ref=f8e1741]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1744] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1749] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 834" [ref=f8e1750] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "834"
+                - button "Download" [ref=f8e1751] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Nick_H" [ref=f8e1752] [cursor=pointer]:
+                  - /url: /users/nick_h-1821910/
+                - link "Edit image" [ref=f8e1753] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g1aa7331a76b2632b30b26aa71fa009d819da54b1aa070de8c05871aa105195d80b119deadcd6d7dc01ec5b30e981da46_1920.png%3Flonglived%3D&external-id=1999636&canva-media-id=
+          - generic [ref=f8e1756]:
+            - link [ref=f8e1757] [cursor=pointer]:
+              - /url: /photos/laptop-notebook-business-charts-1836990/
+              - img "Free Laptop Notebook photo and picture" [ref=f8e1759]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1762] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1767] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 235" [ref=f8e1768] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "235"
+                - button "Download" [ref=f8e1769] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1770] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1771] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8c8a8783fc746e7d91faa5eb8d0b8a4163c3d26177adc53bd2bd45c4aa78521101d16af1cd045c1413b6409afd6cceb8_1920.jpg%3Flonglived%3D&external-id=1836990&canva-media-id=
+          - generic [ref=f8e1774]:
+            - link [ref=f8e1775] [cursor=pointer]:
+              - /url: /vectors/man-laptop-computer-technology-8106958/
+              - img "Free Man Laptop vector and picture" [ref=f8e1777]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1780] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1785] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 161" [ref=f8e1786] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "161"
+                - button "Download" [ref=f8e1787] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Mohamed_hassan" [ref=f8e1788] [cursor=pointer]:
+                  - /url: /users/mohamed_hassan-5229782/
+                - link "Edit image" [ref=f8e1789] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g9ad908c01e2b1efecbea43872ce1c121eda1509fe5a1467c34466293756d74cfdf0c5e45788c31b6eca1354bd9a7c9a7_1920.png%3Flonglived%3D&external-id=8106958&canva-media-id=
+          - generic [ref=f8e1792]:
+            - link [ref=f8e1793] [cursor=pointer]:
+              - /url: /photos/coding-programming-working-macbook-924920/
+              - img "Free Coding Programming photo and picture" [ref=f8e1795]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1798] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1803] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 299" [ref=f8e1804] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "299"
+                - button "Download" [ref=f8e1805] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "StockSnap" [ref=f8e1806] [cursor=pointer]:
+                  - /url: /users/stocksnap-894430/
+                - link "Edit image" [ref=f8e1807] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g36b7c84a51e3d8e7425556a71d73492fa296ad5393553035300a67576e872268906bfe0cc63133ac97379e49f5d54f94_1920.jpg%3Flonglived%3D&external-id=924920&canva-media-id=
+          - generic [ref=f8e1810]:
+            - link [ref=f8e1811] [cursor=pointer]:
+              - /url: /photos/laptop-conference-table-mouse-work-7978588/
+              - img "Free Laptop Conference Table photo and picture" [ref=f8e1813]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1816] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1821] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 139" [ref=f8e1822] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "139"
+                - button "Download" [ref=f8e1823] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "jhenning" [ref=f8e1824] [cursor=pointer]:
+                  - /url: /users/jhenning-8658480/
+                - link "Edit image" [ref=f8e1825] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/ge04ca943e987e855ad46b91e5edc9cdaa86cdfaa399fb0430778658c4e3ec997b2b1af921ba587dd4d4eaa724b7c52f0_1920.jpg%3Flonglived%3D&external-id=7978588&canva-media-id=
+          - generic [ref=f8e1828]:
+            - link [ref=f8e1829] [cursor=pointer]:
+              - /url: /photos/bed-woman-work-laptop-computer-1979270/
+              - img "Free Bed Woman photo and picture" [ref=f8e1831]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1834] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1839] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 438" [ref=f8e1840] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "438"
+                - button "Download" [ref=f8e1841] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "089photoshootings" [ref=f8e1842] [cursor=pointer]:
+                  - /url: /users/089photoshootings-4258482/
+                - link "Edit image" [ref=f8e1843] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc39d2a3b1fe02b8cb8c689129f424395f62889fcf9ac2ae8b6581835667d211b9c5628913a326ffad6839383ce56ce91_1920.jpg%3Flonglived%3D&external-id=1979270&canva-media-id=
+          - generic [ref=f8e1846]:
+            - link [ref=f8e1847] [cursor=pointer]:
+              - /url: /photos/man-laptop-work-digital-nomad-4749237/
+              - img "Free Man Laptop photo and picture" [ref=f8e1849]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1852] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1857] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 173" [ref=f8e1858] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "173"
+                - button "Download" [ref=f8e1859] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Peggy_Marco" [ref=f8e1860] [cursor=pointer]:
+                  - /url: /users/peggy_marco-1553824/
+                - link "Edit image" [ref=f8e1861] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g86a65b5a37615dbf06caf499be7e0c7fbd890f2b5344fb25ecb178bc0071460ec608690d995e304051727abc4c4fa03c_1920.jpg%3Flonglived%3D&external-id=4749237&canva-media-id=
+          - generic [ref=f8e1864]:
+            - link [ref=f8e1865] [cursor=pointer]:
+              - /url: /photos/woman-working-bed-laptop-typing-731894/
+              - img "Free Woman Working photo and picture" [ref=f8e1867]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1870] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1875] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 364" [ref=f8e1876] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "364"
+                - button "Download" [ref=f8e1877] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "stokpic" [ref=f8e1878] [cursor=pointer]:
+                  - /url: /users/stokpic-692575/
+                - link "Edit image" [ref=f8e1879] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g2def9f283d2fbbbd4695b84854249db726097ab9b7c228a1d8410bd64546564fdb48a565dd72e790fe01f108a915fa4a_1920.jpg%3Flonglived%3D&external-id=731894&canva-media-id=
+          - generic [ref=f8e1882]:
+            - link [ref=f8e1883] [cursor=pointer]:
+              - /url: /photos/cocktail-laptop-work-office-8308286/
+              - img "Free Cocktail Laptop photo and picture" [ref=f8e1885]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1888] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1893] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 61" [ref=f8e1894] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "61"
+                - button "Download" [ref=f8e1895] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Engin_Akyurt" [ref=f8e1896] [cursor=pointer]:
+                  - /url: /users/engin_akyurt-3656355/
+                - link "Edit image" [ref=f8e1897] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g8318101f1e5bffecf07cd10e61290de30c22a37287996d23e3666cee1e4e9b141a5e604f24e28edb03ce37df15759c79_1920.jpg%3Flonglived%3D&external-id=8308286&canva-media-id=
+          - generic [ref=f8e1900]:
+            - link [ref=f8e1901] [cursor=pointer]:
+              - /url: /photos/iphone-laptop-macbook-pro-notebook-1852901/
+              - img "Free Iphone Laptop photo and picture" [ref=f8e1903]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1906] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1911] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 162" [ref=f8e1912] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "162"
+                - button "Download" [ref=f8e1913] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1914] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1915] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gfe9c6d11831cb451e7d8f456ba8df1e38b85749ac238cc306c42a12cbfa731cd7a8269013ffa6f2c43dd62062025e7ec_1920.jpg%3Flonglived%3D&external-id=1852901&canva-media-id=
+          - generic [ref=f8e1917]:
+            - link [ref=f8e1918] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/laptop-mockup-with-a-white-screen-isolated-on-a-white-background-a-high-quality-gm2199139602-616966946?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_media&utm_term=laptop+computer
+            - generic [ref=f8e1923]:
+              - generic [ref=f8e1924]:
+                - generic [ref=f8e1925]: Sponsored images iStock
+                - button "About this advertiser" [ref=f8e1926] [cursor=pointer]:
+                  - img "Question" [ref=f8e1927]
+              - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e1930] [cursor=pointer]':
+                - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_grid_coupon&utm_term=laptop+computer
+          - generic [ref=f8e1933]:
+            - link [ref=f8e1934] [cursor=pointer]:
+              - /url: /photos/laptop-mobile-phone-table-phone-5987093/
+              - img "Free Laptop Mobile Phone photo and picture" [ref=f8e1936]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1939] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1944] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 91" [ref=f8e1945] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "91"
+                - button "Download" [ref=f8e1946] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "kieutruongphoto" [ref=f8e1947] [cursor=pointer]:
+                  - /url: /users/kieutruongphoto-5099306/
+                - link "Edit image" [ref=f8e1948] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g989047090ba0ac18447280450a0e8ccb0211b9bf49b2a85167f49a251243388f3c730a411e16c00637b0516ec6092064_1920.jpg%3Flonglived%3D&external-id=5987093&canva-media-id=
+          - generic [ref=f8e1951]:
+            - link [ref=f8e1952] [cursor=pointer]:
+              - /url: /photos/mug-laptop-camera-drink-beverage-6966047/
+              - img "Free Mug Laptop photo and picture" [ref=f8e1954]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1957] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1962] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 124" [ref=f8e1963] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "124"
+                - button "Download" [ref=f8e1964] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Engin_Akyurt" [ref=f8e1965] [cursor=pointer]:
+                  - /url: /users/engin_akyurt-3656355/
+                - link "Edit image" [ref=f8e1966] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/gc3bc50236181c5e3fc0f64386fa0b4efce58912db555e5ab33bbbf3d704c0e5ed422b24a05baa9f58982bdbfed34e19d_1920.jpg%3Flonglived%3D&external-id=6966047&canva-media-id=
+          - generic [ref=f8e1969]:
+            - link [ref=f8e1970] [cursor=pointer]:
+              - /url: /photos/apple-macbook-ipad-laptop-1867762/
+              - img "Free Apple Macbook photo and picture" [ref=f8e1972]
+            - generic:
+              - generic:
+                - img "EditorsChoice" [ref=f8e1975] [cursor=pointer]
+                - button "BookmarkOutline" [ref=f8e1980] [cursor=pointer]:
+                  - generic:
+                    - img "BookmarkOutline"
+                - button "HeartOutline 93" [ref=f8e1981] [cursor=pointer]:
+                  - generic:
+                    - img "HeartOutline"
+                  - generic: "93"
+                - button "Download" [ref=f8e1982] [cursor=pointer]:
+                  - generic:
+                    - img "Download"
+              - generic:
+                - link "Pexels" [ref=f8e1983] [cursor=pointer]:
+                  - /url: /users/pexels-2286921/
+                - link "Edit image" [ref=f8e1984] [cursor=pointer]:
+                  - /url: https://canva.com/content-partner/?utm_medium=partner&utm_source=pixabay&utm_campaign=retouch_in_canva_edit_image&image-url=https%3A//pixabay.com/get/g6da227abbbecae3ac96760a6a2695c4c97374b27ef59eeab6403d43f4b8174b35cc9e6e7f31b289c30e0453ab449963d_1920.jpg%3Flonglived%3D&external-id=1867762&canva-media-id=
+      - generic [ref=f8e1985]:
+        - link "Next page" [ref=f8e1987] [cursor=pointer]:
+          - /url: /images/search/laptop%20computer/?pagi=2
+        - generic [ref=f8e1988]: Page 1 of 250
+      - generic [ref=f8e1989]:
+        - generic [ref=f8e1990]:
+          - generic [ref=f8e1991]: Sponsored Images iStock
+          - 'link "LIMITED DEAL: 20% off with PIXABAY20 coupon" [ref=f8e1992] [cursor=pointer]':
+            - /url: https://www.istockphoto.com/?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_coupon&utm_term=laptop+computer
+          - button "About this advertiser" [ref=f8e1993] [cursor=pointer]:
+            - generic [ref=f8e1994]: 
+        - generic [ref=f8e1995]:
+          - link "Sponsored Images" [ref=f8e1997] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/hand-of-japanese-women-for-remote-work-gm1324626161-409898932?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_media&utm_term=laptop+computer
+          - link "Sponsored Images" [ref=f8e2000] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/an-unrecognizable-businesswoman-working-in-her-office-on-her-computer-gm1883285965-553567962?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_media&utm_term=laptop+computer
+          - link "Sponsored Images" [ref=f8e2003] [cursor=pointer]:
+            - /url: https://www.istockphoto.com/photo/laptop-with-a-blank-screen-on-a-white-background-gm1394988455-450258958?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_media&utm_term=laptop+computer
+          - generic [ref=f8e2005]:
+            - link "Sponsored Images" [ref=f8e2006] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/photo/front-view-of-modern-laptop-gm171313585-20688203?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_media&utm_term=laptop+computer
+            - link "View more " [ref=f8e2008] [cursor=pointer]:
+              - /url: https://www.istockphoto.com/en/search/2/image?phrase=laptop%20computer&utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_bottombanner_viewmore&utm_term=laptop+computer
+              - text: View more
+              - generic [ref=f8e2009]: 
+    - contentinfo [ref=f8e2010]:
+      - generic [ref=f8e2011]:
+        - generic [ref=f8e2012]:
+          - generic [ref=f8e2017]: Over 6.2 million+ high quality stock images, videos and music shared by our talented community.
+          - generic [ref=f8e2018]:
+            - link "Instagram" [ref=f8e2019] [cursor=pointer]:
+              - /url: https://www.instagram.com/pixabay/
+              - img "Instagram" [ref=f8e2020]
+            - link "Facebook" [ref=f8e2023] [cursor=pointer]:
+              - /url: https://www.facebook.com/pixabay
+              - img "Facebook" [ref=f8e2024]
+            - link "TikTok" [ref=f8e2027] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@pixabaymedia
+              - img "TikTokBrand" [ref=f8e2028]
+            - link "Twitter" [ref=f8e2039] [cursor=pointer]:
+              - /url: https://x.com/pixabay
+              - img "TwitterX" [ref=f8e2040]
+            - link "LinkedIn" [ref=f8e2046] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/pixabay/
+              - img "Linkedin" [ref=f8e2047]
+            - link "YouTube" [ref=f8e2050] [cursor=pointer]:
+              - /url: https://www.youtube.com/@pixabaymedia
+              - img "Youtube" [ref=f8e2051]
+            - link "Pinterest" [ref=f8e2054] [cursor=pointer]:
+              - /url: https://pinterest.com/pixabay/
+              - img "Pinterest" [ref=f8e2055]
+        - generic [ref=f8e2058]:
+          - generic [ref=f8e2059]: Discover
+          - generic [ref=f8e2060]:
+            - link "Editor's Choice" [ref=f8e2061] [cursor=pointer]:
+              - /url: /editors_choice/
+            - link "Curated Collections" [ref=f8e2063] [cursor=pointer]:
+              - /url: /collections/
+            - link "Pixabay Radio" [ref=f8e2065] [cursor=pointer]:
+              - /url: /playlists/
+            - link "Popular Images" [ref=f8e2067] [cursor=pointer]:
+              - /url: /images/search/
+            - link "Popular Videos" [ref=f8e2069] [cursor=pointer]:
+              - /url: /videos/search/
+            - link "Popular Music" [ref=f8e2071] [cursor=pointer]:
+              - /url: /music/search/
+            - link "Popular Searches" [ref=f8e2073] [cursor=pointer]:
+              - /url: /popular-searches/
+        - generic [ref=f8e2075]:
+          - generic [ref=f8e2076]: Community
+          - generic [ref=f8e2077]:
+            - link "Contests Live" [ref=f8e2078] [cursor=pointer]:
+              - /url: /contests/
+              - generic [ref=f8e2079]: Contests
+              - generic [ref=f8e2080]: Live
+            - link "Creators" [ref=f8e2083] [cursor=pointer]:
+              - /url: /users/
+            - link "Ambassadors New" [ref=f8e2085] [cursor=pointer]:
+              - /url: /service/ambassador/
+              - generic [ref=f8e2086]: Ambassadors
+              - generic [ref=f8e2087]: New
+            - link "Forum" [ref=f8e2089] [cursor=pointer]:
+              - /url: /forum/
+            - link "Blog" [ref=f8e2091] [cursor=pointer]:
+              - /url: /blog/
+        - generic [ref=f8e2093]:
+          - generic [ref=f8e2094]: About
+          - generic [ref=f8e2095]:
+            - link "About Us" [ref=f8e2096] [cursor=pointer]:
+              - /url: /service/about/
+            - link "FAQ" [ref=f8e2098] [cursor=pointer]:
+              - /url: /service/faq/
+            - link "License Summary" [ref=f8e2100] [cursor=pointer]:
+              - /url: /service/license-summary/
+            - link "Terms of Service" [ref=f8e2102] [cursor=pointer]:
+              - /url: /service/terms/
+            - link "Privacy Policy" [ref=f8e2104] [cursor=pointer]:
+              - /url: /service/privacy/
+            - link "Cookies Policy" [ref=f8e2106] [cursor=pointer]:
+              - /url: /service/cookies/
+            - link "Digital Services Act" [ref=f8e2108] [cursor=pointer]:
+              - /url: /service/digital-services-act/
+            - link "Report Content" [ref=f8e2110] [cursor=pointer]:
+              - /url: /content-reports/
+            - link "API" [ref=f8e2112] [cursor=pointer]:
+              - /url: /service/about/api/
+  - generic: Cookie 设置

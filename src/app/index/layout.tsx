@@ -2,6 +2,6 @@
 import { LayoutNavShell } from "@/components/layout-nav-shell";
 
 export default async function IndexLayout({ children }: { children: React.ReactNode }) {
-  const user = await getSessionUser();
+  const user = await getSessionUser("BUYER");
   return <LayoutNavShell user={user}>{children}</LayoutNavShell>;
 }

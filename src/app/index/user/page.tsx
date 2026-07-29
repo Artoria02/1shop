@@ -5,7 +5,7 @@ import { findAddressesByUser } from "@/server/services/address.service";
 import { UserCenterClient } from "./user-center-client";
 
 export default async function UserCenterPage() {
-  const sessionUser = await getSessionUser();
+  const sessionUser = await getSessionUser("BUYER");
   if (!sessionUser) redirect("/index/login");
 
   const addresses = await findAddressesByUser(sessionUser.userId);
@@ -14,8 +14,7 @@ export default async function UserCenterPage() {
     where: { id: sessionUser.userId },
     select: {
       avatar: true, displayName: true, email: true, phone: true,
-      passwordHash: true,
-      buyerProfile: { select: { passwordHash: true } }
+      passwordHash: true
     }
   });
 
@@ -23,9 +22,9 @@ export default async function UserCenterPage() {
     ...sessionUser,
     email: dbUser?.email ?? null,
     phone: dbUser?.phone ?? null,
-    avatar: dbUser?.avatar ?? null,
-    displayName: dbUser?.displayName ?? null,
-    hasPassword: !!(dbUser?.passwordHash || dbUser?.buyerProfile?.passwordHash)
+    avatar: dbUser?.avatar ?? undefined,
+    displayName: dbUser?.displayName ?? undefined,
+    hasPassword: !!dbUser?.passwordHash
   };
 
   return <UserCenterClient user={user} addresses={addresses} />;

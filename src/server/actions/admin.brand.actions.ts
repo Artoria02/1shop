@@ -7,7 +7,7 @@ import { requirePermission } from "@/lib/rbac";
 import { revalidatePath } from "next/cache";
 
 export async function createBrandAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "brand:manage");
 
   const raw = {
@@ -26,7 +26,7 @@ export async function createBrandAction(formData: FormData): Promise<void> {
 }
 
 export async function updateBrandAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "brand:manage");
 
   const id = formData.get("id") as string;
@@ -49,7 +49,7 @@ export async function updateBrandAction(formData: FormData): Promise<void> {
 }
 
 export async function toggleBrandStatusAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "brand:manage");
 
   const id = formData.get("id") as string;

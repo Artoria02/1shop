@@ -8,7 +8,7 @@ import { revalidatePath } from "next/cache";
 import { ProductStatus } from "@prisma/client";
 
 export async function reviewProductAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "product:review");
 
   const id = formData.get("id") as string;

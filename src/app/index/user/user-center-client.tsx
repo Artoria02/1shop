@@ -8,8 +8,8 @@ import type { ShippingAddress } from "@prisma/client";
 type UserProfile = SessionUser & {
   email: string | null;
   phone: string | null;
-  avatar: string | null;
-  displayName: string | null;
+  avatar: string | undefined;
+  displayName: string | undefined;
   hasPassword: boolean;
 };
 import {
@@ -69,6 +69,21 @@ export function UserCenterClient({ user, addresses }: { user: UserProfile; addre
               {label}
             </button>
           ))}
+          <Link
+            href="/orders"
+            style={{
+              textAlign: "left",
+              padding: "10px 14px",
+              fontSize: 14,
+              fontWeight: 400,
+              color: "#333",
+              background: "transparent",
+              textDecoration: "none",
+              borderRadius: 4,
+            }}
+          >
+            我的订单
+          </Link>
         </nav>
         <div style={{ marginTop: 32, paddingTop: 20, borderTop: "1px solid #e0e0e0" }}>
           <Link href="/index" style={{ display: "block", padding: "10px 14px", fontSize: 13, color: "#666", textDecoration: "none", borderRadius: 4 }}>
@@ -446,6 +461,10 @@ function SetDefaultBtn({ id }: { id: string }) {
 function AddressForm({ addr, onCancel }: { addr?: ShippingAddress; onCancel: () => void }) {
   const action = addr ? updateAddressAction : createAddressAction;
   const [state, formAction] = useActionState(action, addrInitial);
+
+  useEffect(() => {
+    if (state.success) onCancel();
+  }, [state.success, onCancel]);
 
   return (
     <form action={formAction} style={{ display: "flex", flexDirection: "column", gap: 12 }}>

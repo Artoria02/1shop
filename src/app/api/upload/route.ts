@@ -23,8 +23,8 @@ export async function POST(request: NextRequest) {
 
     // Restrict folders by user kind
     const allowedFolders: Record<string, string[]> = {
-      BUYER: ["avatars"],
-      MERCHANT_STAFF: ["merchants", "products"],
+      BUYER: ["avatars", "merchants"],
+      MERCHANT: ["merchants", "products"],
       PLATFORM_ADMIN: ["merchants", "products", "brands", "categories"]
     };
 

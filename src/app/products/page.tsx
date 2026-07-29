@@ -51,7 +51,11 @@ export default async function ProductsPage({
             return (
               <Link key={p.id} href={`/products/${p.id}`} style={{ textDecoration: "none", color: "inherit" }}>
                 <div style={{ background: "#fff", borderRadius: 8, overflow: "hidden", border: "1px solid #e5e7eb" }}>
-                  <img src={p.mainImage} alt={p.name} style={{ width: "100%", height: 200, objectFit: "cover" }} />
+                  {p.mainImage ? (
+                    <img src={p.mainImage} alt={p.name} style={{ width: "100%", height: 200, objectFit: "cover" }} />
+                  ) : (
+                    <div style={{ width: "100%", height: 200, background: "#f3f4f6", display: "flex", alignItems: "center", justifyContent: "center", color: "#9ca3af", fontSize: 13 }}>暂无图片</div>
+                  )}
                   <div style={{ padding: 12 }}>
                     <div style={{ fontSize: 14, fontWeight: 500, marginBottom: 4, lineHeight: 1.4, height: 40, overflow: "hidden" }}>{p.name}</div>
                     <div style={{ fontSize: 12, color: "#999", marginBottom: 8 }}>{merchantName}</div>

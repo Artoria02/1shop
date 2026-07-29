@@ -12,7 +12,7 @@ export async function reviewMerchantAction(
   formData: FormData
 ): Promise<{ error?: string; success?: string }> {
   try {
-    const user = await requireSessionUser();
+    const user = await requireSessionUser("PLATFORM_ADMIN");
     await requirePermission(user, "merchant:review");
 
     const id = formData.get("id") as string;

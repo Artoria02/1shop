@@ -5,6 +5,7 @@ node_modules
 .next
 out
 *.tsbuildinfo
+.cache
 
 # production
 build
@@ -25,3 +26,11 @@ pnpm-debug.log*
 # system
 .DS_Store
 Thumbs.db
+
+# tooling
+.claude
+.codegraph
+.mcp.json
+.deverr.txt
+.devlog.txt
+.login-html.txt

@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
+import { useState, useMemo, useActionState } from "react";
+import { useRouter } from "next/navigation";
+import { addToCartAction } from "@/server/actions/cart.actions";
 
 interface Sku {
   id: string;
@@ -30,6 +31,8 @@ interface ProductDetailClientProps {
 export default function ProductDetailClient({ product }: ProductDetailClientProps) {
   const [selectedImage, setSelectedImage] = useState(product.mainImage);
   const [selectedSpecs, setSelectedSpecs] = useState<Record<string, string>>({});
+  const [cartState, cartDispatch] = useActionState(addToCartAction, {});
+  const router = useRouter();
 
   const specTemplate = (product.specTemplate as { name: string; values: string[] }[] | undefined) || [];
 
@@ -43,6 +46,11 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
   const displayPrice = selectedSku ? selectedSku.price : Math.min(...product.skus.map((s) => s.price));
   const displayOriginalPrice = selectedSku?.originalPrice;
   const displayStock = selectedSku ? selectedSku.stock : product.skus.reduce((sum, s) => sum + s.stock, 0);
+
+  const handleBuyNow = () => {
+    if (!selectedSku || selectedSku.stock <= 0) return;
+    router.push(`/checkout?skuIds=${selectedSku.id}&direct=1`);
+  };
 
   const toggleSpec = (specName: string, value: string) => {
     setSelectedSpecs((prev) => {
@@ -61,26 +69,32 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40 }}>
         {/* Left: Images */}
         <div>
-          <img
-            src={selectedImage}
-            alt={product.name}
-            style={{ width: "100%", maxHeight: 480, objectFit: "cover", borderRadius: 8, marginBottom: 12 }}
-          />
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+          {selectedImage ? (
             <img
-              src={product.mainImage}
-              alt="主图"
-              onClick={() => setSelectedImage(product.mainImage)}
-              style={{
-                width: 64,
-                height: 64,
-                objectFit: "cover",
-                borderRadius: 4,
-                border: selectedImage === product.mainImage ? "2px solid #111" : "2px solid transparent",
-                cursor: "pointer"
-              }}
+              src={selectedImage}
+              alt={product.name}
+              style={{ width: "100%", maxHeight: 480, objectFit: "cover", borderRadius: 8, marginBottom: 12 }}
             />
-            {product.images.map((img, i) => (
+          ) : (
+            <div style={{ width: "100%", height: 480, background: "#f3f4f6", borderRadius: 8, marginBottom: 12, display: "flex", alignItems: "center", justifyContent: "center", color: "#9ca3af", fontSize: 14 }}>暂无图片</div>
+          )}
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            {product.mainImage ? (
+              <img
+                src={product.mainImage}
+                alt="主图"
+                onClick={() => setSelectedImage(product.mainImage)}
+                style={{
+                  width: 64,
+                  height: 64,
+                  objectFit: "cover",
+                  borderRadius: 4,
+                  border: selectedImage === product.mainImage ? "2px solid #111" : "2px solid transparent",
+                  cursor: "pointer"
+                }}
+              />
+            ) : null}
+            {product.images.filter(Boolean).map((img, i) => (
               <img
                 key={i}
                 src={img}
@@ -159,8 +173,11 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
           </div>
 
           <div style={{ display: "flex", gap: 12 }}>
+            {/* Buy Now — direct to checkout, no cart */}
             <button
+              type="button"
               disabled={!selectedSku || selectedSku.stock <= 0}
+              onClick={handleBuyNow}
               style={{
                 flex: 1,
                 padding: "12px 0",
@@ -175,7 +192,41 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
             >
               立即购买
             </button>
+
+            {/* Add to Cart */}
+            <form action={cartDispatch} style={{ flex: 1 }}>
+              <input type="hidden" name="skuId" value={selectedSku?.id ?? ""} />
+              <input type="hidden" name="productId" value={product.id} />
+              <input type="hidden" name="quantity" value="1" />
+              <button
+                type="submit"
+                disabled={!selectedSku || selectedSku.stock <= 0}
+                style={{
+                  width: "100%",
+                  padding: "12px 0",
+                  background: !selectedSku || selectedSku.stock <= 0 ? "#ccc" : "#f59e0b",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: 4,
+                  fontSize: 15,
+                  fontWeight: 600,
+                  cursor: !selectedSku || selectedSku.stock <= 0 ? "not-allowed" : "pointer"
+                }}
+              >
+                加入购物车
+              </button>
+            </form>
           </div>
+          {cartState.success && (
+            <div style={{ marginTop: 8, color: "#2e7d32", fontSize: 13, padding: "8px 12px", background: "#e8f5e9", borderRadius: 4 }}>
+              {cartState.success}
+            </div>
+          )}
+          {cartState.error && (
+            <div style={{ marginTop: 8, color: "#d32f2f", fontSize: 13, padding: "8px 12px", background: "#fdecea", borderRadius: 4 }}>
+              {cartState.error}
+            </div>
+          )}
         </div>
       </div>
 

@@ -7,7 +7,7 @@ import { requirePermission } from "@/lib/rbac";
 import { revalidatePath } from "next/cache";
 
 export async function createCategoryAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "category:manage");
 
   const raw = {
@@ -27,7 +27,7 @@ export async function createCategoryAction(formData: FormData): Promise<void> {
 }
 
 export async function updateCategoryAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "category:manage");
 
   const id = formData.get("id") as string;
@@ -50,7 +50,7 @@ export async function updateCategoryAction(formData: FormData): Promise<void> {
 }
 
 export async function toggleCategoryStatusAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("PLATFORM_ADMIN");
   await requirePermission(user, "category:manage");
 
   const id = formData.get("id") as string;

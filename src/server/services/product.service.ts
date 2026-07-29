@@ -2,6 +2,7 @@ import { prisma } from "@/db";
 import { ProductStatus, ProductSaleStatus, type Prisma } from "@prisma/client";
 import { NotFoundError, ForbiddenError, ValidationError } from "@/lib/errors";
 import { createMany as createSkus, deleteByProductId as deleteSkus } from "./sku.service";
+import { getCategoryAndDescendantIds } from "./category.service";
 import type { SkuInput } from "./sku.service";
 
 export async function create(data: {
@@ -123,7 +124,10 @@ export async function findBuyerProducts(params: {
     status: ProductStatus.APPROVED,
     saleStatus: ProductSaleStatus.ON_SALE
   };
-  if (categoryId) where.categoryId = categoryId;
+  if (categoryId) {
+    const categoryIds = await getCategoryAndDescendantIds(categoryId);
+    where.categoryId = { in: categoryIds };
+  }
   if (search) {
     where.OR = [
       { name: { contains: search, mode: "insensitive" } },

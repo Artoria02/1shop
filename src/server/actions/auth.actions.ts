@@ -1,7 +1,7 @@
 "use server";
 
-import { loginWithPassword, loginAsMerchant, loginAsAdmin, createSession, registerUser, sendLoginSmsCode, loginByPhone, updateProfile, changeEmail, changePhone, changePassword } from "@/server/services/auth.service";
-import { clearSessionCookie, requireSessionUser } from "@/lib/auth";
+import { loginWithPassword, loginAsMerchant, loginAsAdmin, loginAsMerchantByPhone, createSession, registerUser, sendLoginSmsCode, loginByPhone, updateProfile, changeEmail, changePhone, changePassword, clearOnline } from "@/server/services/auth.service";
+import { clearSessionCookie, getSessionUser, requireSessionUser } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { UnauthorizedError, AppError } from "@/lib/errors";
@@ -120,8 +120,30 @@ export async function merchantLoginAction(_prev: LoginState, formData: FormData)
   redirect("/merchant");
 }
 
+export async function merchantPhoneLoginAction(_prev: LoginState, formData: FormData): Promise<LoginState> {
+  const phone = formData.get("phone") as string;
+  const code = formData.get("code") as string;
+
+  if (!phone || !code) return { error: "请输入手机号和验证码" };
+
+  try {
+    const result = await loginAsMerchantByPhone(phone, code);
+    await createSession(result);
+  } catch (e) {
+    if (e instanceof AppError || e instanceof UnauthorizedError) return { error: e.message };
+    throw e;
+  }
+
+  revalidatePath("/merchant");
+  redirect("/merchant");
+}
+
 export async function logoutAction(formData: FormData) {
-  await clearSessionCookie();
+  const user = await getSessionUser();
+  if (user?.merchantId) {
+    await clearOnline(user.merchantId, user.userId);
+  }
+  await clearSessionCookie(user?.end);
   const redirectTo = (formData.get("redirectTo") as string) || "/index/login";
   redirect(redirectTo);
 }

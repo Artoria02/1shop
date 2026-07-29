@@ -1,0 +1,385 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=f2e3]:
+      - navigation "Sidebar" [ref=f2e6]:
+        - link [ref=f2e9] [cursor=pointer]:
+          - /url: /
+        - button [ref=f2e14] [cursor=pointer]
+        - group [ref=f2e19]:
+          - link "Home" [ref=f2e20] [cursor=pointer]:
+            - /url: /
+          - button "Search" [ref=f2e24] [cursor=pointer]
+          - link "Stock" [ref=f2e29] [cursor=pointer]:
+            - /url: /stock#from_element=mainmenu#from_element=mainmenu
+          - link "Explore" [ref=f2e33] [cursor=pointer]:
+            - /url: /app/explore#from_element=mainmenu
+        - separator [ref=f2e37]
+        - group [ref=f2e38]:
+          - link "All tools" [ref=f2e40] [cursor=pointer]:
+            - /url: /app/tools/image#from_element=mainmenu
+          - link [ref=f2e44] [cursor=pointer]:
+            - /url: /app/spaces#from_element=mainmenu&from_view=pinned_tool
+            - button "Spaces" [ref=f2e45]
+          - link [ref=f2e47] [cursor=pointer]:
+            - /url: /app/ai-image-generator#from_element=mainmenu&from_view=pinned_tool
+            - button "Image Generator" [ref=f2e48]
+          - link [ref=f2e50] [cursor=pointer]:
+            - /url: /app/ai-video-generator#from_element=mainmenu&from_view=pinned_tool
+            - button "Video Generator" [ref=f2e51]
+          - link [ref=f2e53] [cursor=pointer]:
+            - /url: /app/voiceover#from_element=mainmenu&from_view=pinned_tool
+            - button "Voice Generator" [ref=f2e54]
+          - link [ref=f2e56] [cursor=pointer]:
+            - /url: /app/assistant#from_element=mainmenu&from_view=pinned_tool
+            - button "Assistant" [ref=f2e57]
+        - generic [ref=f2e59]:
+          - button "Connections" [ref=f2e61] [cursor=pointer]
+          - link "Academy" [ref=f2e65] [cursor=pointer]:
+            - /url: /academy
+          - button "More" [ref=f2e69] [cursor=pointer]
+      - main [ref=f2e73]:
+        - generic [ref=f2e75]:
+          - generic [ref=f2e77]:
+            - generic [ref=f2e81]:
+              - button "Open autocomplete" [ref=f2e82] [cursor=pointer]
+              - textbox "Search for Photos" [active] [ref=f2e87]: smartphone product
+              - button "Clear" [ref=f2e88] [cursor=pointer]
+              - generic [ref=f2e92]:
+                - button "Search by voice" [ref=f2e93] [cursor=pointer]
+                - button "Search by image" [ref=f2e98] [cursor=pointer]
+                - button "Search" [ref=f2e102] [cursor=pointer]
+            - generic [ref=f2e106]:
+              - link "Pricing" [ref=f2e107] [cursor=pointer]:
+                - /url: /pricing?origin=magnific_web
+              - generic [ref=f2e109]:
+                - link "Log in" [ref=f2e110] [cursor=pointer]:
+                  - /url: https://www.magnific.com/log-in?client_id=magnific&lang=en
+                - link "Sign up" [ref=f2e111] [cursor=pointer]:
+                  - /url: https://www.magnific.com/sign-up?client_id=magnific&lang=en#from_element=topbar
+          - generic [ref=f2e112]:
+            - generic [ref=f2e114]:
+              - heading "smartphone product" [level=1] [ref=f2e115]
+              - generic [ref=f2e116]: 61.1k results
+            - button "Relevance" [ref=f2e118] [cursor=pointer]
+          - generic [ref=f2e124]:
+            - generic [ref=f2e126]:
+              - generic [ref=f2e129]:
+                - generic [ref=f2e130]:
+                  - button "Photos" [ref=f2e132] [cursor=pointer]
+                  - list [ref=f2e140]:
+                    - link "All Images" [ref=f2e141] [cursor=pointer]:
+                      - /url: /search?format=search&last_filter=query&last_value=smartphone+product&query=smartphone+product
+                    - listitem [ref=f2e142]:
+                      - link "Vectors" [ref=f2e143] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=vector&query=smartphone+product&type=vector
+                    - listitem [ref=f2e144]:
+                      - link "Illustrations" [ref=f2e145] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=illustration&query=smartphone+product&type=illustration
+                    - listitem [ref=f2e146]:
+                      - link "Photos" [ref=f2e147] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=photo&query=smartphone+product&type=photo
+                    - listitem [ref=f2e148]:
+                      - link "PSD" [ref=f2e149] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=psd&query=smartphone+product&type=psd
+                    - listitem [ref=f2e150]:
+                      - link "Templates" [ref=f2e151] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=template&query=smartphone+product&type=template
+                    - listitem [ref=f2e152]:
+                      - link "Mockups" [ref=f2e153] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=mockup&query=smartphone+product&type=mockup
+                    - listitem [ref=f2e154]:
+                      - link "Videos" [ref=f2e155] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=video&query=smartphone+product&type=video
+                    - listitem [ref=f2e156]:
+                      - link "Footage" [ref=f2e157] [cursor=pointer]:
+                        - /url: /search?category=footage&format=search&last_filter=type&last_value=video&query=smartphone+product&type=video
+                    - listitem [ref=f2e158]:
+                      - link "Motion graphics" [ref=f2e159] [cursor=pointer]:
+                        - /url: /search?category=motion_graphics&format=search&last_filter=type&last_value=video&query=smartphone+product&type=video
+                    - listitem [ref=f2e160]:
+                      - link "Video templates" [ref=f2e161] [cursor=pointer]:
+                        - /url: /search?category=template&format=search&last_filter=type&last_value=video&query=smartphone+product&type=video
+                    - listitem [ref=f2e162]:
+                      - link "Icons" [ref=f2e163] [cursor=pointer]:
+                        - /url: /search?format=search&iconType=standard&last_filter=iconType&last_value=standard&query=smartphone+product&type=icon
+                    - listitem [ref=f2e164]:
+                      - link "3D Models" [ref=f2e165] [cursor=pointer]:
+                        - /url: /search?format=search&last_filter=type&last_value=3d&query=smartphone+product&type=3d
+                    - listitem [ref=f2e166]:
+                      - link "Fonts" [ref=f2e167] [cursor=pointer]:
+                        - /url: /fonts
+                - button "license options" [ref=f2e169] [cursor=pointer]:
+                  - generic [ref=f2e173]: License
+                - button "aiGenerated options" [ref=f2e177] [cursor=pointer]:
+                  - generic [ref=f2e181]: AI-generated
+                - button "orientation options" [ref=f2e185] [cursor=pointer]:
+                  - generic [ref=f2e188]: Orientation
+                - button "color options" [ref=f2e192] [cursor=pointer]:
+                  - generic [ref=f2e196]: Color
+                - button "people options" [ref=f2e200] [cursor=pointer]:
+                  - generic [ref=f2e203]: People
+                - button "fileType options" [ref=f2e207] [cursor=pointer]:
+                  - generic [ref=f2e210]: File type
+                - button "advancedSearch options" [ref=f2e214] [cursor=pointer]:
+                  - generic [ref=f2e218]: Advanced
+              - button [ref=f2e221] [cursor=pointer]
+            - group "List layout" [ref=f2e226]:
+              - button "Masonry" [pressed] [ref=f2e227] [cursor=pointer]
+              - button "Square" [ref=f2e230] [cursor=pointer]
+          - link "NEW Now inside Photoshop & Figma Generate, upscale and relight — right on your canvas. Get the plugin" [ref=f2e234] [cursor=pointer]:
+            - /url: /plugins#from_element=plugin_promo_banner_search_image
+            - generic [ref=f2e242]:
+              - generic [ref=f2e243]:
+                - generic [ref=f2e244]: NEW
+                - paragraph [ref=f2e245]: Now inside Photoshop & Figma
+              - paragraph [ref=f2e246]: Generate, upscale and relight — right on your canvas.
+            - generic [ref=f2e247]: Get the plugin
+          - generic [ref=f2e252]:
+            - figure [ref=f2e254]:
+              - link [ref=f2e255] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/view-electronic-product-balancing-podium_38672762.htm#fromView=search&page=1&position=0&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "View of electronic product balancing on podium" [ref=f2e256]
+            - figure [ref=f2e259]:
+              - link [ref=f2e260] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/smartphone-nature-concept_39425390.htm#fromView=search&page=1&position=1&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Smartphone in nature concept" [ref=f2e261]
+            - figure [ref=f2e264]:
+              - link [ref=f2e265] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/gradient-phone-case-white-background_416971354.htm#fromView=search&page=1&position=2&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Gradient phone case on a white background" [ref=f2e266]
+            - figure [ref=f2e269]:
+              - link [ref=f2e270] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/modern-smartphone-design-with-floating-elements_417216930.htm#fromView=search&page=1&position=3&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Modern Smartphone Design with Floating Elements" [ref=f2e271]
+            - figure [ref=f2e274]:
+              - link [ref=f2e275] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/black-smartphone-product-shot-dark-environment_416609916.htm#fromView=search&page=1&position=4&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Black smartphone product shot in dark environment" [ref=f2e276]
+            - figure [ref=f2e279]:
+              - link [ref=f2e280] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/vertical-closeup-shot-black-smartphone-leaned-stone_11502898.htm#fromView=search&page=1&position=5&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Vertical closeup shot of a black smartphone leaned on a stone" [ref=f2e281]
+            - figure [ref=f2e284]:
+              - link [ref=f2e285] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-ai-image/product-podium-launch-new-smartphone_379390732.htm#fromView=search&page=1&position=6&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Product podium for the launch of a new smartphone" [ref=f2e286]
+            - figure [ref=f2e289]:
+              - link [ref=f2e290] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/phone-14-front-side-arabic-themed-background_38411158.htm#fromView=search&page=1&position=7&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Phone 14 Front Side In Arabic Themed Background" [ref=f2e291]
+            - figure [ref=f2e294]:
+              - link [ref=f2e295] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-ai-image/smartphone-glacier-ice-pedestal-product-display-mockup-product-sale-promotion_333394299.htm#fromView=search&page=1&position=8&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "smartphone glacier ice pedestal for product display mockup product sale promotion" [ref=f2e296]
+            - figure [ref=f2e299]:
+              - link [ref=f2e300] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-photo/mockup-modern-smartphone-with-blank-screen-concrete-podium-3d-rendering_367752674.htm#fromView=search&page=1&position=9&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Mockup of a modern smartphone with blank screen on a concrete podium 3D Rendering" [ref=f2e301]
+            - figure [ref=f2e304]:
+              - link [ref=f2e305] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/elegant-smartphone-composition_27375391.htm#fromView=search&page=1&position=10&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Elegant smartphone composition" [ref=f2e306]
+            - figure [ref=f2e309]:
+              - link [ref=f2e310] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/elegant-smartphone-composition_27375348.htm#fromView=search&page=1&position=11&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Elegant smartphone composition" [ref=f2e311]
+            - figure [ref=f2e314]:
+              - link [ref=f2e315] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-ai-image/modern-smartphone-side-view_426952073.htm#fromView=search&page=1&position=12&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Modern Smartphone Side View" [ref=f2e316]
+              - generic [ref=f2e318]: Generated by AI
+            - figure [ref=f2e325]:
+              - link [ref=f2e326] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-photo/abstract-flying-smartphone-with-reflections-creative-light-whirl-background-with-mock-up-place-product-ad-concept-3d-rendering_186554022.htm#fromView=search&page=1&position=13&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Abstract flying smartphone with reflections on creative light whirl background with mock up place Product ad concept 3D Rendering" [ref=f2e327]
+              - generic [ref=f2e329]: Premium
+            - figure [ref=f2e336]:
+              - link [ref=f2e337] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-photo/empty-white-cellphone-abstract-background-with-mock-up-place-your-product-advertisement-presentation-concept-3d-rendering_82335458.htm#fromView=search&page=1&position=14&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Empty white cellphone on abstract background with mock up place for your product advertisement Presentation concept 3D Rendering" [ref=f2e338]
+              - generic [ref=f2e340]: Premium
+            - figure [ref=f2e347]:
+              - link [ref=f2e348] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/smartphone-nature-concept_39425395.htm#fromView=search&page=1&position=15&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Smartphone in nature concept" [ref=f2e349]
+            - figure [ref=f2e352]:
+              - link [ref=f2e353] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-ai-image/create-realistic-product-mockup-sleek-futuristic-smartphone-with-reflective-surfaces_351040489.htm#fromView=search&page=1&position=16&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Create a realistic product mockup of a sleek futuristic smartphone with reflective surfaces" [ref=f2e354]
+            - figure [ref=f2e357]:
+              - link [ref=f2e358] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-photo/empty-classic-pedestal-light-background-with-mock-up-smartphone-screen-product-placement-ad-concept-3d-rendering_192873820.htm#fromView=search&page=1&position=17&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Empty classic pedestal on light background with mock up smartphone screen Product placement and ad concept 3D Rendering" [ref=f2e359]
+            - figure [ref=f2e362]:
+              - link [ref=f2e363] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/smartphone-minimal-display-marble_29802663.htm#fromView=search&page=1&position=18&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Smartphone minimal display on marble" [ref=f2e364]
+            - figure [ref=f2e367]:
+              - link [ref=f2e368] [cursor=pointer]:
+                - /url: https://www.magnific.com/premium-ai-image/new-smartphone-mockup-white-screen-illuminated-product-display_196730421.htm#fromView=search&page=1&position=19&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "new smartphone mockup white screen illuminated product display" [ref=f2e369]
+            - figure [ref=f2e372]:
+              - link [ref=f2e373] [cursor=pointer]:
+                - /url: https://www.magnific.com/free-photo/smartphone-white-podium-with-cubes-modern-studio_416625607.htm#fromView=search&page=1&position=20&uuid=ef4fc1aa-8034-421d-999a-b78997de4a7a&query=smartphone+product
+                - img "Smartphone on white podium with cubes in a modern studio" [ref=f2e374]
+          - generic [ref=f2e378]:
+            - generic [ref=f2e379]:
+              - generic [ref=f2e380]:
+                - link "Magnific" [ref=f2e381] [cursor=pointer]:
+                  - /url: https://www.magnific.com
+                - paragraph [ref=f2e384]: The creative platform to direct your best work. More than 1 million subscribers across creatives, enterprises, agencies, and studios.
+                - button [ref=f2e385]:
+                  - button "English" [ref=f2e386] [cursor=pointer]
+              - generic [ref=f2e391]:
+                - generic [ref=f2e392]:
+                  - button "Products" [expanded] [ref=f2e393]
+                  - list [ref=f2e394]:
+                    - listitem [ref=f2e395]:
+                      - link "Spaces" [ref=f2e396] [cursor=pointer]:
+                        - /url: /spaces
+                    - listitem [ref=f2e397]:
+                      - link "AI Assistant" [ref=f2e398] [cursor=pointer]:
+                        - /url: /app/assistant
+                    - listitem [ref=f2e399]:
+                      - link "AI Image Generator" [ref=f2e400] [cursor=pointer]:
+                        - /url: /ai/image-generator
+                    - listitem [ref=f2e401]:
+                      - link "AI Video Generator" [ref=f2e402] [cursor=pointer]:
+                        - /url: /ai/video-generator
+                    - listitem [ref=f2e403]:
+                      - link "AI Voice Generator" [ref=f2e404] [cursor=pointer]:
+                        - /url: /ai/voice-generator
+                    - listitem [ref=f2e405]:
+                      - link "Stock content" [ref=f2e406] [cursor=pointer]:
+                        - /url: /stock
+                    - listitem [ref=f2e407]:
+                      - link "MCP for Claude/ChatGPT New" [ref=f2e408] [cursor=pointer]:
+                        - /url: /mcp
+                        - text: MCP for Claude/ChatGPT
+                        - generic [ref=f2e409]: New
+                    - listitem [ref=f2e410]:
+                      - link "Agents New" [ref=f2e411] [cursor=pointer]:
+                        - /url: /agents
+                        - text: Agents
+                        - generic [ref=f2e412]: New
+                    - listitem [ref=f2e413]:
+                      - link "API" [ref=f2e414] [cursor=pointer]:
+                        - /url: /api
+                    - listitem [ref=f2e415]:
+                      - link "Mobile App" [ref=f2e416] [cursor=pointer]:
+                        - /url: /mobile-app
+                    - listitem [ref=f2e417]:
+                      - link "All Magnific tools" [ref=f2e418] [cursor=pointer]:
+                        - /url: /ai
+                - generic [ref=f2e419]:
+                  - button "Get started" [expanded] [ref=f2e420]
+                  - list [ref=f2e421]:
+                    - listitem [ref=f2e422]:
+                      - link "Academy" [ref=f2e423] [cursor=pointer]:
+                        - /url: /academy
+                    - listitem [ref=f2e424]:
+                      - link "Documentation" [ref=f2e425] [cursor=pointer]:
+                        - /url: /ai/docs
+                    - listitem [ref=f2e426]:
+                      - link "Support" [ref=f2e427] [cursor=pointer]:
+                        - /url: /ai/support
+                    - listitem [ref=f2e428]:
+                      - link "Terms of use" [ref=f2e429] [cursor=pointer]:
+                        - /url: /legal/terms-of-use
+                    - listitem [ref=f2e430]:
+                      - link "Privacy policy" [ref=f2e431] [cursor=pointer]:
+                        - /url: /legal/privacy
+                    - listitem [ref=f2e432]:
+                      - link "Originals New" [ref=f2e433] [cursor=pointer]:
+                        - /url: /originals
+                        - text: Originals
+                        - generic [ref=f2e434]: New
+                    - listitem [ref=f2e435]:
+                      - link "Cookies policy" [ref=f2e436] [cursor=pointer]:
+                        - /url: /legal/cookies
+                    - listitem [ref=f2e437]:
+                      - button "Cookies Settings" [ref=f2e438] [cursor=pointer]
+                    - listitem [ref=f2e439]:
+                      - link "Trust center" [ref=f2e440] [cursor=pointer]:
+                        - /url: https://trust.magnific.com/
+                    - listitem [ref=f2e441]:
+                      - link "Affiliates" [ref=f2e442] [cursor=pointer]:
+                        - /url: /affiliates
+                    - listitem [ref=f2e443]:
+                      - link "Enterprise" [ref=f2e444] [cursor=pointer]:
+                        - /url: /enterprise
+                - generic [ref=f2e445]:
+                  - button "Company" [expanded] [ref=f2e446]
+                  - list [ref=f2e447]:
+                    - listitem [ref=f2e448]:
+                      - link "Pricing" [ref=f2e449] [cursor=pointer]:
+                        - /url: /pricing?origin=magnific_web
+                    - listitem [ref=f2e450]:
+                      - link "About us" [ref=f2e451] [cursor=pointer]:
+                        - /url: /company/about-us
+                    - listitem [ref=f2e452]:
+                      - link "Reviews" [ref=f2e453] [cursor=pointer]:
+                        - /url: /reviews
+                    - listitem [ref=f2e454]:
+                      - link "Careers" [ref=f2e455] [cursor=pointer]:
+                        - /url: https://jobs.magnific.com/
+                    - listitem [ref=f2e456]:
+                      - link "Search trends" [ref=f2e457] [cursor=pointer]:
+                        - /url: /tags
+                    - listitem [ref=f2e458]:
+                      - link "Blog" [ref=f2e459] [cursor=pointer]:
+                        - /url: https://www.magnific.com/blog/
+                    - listitem [ref=f2e460]:
+                      - link "Events" [ref=f2e461] [cursor=pointer]:
+                        - /url: /events
+                    - listitem [ref=f2e462]:
+                      - link "Slidesgo" [ref=f2e463] [cursor=pointer]:
+                        - /url: https://slidesgo.com/
+                    - listitem [ref=f2e464]:
+                      - link "Sell content" [ref=f2e465] [cursor=pointer]:
+                        - /url: https://contributor.magnific.com/
+                    - listitem [ref=f2e466]:
+                      - link "Press room" [ref=f2e467] [cursor=pointer]:
+                        - /url: /press
+                    - listitem [ref=f2e468]:
+                      - link "Looking for magnific.ai" [ref=f2e469] [cursor=pointer]:
+                        - /url: https://magnific.ai/legacy
+                - generic [ref=f2e470]:
+                  - button "Get in touch" [expanded] [ref=f2e471]
+                  - list [ref=f2e472]:
+                    - listitem [ref=f2e473]:
+                      - link "Customer support" [ref=f2e474] [cursor=pointer]:
+                        - /url: /ai/support
+                    - listitem [ref=f2e475]:
+                      - link "Instagram" [ref=f2e476] [cursor=pointer]:
+                        - /url: https://www.instagram.com/magnific_ai/
+                    - listitem [ref=f2e477]:
+                      - link "YouTube" [ref=f2e478] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@magnific_ai
+                    - listitem [ref=f2e479]:
+                      - link "LinkedIn" [ref=f2e480] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/magnific
+                    - listitem [ref=f2e481]:
+                      - link "TikTok" [ref=f2e482] [cursor=pointer]:
+                        - /url: https://www.tiktok.com/@magnific_ai
+                    - listitem [ref=f2e483]:
+                      - link "Discord" [ref=f2e484] [cursor=pointer]:
+                        - /url: https://discord.gg/magnific
+                    - listitem [ref=f2e485]:
+                      - link "X" [ref=f2e486] [cursor=pointer]:
+                        - /url: https://x.com/magnific
+                    - listitem [ref=f2e487]:
+                      - link "Reddit" [ref=f2e488] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/magnific/
+            - paragraph [ref=f2e489]: Copyright © 2010-2026 Freepik Company S.L.U. All rights reserved.
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=f2e490]
+  - dialog "Privacy" [ref=f2e492]:
+    - generic [ref=f2e493]:
+      - generic [ref=f2e494]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+      - generic [ref=f2e498]:
+        - button "Cookies Settings, Opens the preference center dialog" [ref=f2e499] [cursor=pointer]: Cookies Settings
+        - button "Accept All Cookies" [ref=f2e501] [cursor=pointer]

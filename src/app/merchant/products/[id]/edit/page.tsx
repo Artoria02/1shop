@@ -7,7 +7,7 @@ import { NotFoundError } from "@/lib/errors";
 import ProductForm from "../../_components/product-form";
 
 export default async function EditProductPage({ params }: { params: Promise<{ id: string }> }) {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("MERCHANT");
 
   const { id } = await params;
 

@@ -72,9 +72,8 @@ async function seedTestData() {
     },
   });
   staffAUserId = userA.id;
-  await prisma.merchantStaff.create({
-    data: { merchantId: merchantIdA, userId: userA.id, isOwner: true },
-  });
+  // 主账号：通过 User.merchantId 关联店铺
+  await prisma.user.update({ where: { id: userA.id }, data: { merchantId: merchantIdA } });
 
   // 创建商家 B 员工
   const userB = await prisma.user.create({
@@ -84,12 +83,10 @@ async function seedTestData() {
       passwordHash: await bcrypt.hash("test123", 12),
       displayName: "员工B",
       source: "SEED",
+      merchantId: merchantIdB,
     },
   });
   staffBUserId = userB.id;
-  await prisma.merchantStaff.create({
-    data: { merchantId: merchantIdB, userId: userB.id, isOwner: true },
-  });
 }
 
 async function cleanupTestData() {

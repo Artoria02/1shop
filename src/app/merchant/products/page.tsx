@@ -23,7 +23,7 @@ export default async function MerchantProductsPage({
 }: {
   searchParams: Promise<{ status?: string; saleStatus?: string; search?: string }>;
 }) {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("MERCHANT");
 
   const params = await searchParams;
   const status = params.status as ProductStatus | undefined;

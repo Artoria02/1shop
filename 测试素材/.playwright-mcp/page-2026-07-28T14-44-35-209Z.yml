@@ -1,0 +1,1050 @@
+- generic [active] [ref=f21e1]:
+  - link "Jump to content" [ref=f21e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=f21e4]:
+    - generic [ref=f21e5]:
+      - navigation "Site" [ref=f21e6]:
+        - generic "Main menu" [ref=f21e7]:
+          - button "Main menu" [ref=f21e8] [cursor=pointer]
+          - option "Qafár af"
+          - option "Arbërisht"
+          - option "аԥсшәа"
+          - option "Abron"
+          - option "bahasa ambon"
+          - option "Acèh"
+          - option "Kwéyòl Sent Lisi"
+          - option "عراقي"
+          - option "адыгабзэ"
+          - option "адыгабзэ"
+          - option "تونسي / Tûnsî"
+          - option "تونسي"
+          - option "Tûnsî"
+          - option "Afrikaans"
+          - option "Aghem"
+          - option "Aanteegan an' Baabyuudan"
+          - option "Akan"
+          - option "Gegë"
+          - option "Alemannisch"
+          - option "алтай тил"
+          - option "አማርኛ"
+          - option "Pangcah"
+          - option "aragonés"
+          - option "Ænglisc"
+          - option "Obolo"
+          - option "अंगिका"
+          - option "شامي"
+          - option "العربية"
+          - option "ܐܪܡܝܐ"
+          - option "mapudungun"
+          - option "جازايرية"
+          - option "الدارجة"
+          - option "مصرى"
+          - option "অসমীয়া"
+          - option "American sign language"
+          - option "asturianu"
+          - option "Atikamekw"
+          - option "авар"
+          - option "Kotava"
+          - option "अवधी"
+          - option "Aymar aru"
+          - option "azərbaycanca"
+          - option "تۆرکجه"
+          - option "башҡортса"
+          - option "Tuki"
+          - option "Basa Bali"
+          - option "ᬩᬲᬩᬮᬶ"
+          - option "Boarisch"
+          - option "Basaa"
+          - option "žemaitėška"
+          - option "Bamum"
+          - option "Batak Toba"
+          - option "Batak Toba"
+          - option "Ghomála'"
+          - option "جهلسری بلوچی"
+          - option "wawle"
+          - option "Bikol Central"
+          - option "Bajau Sama"
+          - option "беларуская"
+          - option "беларуская (тарашкевіца)"
+          - option "беларуская (тарашкевіца)"
+          - option "Betawi"
+          - option "Bafut"
+          - option "ରେମସାମ୍"
+          - option "български"
+          - option "हरियाणवी"
+          - option "روچ کپتین بلوچی"
+          - option "भोजपुरी"
+          - option "भोजपुरी"
+          - option "Bislama"
+          - option "Banjar"
+          - option "Baka"
+          - option "Bakoko"
+          - option "Kom"
+          - option "ပအိုဝ်ႏဘာႏသာႏ"
+          - option "bamanankan"
+          - option "বাংলা"
+          - option "བོད་ཡིག"
+          - option "bòo pìkkà"
+          - option "বিষ্ণুপ্রিয়া মণিপুরী"
+          - option "بختیاری"
+          - option "Mka'a"
+          - option "brezhoneg"
+          - option "Bráhuí"
+          - option "bosanski"
+          - option "Batak Mandailing"
+          - option "Iriga Bicolano"
+          - option "Basa Ugi"
+          - option "ᨅᨔ ᨕᨘᨁᨗ"
+          - option "буряад"
+          - option "Medumba"
+          - option "català"
+          - option "Kaqchikel"
+          - option "Carolinian"
+          - option "Chavacano de Zamboanga"
+          - option "𑄌𑄋𑄴𑄟𑄳𑄦"
+          - option "閩東語 / Mìng-dĕ̤ng-ngṳ̄"
+          - option "閩東語（傳統漢字）"
+          - option "Mìng-dĕ̤ng-ngṳ̄ (Bàng-uâ-cê)"
+          - option "нохчийн"
+          - option "Cebuano"
+          - option "Chamoru"
+          - option "chinuk wawa"
+          - option "Chahta anumpa"
+          - option "ᏣᎳᎩ"
+          - option "Tsetsêhestâhese"
+          - option "کوردی"
+          - option "Hakha Chin"
+          - option "corsu"
+          - option "ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ"
+          - option "Capiceño"
+          - option "莆仙語 / Pó-sing-gṳ̂"
+          - option "莆仙语（简体）"
+          - option "莆仙語（繁體）"
+          - option "Pó-sing-gṳ̂ (Báⁿ-uā-ci̍)"
+          - option "Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ"
+          - option "qırımtatarca"
+          - option "къырымтатарджа (Кирилл)"
+          - option "qırımtatarca (Latin)"
+          - option "tatarşa"
+          - option "čeština"
+          - option "kaszëbsczi"
+          - option "словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ"
+          - option "чӑвашла"
+          - option "Cymraeg"
+          - option "dansk"
+          - option "dagbanli"
+          - option "Deutsch"
+          - option "Österreichisches Deutsch"
+          - option "Schweizer Hochdeutsch"
+          - option "Deutsch (Sie-Form)"
+          - option "Dagaare"
+          - option "Thuɔŋjäŋ"
+          - option "Zazaki"
+          - option "долган тыла"
+          - option "dolnoserbski"
+          - option "ଦେଶିଆ"
+          - option "Kadazandusun"
+          - option "डोटेली"
+          - option "Duala"
+          - option "ދިވެހިބަސް"
+          - option "ཇོང་ཁ"
+          - option "eʋegbe"
+          - option "Efịk"
+          - option "Emiliàn"
+          - option "Ελληνικά"
+          - option "emiliàn e rumagnòl"
+          - option "English" [selected]
+          - option "Canadian English"
+          - option "British English"
+          - option "American English"
+          - option "Esperanto"
+          - option "español"
+          - option "español de América Latina"
+          - option "español (formal)"
+          - option "eesti"
+          - option "Eton"
+          - option "Ejagham"
+          - option "euskara"
+          - option "Ewondo"
+          - option "estremeñu"
+          - option "فارسی"
+          - option "mfantse"
+          - option "Fulfulde"
+          - option "suomi"
+          - option "meänkieli"
+          - option "võro"
+          - option "Na Vosa Vakaviti"
+          - option "kvääni"
+          - option "Fe'fe'"
+          - option "føroyskt"
+          - option "fɔ̀ngbè"
+          - option "français"
+          - option "français cadien"
+          - option "arpetan"
+          - option "Nordfriisk"
+          - option "Oostfräisk"
+          - option "furlan"
+          - option "poor’íŋ belé’ŋ"
+          - option "Frysk"
+          - option "Gaeilge"
+          - option "Ga"
+          - option "Gagauz"
+          - option "贛語"
+          - option "赣语（简体）"
+          - option "贛語（繁體）"
+          - option "kréyòl Gwadloup"
+          - option "kriyòl gwiyannen"
+          - option "Gàidhlig"
+          - option "گوجری"
+          - option "गुज्जरी"
+          - option "galego"
+          - option "на̄ни"
+          - option "گیلکی"
+          - option "Avañe'ẽ"
+          - option "गोंयची कोंकणी / Gõychi Konknni"
+          - option "गोंयची कोंकणी"
+          - option "Gõychi Konknni"
+          - option "Bahasa Hulontalo"
+          - option "𐌲𐌿𐍄𐌹𐍃𐌺"
+          - option "Ghanaian Pidgin"
+          - option "Ἀρχαία ἑλληνικὴ"
+          - option "Alemannisch"
+          - option "ગુજરાતી"
+          - option "wayuunaiki"
+          - option "farefare"
+          - option "gungbe"
+          - option "Gaelg"
+          - option "Gbaya"
+          - option "Hausa"
+          - option "客家語 / Hak-kâ-ngî"
+          - option "客家语（简体）"
+          - option "客家語（繁體）"
+          - option "Hak-kâ-ngî (Pha̍k-fa-sṳ)"
+          - option "Hawaiʻi"
+          - option "עברית"
+          - option "हिन्दी"
+          - option "Fiji Hindi"
+          - option "Fiji Hindi"
+          - option "Ilonggo"
+          - option "kihunde"
+          - option "ہندکو"
+          - option "Hiri Motu"
+          - option "𑢹𑣉𑣉 𑣎𑣋𑣜"
+          - option "Ho"
+          - option "hrvatski"
+          - option "Hunsrik"
+          - option "hornjoserbsce"
+          - option "湘語"
+          - option "Kreyòl ayisyen"
+          - option "magyar"
+          - option "magyar (formal)"
+          - option "հայերեն"
+          - option "Արեւմտահայերէն"
+          - option "Otsiherero"
+          - option "interlingua"
+          - option "Jaku Iban"
+          - option "ibibio"
+          - option "Bahasa Indonesia"
+          - option "Interlingue"
+          - option "Igbo"
+          - option "Igala"
+          - option "ꆇꉙ"
+          - option "Iñupiatun"
+          - option "ᐃᓄᒃᑎᑐᑦ"
+          - option "inuktitut"
+          - option "Ilokano"
+          - option "гӀалгӀай"
+          - option "Ido"
+          - option "íslenska"
+          - option "Isu"
+          - option "medžuslovjansky"
+          - option "меджусловјанскы"
+          - option "medžuslovjansky"
+          - option "italiano"
+          - option "ᐃᓄᒃᑎᑐᑦ / inuktitut"
+          - option "日本語"
+          - option "Patois"
+          - option "la .lojban."
+          - option "jysk"
+          - option "Jawa"
+          - option "ꦗꦮ"
+          - option "ქართული"
+          - option "Qaraqalpaqsha"
+          - option "Taqbaylit"
+          - option "Karai-karai"
+          - option "Jju"
+          - option "адыгэбзэ"
+          - option "адыгэбзэ"
+          - option "Kabɩyɛ"
+          - option "Tyap"
+          - option "kabuverdianu"
+          - option "Kera"
+          - option "Kongo"
+          - option "Kumoring"
+          - option "गेम्येहाक़ गिपन"
+          - option "کھوار"
+          - option "Gĩkũyũ"
+          - option "Kırmancki"
+          - option "Kwanyama"
+          - option "хакас"
+          - option "ဖၠုံလိက်"
+          - option "қазақша"
+          - option "قازاقشا (تٴوتە)"
+          - option "قازاقشا (جۇنگو)"
+          - option "қазақша (кирил)"
+          - option "қазақша (Қазақстан)"
+          - option "qazaqşa (latın)"
+          - option "qazaqşa (Türkïya)"
+          - option "kalaallisut"
+          - option "ភាសាខ្មែរ"
+          - option "ಕನ್ನಡ"
+          - option "Yerwa Kanuri"
+          - option "한국어"
+          - option "조선말"
+          - option "перем коми"
+          - option "kanuri"
+          - option "къарачай-малкъар"
+          - option "Krio"
+          - option "Kinaray-a"
+          - option "karjal"
+          - option "کٲشُر"
+          - option "کٲشُر"
+          - option "कॉशुर"
+          - option "Bafia"
+          - option "Ripoarisch"
+          - option "စှီၤ"
+          - option "kurdî"
+          - option "کوردی (عەرەبی)"
+          - option "kurdî (latînî)"
+          - option "къумукъ"
+          - option "Kʋsaal"
+          - option "коми"
+          - option "kernowek"
+          - option "кыргызча"
+          - option "Latina"
+          - option "Ladino"
+          - option "Lëtzebuergesch"
+          - option "лакку"
+          - option "Nomaande"
+          - option "лезги"
+          - option "Lingua Franca Nova"
+          - option "Luganda"
+          - option "Limburgs"
+          - option "Ligure"
+          - option "Līvõ kēļ"
+          - option "Lampung Api"
+          - option "لەکی"
+          - option "Lakȟótiyapi"
+          - option "Ladin"
+          - option "lombard"
+          - option "lingála"
+          - option "Lamnso'"
+          - option "ລາວ"
+          - option "Silozi"
+          - option "لۊری شومالی"
+          - option "lietuvių"
+          - option "latgaļu"
+          - option "ciluba"
+          - option "Mizo ţawng"
+          - option "لئری دوٙمینی"
+          - option "latviešu"
+          - option "文言"
+          - option "Lazuri"
+          - option "Madhurâ"
+          - option "मगही"
+          - option "मैथिली"
+          - option "Basa Banyumasan"
+          - option "vùn màsànà"
+          - option "Maka"
+          - option "мокшень"
+          - option "Malagasy"
+          - option "Ebon"
+          - option "олык марий"
+          - option "Māori"
+          - option "Minangkabau"
+          - option "македонски"
+          - option "മലയാളം"
+          - option "монгол"
+          - option "manju gisun"
+          - option "manju gisun"
+          - option "ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ"
+          - option "ꯃꯤꯇꯩ ꯂꯣꯟ"
+          - option "ဘာသာမန်"
+          - option "молдовеняскэ"
+          - option "moore"
+          - option "मराठी"
+          - option "Mara"
+          - option "кырык мары"
+          - option "Bahasa Melayu"
+          - option "بهاس ملايو"
+          - option "Malti"
+          - option "Mundang"
+          - option "Baso Palembang"
+          - option "Mvskoke"
+          - option "Mirandés"
+          - option "မြန်မာဘာသာ"
+          - option "эрзянь"
+          - option "مازِرونی"
+          - option "Dorerin Naoero"
+          - option "Nāhuatl"
+          - option "閩南語 / Bân-lâm-gí"
+          - option "閩南語"
+          - option "閩南語（傳統漢字）"
+          - option "Bân-lâm-gí (Pe̍h-ōe-jī)"
+          - option "Bân-lâm-gí (Tâi-lô)"
+          - option "Napulitano"
+          - option "norsk bokmål"
+          - option "Plattdüütsch"
+          - option "Nedersaksies"
+          - option "नेपाली"
+          - option "नेपाल भाषा"
+          - option "Oshiwambo"
+          - option "Ngémba"
+          - option "Li Niha"
+          - option "కొలామి"
+          - option "Niuē"
+          - option "Nederlands"
+          - option "Nederlands (informeel)"
+          - option "Ngombala"
+          - option "Kwasio"
+          - option "nawdm"
+          - option "norsk nynorsk"
+          - option "Ngiemboon"
+          - option "Nda'nda'"
+          - option "norsk"
+          - option "ᨣᩤᩴᨾᩮᩬᩥᨦ"
+          - option "ногайша"
+          - option "Novial"
+          - option "ߒߞߏ"
+          - option "isiNdebele seSewula"
+          - option "Nouormand"
+          - option "Sesotho sa Leboa"
+          - option "Nupe"
+          - option "Diné bizaad"
+          - option "Chi-Chewa"
+          - option "runyankore"
+          - option "Orunyoro"
+          - option "Nyunga"
+          - option "occitan"
+          - option "Ojibwemowin"
+          - option "livvinkarjala"
+          - option "Oromoo"
+          - option "ଓଡ଼ିଆ"
+          - option "ирон"
+          - option "Wažáže íe"
+          - option "لسان عثمانى"
+          - option "ਪੰਜਾਬੀ"
+          - option "Pangasinan"
+          - option "Kapampangan"
+          - option "Papiamentu"
+          - option "Papiamento"
+          - option "Picard"
+          - option "Naijá"
+          - option "Deitsch"
+          - option "Plautdietsch"
+          - option "Pälzisch"
+          - option "पालि"
+          - option "Norfuk / Pitkern"
+          - option "polski"
+          - option "Piemontèis"
+          - option "پنجابی"
+          - option "Ποντιακά"
+          - option "Nawat"
+          - option "prūsiskan"
+          - option "پښتو"
+          - option "português"
+          - option "português do Brasil"
+          - option "pinayuanan"
+          - option "Runa Simi"
+          - option "Qatzijob\\ʼal"
+          - option "Runa shimi"
+          - option "Rumagnôl"
+          - option "Tarifit"
+          - option "ရခိုင်"
+          - option "rumantsch"
+          - option "romaňi čhib"
+          - option "kaalengo tšimb"
+          - option "romani čhib"
+          - option "ikirundi"
+          - option "română"
+          - option "armãneashti"
+          - option "tarandíne"
+          - option "руски"
+          - option "русский"
+          - option "русиньскый"
+          - option "armãneashti"
+          - option "Vlăheşte"
+          - option "Влахесте"
+          - option "Vlăheşte"
+          - option "мыхаӀбишды"
+          - option "Ikinyarwanda"
+          - option "मारवाड़ी"
+          - option "沖縄口"
+          - option "संस्कृतम्"
+          - option "саха тыла"
+          - option "Sasak"
+          - option "ᱥᱟᱱᱛᱟᱲᱤ"
+          - option "sardu"
+          - option "sicilianu"
+          - option "Scots"
+          - option "سنڌي"
+          - option "Sassaresu"
+          - option "کوردی خوارگ"
+          - option "davvisámegiella"
+          - option "davvisámegiella (Suoma bealde)"
+          - option "davvisámegiella (Norgga bealde)"
+          - option "davvisámegiella (Ruoŧa bealde)"
+          - option "Cmique Itom"
+          - option "Koyraboro Senni"
+          - option "Sängö"
+          - option "žemaitėška"
+          - option "srpskohrvatski / српскохрватски"
+          - option "српскохрватски (ћирилица)"
+          - option "srpskohrvatski (latinica)"
+          - option "Taclḥit"
+          - option "Taclḥit"
+          - option "ⵜⴰⵛⵍⵃⵉⵜ"
+          - option "တႆး"
+          - option "tacawit"
+          - option "tacawit"
+          - option "සිංහල"
+          - option "Simple English"
+          - option "кӣллт са̄мь кӣлл"
+          - option "bidumsámegiella"
+          - option "ubmejesámiengiälla"
+          - option "slovenčina"
+          - option "سرائیکی"
+          - option "سرائیکی"
+          - option "slovenščina"
+          - option "Schläsch"
+          - option "Gagana Samoa"
+          - option "åarjelsaemien"
+          - option "julevsámegiella"
+          - option "anarâškielâ"
+          - option "nuõrttsääʹmǩiõll"
+          - option "chiShona"
+          - option "Soomaaliga"
+          - option "shqip"
+          - option "српски / srpski"
+          - option "српски (ћирилица)"
+          - option "srpski (latinica)"
+          - option "Sranantongo"
+          - option "sardu campidanesu"
+          - option "mbia cheë"
+          - option "SiSwati"
+          - option "Sesotho"
+          - option "Seeltersk"
+          - option "себертатар"
+          - option "Sunda"
+          - option "svenska"
+          - option "ლუშნუ"
+          - option "Kiswahili"
+          - option "ꠍꠤꠟꠐꠤ"
+          - option "ślůnski"
+          - option "Sakizaya"
+          - option "தமிழ்"
+          - option "Tayal"
+          - option "ತುಳು"
+          - option "ᥖᥭᥰ ᥖᥬᥲ ᥑᥨᥒᥰ"
+          - option "తెలుగు"
+          - option "tetun"
+          - option "тоҷикӣ"
+          - option "тоҷикӣ"
+          - option "tojikī"
+          - option "ไทย"
+          - option "काेचिला थारु"
+          - option "ትግርኛ"
+          - option "ትግሬ"
+          - option "Türkmençe"
+          - option "Tagalog"
+          - option "tolışi"
+          - option "толыши"
+          - option "Setswana"
+          - option "lea faka-Tonga"
+          - option "toki pona"
+          - option "Tok Pisin"
+          - option "Tanapag"
+          - option "Türkçe"
+          - option "Ṫuroyo"
+          - option "Seediq"
+          - option "Xitsonga"
+          - option "татарча / tatarça"
+          - option "татарча"
+          - option "tatarça"
+          - option "Orutooro"
+          - option "chiTumbuka"
+          - option "Tunen"
+          - option "Twi"
+          - option "reo tahiti"
+          - option "тыва дыл"
+          - option "ⵜⴰⵎⴰⵣⵉⵖⵜ"
+          - option "удмурт"
+          - option "ئۇيغۇرچە / Uyghurche"
+          - option "ئۇيغۇرچە"
+          - option "Uyghurche"
+          - option "українська"
+          - option "اردو"
+          - option "oʻzbekcha / ўзбекча"
+          - option "ўзбекча"
+          - option "oʻzbekcha"
+          - option "Tshivenda"
+          - option "vèneto"
+          - option "vepsän kel’"
+          - option "Tiếng Việt"
+          - option "West-Vlams"
+          - option "Mainfränkisch"
+          - option "emakhuwa"
+          - option "Volapük"
+          - option "Vaďďa"
+          - option "võro"
+          - option "Vute"
+          - option "walon"
+          - option "wolaytta"
+          - option "Winaray"
+          - option "Pidgin (Cameroon)"
+          - option "Fakaʻuvea"
+          - option "waale"
+          - option "Wolof"
+          - option "吴语"
+          - option "吴语（简体）"
+          - option "吳語（正體）"
+          - option "Wyandot"
+          - option "хальмг"
+          - option "isiXhosa"
+          - option "მარგალური"
+          - option "saisiyat"
+          - option "Nugunu"
+          - option "Yambeta"
+          - option "Yangben"
+          - option "Yemba"
+          - option "ייִדיש"
+          - option "Yorùbá"
+          - option "Nhẽẽgatú"
+          - option "maaya t’aan"
+          - option "粵語"
+          - option "粵语（简体）"
+          - option "粵語（繁體）"
+          - option "Vahcuengh"
+          - option "Zeêuws"
+          - option "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ"
+          - option "tamaziɣt tanawayt"
+          - option "中文"
+          - option "文言"
+          - option "中文（中国大陆）"
+          - option "中文（简体）"
+          - option "中文（繁體）"
+          - option "中文（香港）"
+          - option "Bân-lâm-gú"
+          - option "中文（澳門）"
+          - option "中文（马来西亚）"
+          - option "中文（新加坡）"
+          - option "中文（臺灣）"
+          - option "粵語"
+          - option "isiZulu"
+      - link [ref=f21e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - img "Wikimedia Commons" [ref=f21e15]
+    - generic [ref=f21e16]:
+      - search [ref=f21e17]:
+        - link "Search" [ref=f21e18] [cursor=pointer]:
+          - /url: /wiki/Special:MediaSearch
+      - navigation "Personal tools" [ref=f21e21]:
+        - generic [ref=f21e22]:
+          - list [ref=f21e25]:
+            - listitem [ref=f21e26]:
+              - link "English" [ref=f21e27] [cursor=pointer]:
+                - /url: "#"
+          - navigation "Appearance" [ref=f21e30]:
+            - generic "Change the appearance of the page's font size, width, and color" [ref=f21e31]:
+              - button "Appearance" [ref=f21e32] [cursor=pointer]
+              - generic [ref=f21e33]: Appearance
+          - list [ref=f21e38]:
+            - listitem [ref=f21e39]:
+              - link "Donate" [ref=f21e40] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=commons.wikimedia.org&uselang=en
+            - listitem [ref=f21e41]:
+              - link "Create account" [ref=f21e42] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:CreateAccount&returnto=File%3AApple+iPhone+15+Pro.jpg
+            - listitem [ref=f21e43]:
+              - link "Log in" [ref=f21e44] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:UserLogin&returnto=File%3AApple+iPhone+15+Pro.jpg
+  - generic [ref=f21e46]:
+    - generic [ref=f21e49]:
+      - link [ref=f21e51] [cursor=pointer]:
+        - /url: "#"
+      - text: View Wikimedia Commons in
+      - link "中文（中国大陆）" [ref=f21e53] [cursor=pointer]:
+        - /url: "#"
+    - main [ref=f21e55]:
+      - generic [ref=f21e56]:
+        - navigation "Contents" [ref=f21e57]:
+          - generic "Table of Contents" [ref=f21e58]:
+            - button "Toggle the table of contents" [ref=f21e59] [cursor=pointer]
+            - generic [ref=f21e60]: Toggle the table of contents
+        - heading "File:Apple iPhone 15 Pro.jpg" [level=1] [ref=f21e63]
+      - generic [ref=f21e66]:
+        - navigation "Namespaces" [ref=f21e68]:
+          - list [ref=f21e71]:
+            - listitem [ref=f21e72]:
+              - link "File" [ref=f21e73] [cursor=pointer]:
+                - /url: /wiki/File:Apple_iPhone_15_Pro.jpg
+            - listitem [ref=f21e75]:
+              - link "Discussion" [ref=f21e76] [cursor=pointer]:
+                - /url: /w/index.php?title=File_talk:Apple_iPhone_15_Pro.jpg&action=edit&redlink=1
+        - generic [ref=f21e78]:
+          - navigation "Views" [ref=f21e79]:
+            - list [ref=f21e82]:
+              - listitem [ref=f21e83]:
+                - link "Read" [ref=f21e84] [cursor=pointer]:
+                  - /url: /wiki/File:Apple_iPhone_15_Pro.jpg
+              - listitem [ref=f21e86]:
+                - link "Edit" [ref=f21e87] [cursor=pointer]:
+                  - /url: /w/index.php?title=File:Apple_iPhone_15_Pro.jpg&action=edit
+              - listitem [ref=f21e89]:
+                - link "View history" [ref=f21e90] [cursor=pointer]:
+                  - /url: /w/index.php?title=File:Apple_iPhone_15_Pro.jpg&action=history
+          - navigation "Page tools" [ref=f21e92]:
+            - generic [ref=f21e93]:
+              - button "Tools" [ref=f21e94] [cursor=pointer]
+              - generic [ref=f21e95]: Tools
+      - generic "File:Apple iPhone 15 Pro.jpg" [ref=f21e98]:
+        - generic [ref=f21e99]:
+          - navigation [ref=f21e100]:
+            - listitem [ref=f21e101]:
+              - link "File" [ref=f21e102] [cursor=pointer]:
+                - /url: "#file"
+            - listitem [ref=f21e103]:
+              - link "File history" [ref=f21e104] [cursor=pointer]:
+                - /url: "#filehistory"
+            - listitem [ref=f21e105]:
+              - link "File usage on Commons" [ref=f21e106] [cursor=pointer]:
+                - /url: "#filelinks"
+            - listitem [ref=f21e107]:
+              - link "File usage on other wikis" [ref=f21e108] [cursor=pointer]:
+                - /url: "#globalusage"
+            - listitem [ref=f21e109]:
+              - link "Metadata" [ref=f21e110] [cursor=pointer]:
+                - /url: "#metadata"
+          - generic [ref=f21e111]:
+            - button "Download all sizes" [ref=f21e112] [cursor=pointer]:
+              - generic [ref=f21e115]:
+                - text: Download
+                - generic [ref=f21e116]: all sizes
+            - button "Use this file on the web" [ref=f21e117] [cursor=pointer]:
+              - generic [ref=f21e120]:
+                - text: Use this file
+                - generic [ref=f21e121]: on the web
+            - button "Use this file on a wiki" [ref=f21e122] [cursor=pointer]:
+              - generic [ref=f21e125]:
+                - text: Use this file
+                - generic [ref=f21e126]: on a wiki
+            - link "Email a link to this file" [ref=f21e127] [cursor=pointer]:
+              - /url: mailto:?subject=Apple%20iPhone%2015%20Pro&body=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AApple_iPhone_15_Pro.jpg%0A%0AIPHONE%2015%2C%20CC%20BY-SA%204.0%20%3Chttps%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%3E%2C%20via%20Wikimedia%20Commons
+              - generic [ref=f21e130]:
+                - text: Email a link
+                - generic [ref=f21e131]: to this file
+            - link "Information about reusing" [ref=f21e132] [cursor=pointer]:
+              - /url: /wiki/Special:MyLanguage/Commons:Reusing_content_outside_Wikimedia
+              - generic [ref=f21e135]:
+                - text: Information
+                - generic [ref=f21e136]: about reusing
+            - generic "Remove these icons" [ref=f21e138] [cursor=pointer]
+          - generic [ref=f21e140]:
+            - link [ref=f21e141] [cursor=pointer]:
+              - /url: https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg
+              - img "File:Apple iPhone 15 Pro.jpg" [ref=f21e142]
+            - generic [ref=f21e143]:
+              - text: "Size of this preview:"
+              - link "960 × 720 pixels" [ref=f21e144] [cursor=pointer]:
+                - /url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/960px-Apple_iPhone_15_Pro.jpg
+              - text: .
+              - generic [ref=f21e145]:
+                - text: "Other resolutions:"
+                - link "330 × 248 pixels" [ref=f21e146] [cursor=pointer]:
+                  - /url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/330px-Apple_iPhone_15_Pro.jpg
+                - text: "|"
+                - link "960 × 720 pixels" [ref=f21e147] [cursor=pointer]:
+                  - /url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/960px-Apple_iPhone_15_Pro.jpg
+                - text: "|"
+                - link "1,280 × 960 pixels" [ref=f21e148] [cursor=pointer]:
+                  - /url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/1280px-Apple_iPhone_15_Pro.jpg
+                - text: "|"
+                - link "3,840 × 2,880 pixels" [ref=f21e149] [cursor=pointer]:
+                  - /url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/3840px-Apple_iPhone_15_Pro.jpg
+                - text: .
+          - generic [ref=f21e150]:
+            - link "Original file" [ref=f21e152] [cursor=pointer]:
+              - /url: https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg
+            - generic [ref=f21e153]: "(8,192 × 6,144 pixels, file size: 7.83 MB, MIME type: image/jpeg)"
+            - generic [ref=f21e154]:
+              - text: ;
+              - link "ZoomViewer" [ref=f21e155] [cursor=pointer]:
+                - /url: https://zoomviewer.toolforge.org/index.php?f=Apple%20iPhone%2015%20Pro.jpg&flash=no
+            - button "Open in Media Viewer" [ref=f21e156]
+          - generic [ref=f21e159]:
+            - tablist [ref=f21e162]:
+              - tab "File information" [selected] [ref=f21e163]
+              - tab "Structured data" [ref=f21e165] [cursor=pointer]
+            - tabpanel "File information" [ref=f21e169]:
+              - generic [ref=f21e171]:
+                - generic [ref=f21e172]:
+                  - heading "Summary" [level=2] [ref=f21e173]
+                  - generic [ref=f21e174]:
+                    - link "edit":
+                      - /url: /w/index.php?title=File:Apple_iPhone_15_Pro.jpg&action=edit&section=1
+                - table [ref=f21e176]:
+                  - rowgroup [ref=f21e177]:
+                    - row [ref=f21e178]:
+                      - cell "Description" [ref=f21e179]
+                      - cell "Apple iPhone 15 Pro" [ref=f21e180]
+                    - row [ref=f21e181]:
+                      - cell "Date" [ref=f21e182]
+                      - cell [ref=f21e183]:
+                        - time [ref=f21e184]: 12 December 2023
+                    - row [ref=f21e185]:
+                      - cell "Source" [ref=f21e186]
+                      - cell "Own work" [ref=f21e187]
+                    - row [ref=f21e188]:
+                      - cell "Author" [ref=f21e189]
+                      - cell [ref=f21e190]:
+                        - link "IPHONE 15" [ref=f21e191] [cursor=pointer]:
+                          - /url: /w/index.php?title=User:%CE%99%CE%A1%CE%97%CE%9F%CE%9D%CE%95_15&action=edit&redlink=1
+                    - row [ref=f21e192]:
+                      - cell [ref=f21e193]:
+                        - text: Permission
+                        - generic [ref=f21e194]:
+                          - text: (
+                          - link "Reusing this file" [ref=f21e195] [cursor=pointer]:
+                            - /url: /wiki/Commons:Reusing_content_outside_Wikimedia
+                          - text: )
+                      - cell "I, the copyright holder of this work, hereby publish it under the following license:" [ref=f21e196]
+                - generic [ref=f21e199]:
+                  - heading "Licensing" [level=2] [ref=f21e200]
+                  - generic [ref=f21e201]:
+                    - link "edit":
+                      - /url: /w/index.php?title=File:Apple_iPhone_15_Pro.jpg&action=edit&section=2
+                - generic [ref=f21e202]:
+                  - generic [ref=f21e203]: "I, the copyright holder of this work, hereby publish it under the following license:"
+                  - generic [ref=f21e204]:
+                    - generic [ref=f21e205]:
+                      - generic "w:en:Creative Commons" [ref=f21e207]:
+                        - img "w:en:Creative Commons" [ref=f21e208]
+                      - generic "attribution" [ref=f21e210]:
+                        - img "attribution" [ref=f21e211]
+                      - generic "share alike" [ref=f21e213]:
+                        - img "share alike" [ref=f21e214]
+                    - generic [ref=f21e215]:
+                      - generic [ref=f21e216]:
+                        - text: This file is licensed under the
+                        - link "Creative Commons" [ref=f21e217] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/en:Creative_Commons
+                        - text: Attribution-Share Alike
+                        - link "4.0 International" [ref=f21e218] [cursor=pointer]:
+                          - /url: //creativecommons.org/licenses/by-sa/4.0/deed.en
+                        - text: ","
+                        - link "3.0 Unported" [ref=f21e219] [cursor=pointer]:
+                          - /url: //creativecommons.org/licenses/by-sa/3.0/deed.en
+                        - text: ","
+                        - link "2.5 Generic" [ref=f21e220] [cursor=pointer]:
+                          - /url: //creativecommons.org/licenses/by-sa/2.5/deed.en
+                        - text: ","
+                        - link "2.0 Generic" [ref=f21e221] [cursor=pointer]:
+                          - /url: //creativecommons.org/licenses/by-sa/2.0/deed.en
+                        - text: and
+                        - link "1.0 Generic" [ref=f21e222] [cursor=pointer]:
+                          - /url: //creativecommons.org/licenses/by-sa/1.0/deed.en
+                        - text: license.
+                      - generic [ref=f21e224]:
+                        - definition [ref=f21e225]:
+                          - text: "You are free:"
+                          - list [ref=f21e226]:
+                            - listitem [ref=f21e227]: to share – to copy, distribute and transmit the work
+                            - listitem [ref=f21e228]: to remix – to adapt the work
+                        - definition [ref=f21e229]:
+                          - text: "Under the following conditions:"
+                          - list [ref=f21e230]:
+                            - listitem [ref=f21e231]: attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+                            - listitem [ref=f21e232]:
+                              - text: share alike – If you remix, transform, or build upon the material, you must distribute your contributions under the
+                              - link "same or compatible license" [ref=f21e233] [cursor=pointer]:
+                                - /url: https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses
+                              - text: as the original.
+              - heading "File history" [level=2] [ref=f21e234]
+              - generic [ref=f21e235]:
+                - paragraph [ref=f21e236]: Click on a date/time to view the file as it appeared at that time.
+                - table [ref=f21e237]:
+                  - rowgroup [ref=f21e238]:
+                    - row [ref=f21e239]:
+                      - columnheader [ref=f21e240]
+                      - columnheader "Date/Time" [ref=f21e241]
+                      - columnheader "Thumbnail" [ref=f21e242]
+                      - columnheader "Dimensions" [ref=f21e243]
+                      - columnheader "User" [ref=f21e244]
+                      - columnheader "Comment" [ref=f21e245]
+                    - row [ref=f21e246]:
+                      - cell "current" [ref=f21e247]
+                      - cell [ref=f21e248]:
+                        - link "16:00, 20 December 2023" [ref=f21e249] [cursor=pointer]:
+                          - /url: https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg
+                      - cell [ref=f21e250]:
+                        - link [ref=f21e251] [cursor=pointer]:
+                          - /url: https://upload.wikimedia.org/wikipedia/commons/1/19/Apple_iPhone_15_Pro.jpg
+                          - img "Thumbnail for version as of 16:00, 20 December 2023" [ref=f21e252]
+                      - cell "8,192 × 6,144 (7.83 MB)" [ref=f21e253]
+                      - cell [ref=f21e254]:
+                        - link "ΙΡΗΟΝΕ 15" [ref=f21e255] [cursor=pointer]:
+                          - /url: /w/index.php?title=User:%CE%99%CE%A1%CE%97%CE%9F%CE%9D%CE%95_15&action=edit&redlink=1
+                        - generic [ref=f21e257]:
+                          - text: (
+                          - link "talk" [ref=f21e258] [cursor=pointer]:
+                            - /url: /wiki/User_talk:%CE%99%CE%A1%CE%97%CE%9F%CE%9D%CE%95_15
+                          - text: "|"
+                          - link "contribs" [ref=f21e259] [cursor=pointer]:
+                            - /url: /wiki/Special:Contributions/%CE%99%CE%A1%CE%97%CE%9F%CE%9D%CE%95_15
+                          - text: )
+                      - cell [ref=f21e260]:
+                        - text: "{{Information |Description=Apple iPhone 15 Pro |Source={{Own}} |Date=2023-12-12 |Author="
+                        - link "IPHONE 15" [ref=f21e261] [cursor=pointer]:
+                          - /url: /w/index.php?title=User:%CE%99%CE%A1%CE%97%CE%9F%CE%9D%CE%95_15&action=edit&redlink=1
+                        - text: "|Permission={{Self}} |other_versions= }}"
+                        - link "Category:IPhone 15 Pro" [ref=f21e262] [cursor=pointer]:
+                          - /url: /wiki/Category:IPhone_15_Pro
+                        - link "Category:IPhone 15 Pro Max" [ref=f21e263] [cursor=pointer]:
+                          - /url: /wiki/Category:IPhone_15_Pro_Max
+              - paragraph [ref=f21e265]: You cannot overwrite this file.
+              - heading "File usage on Commons" [level=2] [ref=f21e266]
+              - paragraph [ref=f21e268]: There are no pages that use this file.
+              - heading "File usage on other wikis" [level=2] [ref=f21e269]
+              - generic [ref=f21e270]:
+                - paragraph [ref=f21e271]: "The following other wikis use this file:"
+                - list [ref=f21e272]:
+                  - listitem [ref=f21e273]:
+                    - text: Usage on www.wikidata.org
+                    - list [ref=f21e274]:
+                      - listitem [ref=f21e275]:
+                        - link "Q109044656" [ref=f21e276] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q109044656
+                      - listitem [ref=f21e277]:
+                        - link "Q122442399" [ref=f21e278] [cursor=pointer]:
+                          - /url: https://www.wikidata.org/wiki/Q122442399
+              - heading "Metadata" [level=2] [ref=f21e279]
+              - generic [ref=f21e280]:
+                - paragraph [ref=f21e281]: This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.
+                - table [ref=f21e282]:
+                  - rowgroup [ref=f21e283]:
+                    - row [ref=f21e284]:
+                      - rowheader "Image title" [ref=f21e285]
+                      - cell "iPhone 15" [ref=f21e286]
+                    - row [ref=f21e287]:
+                      - rowheader "Camera manufacturer" [ref=f21e288]
+                      - cell [ref=f21e289]:
+                        - link "Nothing" [ref=f21e291] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Special:Search?search=Nothing
+                    - row [ref=f21e292]:
+                      - rowheader "Camera model" [ref=f21e293]
+                      - cell [ref=f21e294]:
+                        - link "A065" [ref=f21e296] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/Special:Search?search=A065
+                    - row [ref=f21e297]:
+                      - rowheader "Exposure time" [ref=f21e298]
+                      - cell "1/359 sec (0.0027855153203343)" [ref=f21e299]
+                    - row [ref=f21e300]:
+                      - rowheader [ref=f21e301]:
+                        - link "F-number" [ref=f21e302] [cursor=pointer]:
+                          - /url: https://en.wikipedia.org/wiki/F-number
+                      - cell "f/1.88" [ref=f21e303]
+                    - row [ref=f21e304]:
+                      - rowheader "ISO speed rating" [ref=f21e305]
+                      - cell "100" [ref=f21e306]
+                    - row [ref=f21e307]:
+                      - rowheader "Date and time of data generation" [ref=f21e308]
+                      - cell "12:00, 12 December 2023" [ref=f21e309]
+                    - row [ref=f21e310]:
+                      - rowheader "Lens focal length" [ref=f21e311]
+                      - cell "5.59 mm" [ref=f21e312]
+                    - row [ref=f21e313]:
+                      - cell [ref=f21e314]:
+                        - button "Show extended details" [ref=f21e315] [cursor=pointer]
+        - generic [ref=f21e316]:
+          - generic [ref=f21e317]:
+            - link "Categories" [ref=f21e318] [cursor=pointer]:
+              - /url: /wiki/Special:MyLanguage/Commons:Categories
+            - text: ":"
+            - list [ref=f21e319]:
+              - listitem [ref=f21e320]:
+                - link "IPhone 15 Pro" [ref=f21e321] [cursor=pointer]:
+                  - /url: /wiki/Category:IPhone_15_Pro
+              - listitem [ref=f21e322]:
+                - link "IPhone 15 Pro Max" [ref=f21e323] [cursor=pointer]:
+                  - /url: /wiki/Category:IPhone_15_Pro_Max
+              - listitem [ref=f21e324]:
+                - link "Comparisons of iPhones" [ref=f21e325] [cursor=pointer]:
+                  - /url: /wiki/Category:Comparisons_of_iPhones
+          - generic [ref=f21e326]:
+            - text: "Hidden categories:"
+            - list [ref=f21e327]:
+              - listitem [ref=f21e328]:
+                - link "Self-published work" [ref=f21e329] [cursor=pointer]:
+                  - /url: /wiki/Category:Self-published_work
+              - listitem [ref=f21e330]:
+                - link "Taken with Nothing Phone (2)" [ref=f21e331] [cursor=pointer]:
+                  - /url: /wiki/Category:Taken_with_Nothing_Phone_(2)
+              - listitem [ref=f21e332]:
+                - link "CC-BY-SA-4.0,3.0,2.5,2.0,1.0" [ref=f21e333] [cursor=pointer]:
+                  - /url: /wiki/Category:CC-BY-SA-4.0,3.0,2.5,2.0,1.0
+    - contentinfo [ref=f21e335]:
+      - list [ref=f21e336]:
+        - listitem [ref=f21e337]: This page was last edited on 12 July 2025, at 14:30.
+        - listitem [ref=f21e338]:
+          - text: Files are available under licenses specified on their description page. All structured data from the file namespace is available under the
+          - link "Creative Commons CC0 License" [ref=f21e339] [cursor=pointer]:
+            - /url: https://creativecommons.org/publicdomain/zero/1.0/
+          - text: ; all unstructured text is available under the
+          - link "Creative Commons Attribution-ShareAlike License" [ref=f21e340] [cursor=pointer]:
+            - /url: https://creativecommons.org/licenses/by-sa/4.0/
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=f21e341] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and the
+          - link "Privacy Policy" [ref=f21e342] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: .
+      - list:
+        - listitem [ref=f21e343]:
+          - link "Privacy policy" [ref=f21e344] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=f21e345]:
+          - link "About Wikimedia Commons" [ref=f21e346] [cursor=pointer]:
+            - /url: /wiki/Commons:Welcome
+        - listitem [ref=f21e347]:
+          - link "Disclaimers" [ref=f21e348] [cursor=pointer]:
+            - /url: /wiki/Commons:General_disclaimer
+        - listitem [ref=f21e349]:
+          - link "Legal & safety contacts" [ref=f21e350] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=f21e351]:
+          - link "Code of Conduct" [ref=f21e352] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=f21e353]:
+          - link "Developers" [ref=f21e354] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=f21e355]:
+          - link "Statistics" [ref=f21e356] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/commons.wikimedia.org
+        - listitem [ref=f21e357]:
+          - link "Cookie statement" [ref=f21e358] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=f21e359]:
+          - link "Mobile view" [ref=f21e360] [cursor=pointer]:
+            - /url: //commons.wikimedia.org/w/index.php?title=File:Apple_iPhone_15_Pro.jpg&mobileaction=toggle_view_mobile
+      - list [ref=f21e361]:
+        - listitem [ref=f21e362]:
+          - link [ref=f21e363] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=f21e365]
+        - listitem [ref=f21e366]:
+          - link [ref=f21e367] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=f21e369]
+  - generic [ref=f21e370]:
+    - list

@@ -29,15 +29,6 @@ export default function MerchantLayoutClient({ user, merchant, email, children }
           <span style={{ fontWeight: 700, fontSize: 16, color: "#111" }}>1Shop - 商家后台</span>
           <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                {user.avatar ? (
-                  <img src={user.avatar} alt="" style={{ width: 26, height: 26, borderRadius: "50%", objectFit: "cover" }} />
-                ) : (
-                  <div style={{ width: 26, height: 26, borderRadius: "50%", background: "#e8e8e8", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <svg width={14} height={14} viewBox="0 0 24 24" fill="#333">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                    </svg>
-                  </div>
-                )}
                 <span style={{ fontSize: 13, color: "#333" }}>{user.displayName ?? email}</span>
               </div>
             <form action={logoutAction}>
@@ -81,15 +72,6 @@ export default function MerchantLayoutClient({ user, merchant, email, children }
           <span style={{ fontWeight: 700, fontSize: 16, color: "#111" }}>1Shop - 商家后台</span>
           <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                {user.avatar ? (
-                  <img src={user.avatar} alt="" style={{ width: 26, height: 26, borderRadius: "50%", objectFit: "cover" }} />
-                ) : (
-                  <div style={{ width: 26, height: 26, borderRadius: "50%", background: "#e8e8e8", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <svg width={14} height={14} viewBox="0 0 24 24" fill="#333">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                    </svg>
-                  </div>
-                )}
                 <span style={{ fontSize: 13, color: "#333" }}>{user.displayName ?? email}</span>
               </div>
             <form action={logoutAction}>
@@ -116,15 +98,6 @@ export default function MerchantLayoutClient({ user, merchant, email, children }
         <span style={{ fontWeight: 700, fontSize: 16, color: "#111" }}>1Shop - 商家后台</span>
         <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                {user.avatar ? (
-                  <img src={user.avatar} alt="" style={{ width: 26, height: 26, borderRadius: "50%", objectFit: "cover" }} />
-                ) : (
-                  <div style={{ width: 26, height: 26, borderRadius: "50%", background: "#e8e8e8", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <svg width={14} height={14} viewBox="0 0 24 24" fill="#333">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                    </svg>
-                  </div>
-                )}
                 <span style={{ fontSize: 13, color: "#333" }}>{user.displayName ?? email}</span>
               </div>
           <form action={logoutAction}>

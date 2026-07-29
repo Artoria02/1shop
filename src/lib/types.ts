@@ -1,21 +1,23 @@
-import type { UserKind } from "@prisma/client";
+export type LoginEnd = "BUYER" | "MERCHANT" | "PLATFORM_ADMIN";
 
 export interface SessionUser {
   userId: string;
   email: string | null;
   phone: string | null;
-  kind: UserKind;
+  end: LoginEnd;
   roles: string[];
   merchantId?: string;
+  avatar?: string;
+  displayName?: string;
+  staff?: boolean;
 }
 
 export interface SessionPayload {
   sub: string;
-  email: string | null;
-  phone: string | null;
-  kind: UserKind;
+  end: LoginEnd;
   roles: string[];
   merchantId?: string;
+  sessionToken?: string;
   iat?: number;
   exp?: number;
 }

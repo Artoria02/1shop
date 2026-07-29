@@ -4,70 +4,57 @@ import { findStaffs, addStaff, removeStaff } from "@/server/services/merchant.se
 import { getSessionUser } from "@/lib/auth";
 import { prisma } from "@/db";
 import { hashPassword } from "@/server/services/auth.service";
+import { sendSms } from "@/lib/sms";
 import { ValidationError } from "@/lib/errors";
 import { revalidatePath } from "next/cache";
+import crypto from "crypto";
 
 export async function findStaffsAction() {
-  const user = await getSessionUser();
+  const user = await getSessionUser("MERCHANT");
   if (!user?.merchantId) throw new Error("无权限");
 
   return findStaffs(user.merchantId);
 }
 
-export type AddStaffState = { error?: string; success?: boolean; isNewUser?: boolean };
+export type AddStaffState = { error?: string; success?: boolean };
+
+function generatePassword(): string {
+  return crypto.randomInt(100000, 999999).toString();
+}
 
 export async function addStaffAction(_prev: AddStaffState, formData: FormData): Promise<AddStaffState> {
-  const user = await getSessionUser();
+  const user = await getSessionUser("MERCHANT");
   if (!user?.merchantId) return { error: "无权限" };
 
-  const currentStaff = await prisma.merchantStaff.findFirst({
-    where: { userId: user.userId },
-    select: { isOwner: true }
+  const currentUser = await prisma.user.findUnique({
+    where: { id: user.userId },
+    select: { merchantId: true }
   });
-  if (!currentStaff?.isOwner) return { error: "仅店主可添加员工" };
+  if (!currentUser?.merchantId) return { error: "仅店主可添加子账号" };
 
-  const phone = formData.get("phone") as string;
+  const nickname = (formData.get("nickname") as string)?.trim();
+  const phone = (formData.get("phone") as string)?.trim();
+  if (!nickname) return { error: "请输入账号昵称" };
   if (!phone) return { error: "请输入手机号" };
 
+  const merchant = await prisma.merchant.findUnique({
+    where: { id: user.merchantId },
+    select: { name: true }
+  });
+  if (!merchant) return { error: "店铺不存在" };
+
+  const accountName = `${merchant.name}:${nickname}`;
+
   try {
-    let targetUser = await prisma.user.findUnique({ where: { phone } });
-    let isNewUser = false;
+    const password = generatePassword();
+    const passwordHash = await hashPassword(password);
 
-    if (!targetUser) {
-      const passwordHash = await hashPassword("123456");
-      targetUser = await prisma.user.create({
-        data: {
-          phone,
-          passwordHash,
-          displayName: `员工${phone.slice(-4)}`,
-          source: "ADMIN_CREATED"
-        }
-      });
-      isNewUser = true;
-    } else if (!targetUser.passwordHash) {
-      // 买家先注册（密码在 BuyerProfile），补充 User 密码用于商家端登录
-      const passwordHash = await hashPassword("123456");
-      await prisma.user.update({
-        where: { id: targetUser.id },
-        data: { passwordHash }
-      });
-    }
+    await addStaff(user.merchantId, accountName, nickname, phone, passwordHash);
 
-    // Always assign MERCHANT_STAFF role
-    const merchantRole = await prisma.role.findUnique({ where: { code: "MERCHANT_STAFF" } });
-    if (merchantRole) {
-      await prisma.userRole.upsert({
-        where: { userId_roleId: { userId: targetUser.id, roleId: merchantRole.id } },
-        update: {},
-        create: { userId: targetUser.id, roleId: merchantRole.id }
-      });
-    }
+    await sendSms(phone, `【1Shop】您已被添加为子账号。账号：${accountName}，初始密码：${password}，请登录后及时修改密码。`);
 
-    const staffDisplayName = `员工${phone.slice(-4)}`;
-    await addStaff(user.merchantId, targetUser.id, false, staffDisplayName);
-
-    revalidatePath("/merchant/settings/staff");
-    return { success: true, isNewUser };
+    revalidatePath("/merchant/settings/account");
+    return { success: true };
   } catch (e) {
     if (e instanceof ValidationError) return { error: e.message };
     return { error: e instanceof Error ? e.message : "添加失败" };
@@ -75,18 +62,18 @@ export async function addStaffAction(_prev: AddStaffState, formData: FormData): 
 }
 
 export async function removeStaffAction(formData: FormData): Promise<void> {
-  const user = await getSessionUser();
+  const user = await getSessionUser("MERCHANT");
   if (!user?.merchantId) return;
 
-  const currentStaff = await prisma.merchantStaff.findFirst({
-    where: { userId: user.userId },
-    select: { isOwner: true }
+  const currentUser = await prisma.user.findUnique({
+    where: { id: user.userId },
+    select: { merchantId: true }
   });
-  if (!currentStaff?.isOwner) return;
+  if (!currentUser?.merchantId) return;
 
   const staffId = formData.get("staffId") as string;
   if (!staffId) return;
 
   await removeStaff(user.merchantId, staffId);
-  revalidatePath("/merchant/settings/staff");
+  revalidatePath("/merchant/settings/account");
 }

@@ -35,9 +35,6 @@ export async function applyMerchantAction(_prev: ApplyState, formData: FormData)
     }
 
     const user = await getSessionUser();
-    if (!user && !raw.password) {
-      return { error: "请设置登录密码" };
-    }
     const merchant = await createApplication({
       ...parsed.data,
       userId: user?.userId

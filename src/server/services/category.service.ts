@@ -106,3 +106,37 @@ export async function toggleStatus(id: string) {
     data: { status: newStatus }
   });
 }
+
+/**
+ * Get all descendant category IDs (including the given category itself).
+ * When filtering products by a parent category, use this to also get
+ * products in all child and grandchild categories.
+ */
+export async function getCategoryAndDescendantIds(categoryId: string): Promise<string[]> {
+  const all = await prisma.category.findMany({
+    where: { status: CategoryStatus.ACTIVE },
+    select: { id: true, parentId: true }
+  });
+
+  // Build adjacency map: parentId → [childIds]
+  const childrenMap = new Map<string, string[]>();
+  for (const cat of all) {
+    const pid = cat.parentId ?? "__root__";
+    if (!childrenMap.has(pid)) childrenMap.set(pid, []);
+    childrenMap.get(pid)!.push(cat.id);
+  }
+
+  // DFS to collect all descendants (including self)
+  const result: string[] = [];
+  const stack = [categoryId];
+  while (stack.length > 0) {
+    const current = stack.pop()!;
+    result.push(current);
+    const children = childrenMap.get(current) ?? [];
+    for (const child of children) {
+      stack.push(child);
+    }
+  }
+
+  return result;
+}

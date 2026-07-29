@@ -137,12 +137,6 @@ export default function MerchantApplyPage() {
           <input name="contactEmail" type="email" style={{ width: "100%", padding: "8px 10px", border: "1px solid #ccc", borderRadius: 4 }} />
         </div>
 
-        <div style={{ marginBottom: 16 }}>
-          <label style={{ display: "block", fontSize: 13, fontWeight: 600, marginBottom: 4, color: "#333" }}>登录密码（账号为联系人手机/邮箱） *</label>
-          <input name="password" type="password" required minLength={6} style={{ width: "100%", padding: "8px 10px", border: "1px solid #ccc", borderRadius: 4 }} />
-          <div style={{ fontSize: 12, color: "#999", marginTop: 4 }}>用于商家后台登录，至少6位字符</div>
-        </div>
-
         <div style={{ marginBottom: 16, padding: 12, background: "#f8f9fa", borderRadius: 4 }}>
           <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 8, color: "#333" }}>结算账户（可选）</div>
           <div style={{ marginBottom: 8 }}>

@@ -4,7 +4,7 @@ import { findMany as findBrands } from "@/server/services/brand.service";
 import ProductForm from "../_components/product-form";
 
 export default async function CreateProductPage() {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("MERCHANT");
 
   const categories = await findActiveTree();
   const brands = await findBrands();

@@ -14,11 +14,6 @@ async function main() {
       source: "SEED",
     },
   });
-  await prisma.buyerProfile.upsert({
-    where: { userId: user.id },
-    update: {},
-    create: { userId: user.id, passwordHash: hash }
-  });
   console.log("Buyer created:", user.email);
   await prisma.$disconnect();
 }

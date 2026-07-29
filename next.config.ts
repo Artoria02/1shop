@@ -1,3 +1,6 @@
+import { config } from "dotenv";
+config({ path: "./infra/.env" });
+
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {

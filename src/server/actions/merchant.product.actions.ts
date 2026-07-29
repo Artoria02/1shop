@@ -11,7 +11,7 @@ export type ProductActionState = { error?: string; success?: boolean; productId?
 
 export async function createProductAction(_prev: ProductActionState, formData: FormData): Promise<ProductActionState> {
   try {
-    const user = await requireSessionUser();
+    const user = await requireSessionUser("MERCHANT");
     if (!user.merchantId) {
       return { error: "您还没有关联的店铺" };
     }
@@ -65,7 +65,7 @@ export async function createProductAction(_prev: ProductActionState, formData: F
 
 export async function updateProductAction(_prev: ProductActionState, formData: FormData): Promise<ProductActionState> {
   try {
-    const user = await requireSessionUser();
+    const user = await requireSessionUser("MERCHANT");
     if (!user.merchantId) {
       return { error: "您还没有关联的店铺" };
     }
@@ -133,7 +133,7 @@ export async function updateProductAction(_prev: ProductActionState, formData: F
 }
 
 export async function toggleProductSaleStatusAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("MERCHANT");
   if (!user.merchantId) throw new ValidationError("您还没有关联的店铺");
 
   const id = formData.get("id") as string;
@@ -144,7 +144,7 @@ export async function toggleProductSaleStatusAction(formData: FormData): Promise
 }
 
 export async function deleteProductAction(formData: FormData): Promise<void> {
-  const user = await requireSessionUser();
+  const user = await requireSessionUser("MERCHANT");
   if (!user.merchantId) throw new ValidationError("您还没有关联的店铺");
 
   const id = formData.get("id") as string;

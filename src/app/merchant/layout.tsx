@@ -10,8 +10,8 @@ export default async function MerchantLayout({ children }: { children: React.Rea
   const path = h.get("x-pathname") || "";
   if (path === "/merchant/login" || path === "/merchant/apply") return <>{children}</>;
 
-  const user = await getSessionUser();
-  if (!user || user.end !== "MERCHANT_STAFF") redirect("/merchant/login");
+  const user = await getSessionUser("MERCHANT");
+  if (!user || user.end !== "MERCHANT") redirect("/merchant/login");
 
   const merchant = user.merchantId ? await findByUserId(user.userId) : null;
 

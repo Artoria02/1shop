@@ -51,6 +51,37 @@ enum CategoryStatus {
   DISABLED
 }
 
+enum OrderStatus {
+  PENDING_PAYMENT
+  PAID
+  SHIPPED
+  RECEIVED
+  COMPLETED
+  CANCELLED
+  REFUNDING
+  REFUNDED
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDING
+  REFUNDED
+}
+
+enum PaymentMethod {
+  WECHAT_PAY
+  ALIPAY
+}
+
+enum ShipmentStatus {
+  PENDING
+  SHIPPED
+  DELIVERED
+  RETURNED
+}
+
 enum AuditAction {
   USER_CREATED
   USER_UPDATED
@@ -69,6 +100,17 @@ enum AuditAction {
   CATEGORY_UPDATED
   BRAND_CREATED
   BRAND_UPDATED
+  ORDER_CREATED
+  ORDER_UPDATED
+  ORDER_CANCELLED
+  ORDER_TIMEOUT_CANCELLED
+  PAYMENT_CREATED
+  PAYMENT_CALLBACK
+  SHIPMENT_CREATED
+  ORDER_RECEIVED
+  ORDER_COMPLETED
+  INVENTORY_LOCKED
+  INVENTORY_RELEASED
 }
 
 model User {
@@ -81,29 +123,21 @@ model User {
   status       UserStatus     @default(ACTIVE)
   source       RegisterSource @default(WEB)
   lastLoginAt  DateTime?
+  merchantId   String?
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt
 
   roleAssignments    UserRole[]
   auditLogs          AuditLog[] @relation("AuditActor")
-  merchantStaffs     MerchantStaff[]
   shippingAddresses  ShippingAddress[]
-  buyerProfile       BuyerProfile?
+  orders             Order[]
+  ownedMerchant      Merchant?       @relation(fields: [merchantId], references: [id])
 
   @@index([status])
   @@index([createdAt])
+  @@index([merchantId])
 }
 
-model BuyerProfile {
-  id           String   @id @default(cuid())
-  userId       String   @unique
-  passwordHash String?
-  displayName  String?
-  createdAt    DateTime @default(now())
-  updatedAt    DateTime @updatedAt
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
 
 model PlatformAdmin {
   id           String     @id @default(cuid())
@@ -217,23 +251,27 @@ model Merchant {
 
   staff             MerchantStaff[]
   products          Product[]
+  subOrders         SubOrder[]
+  owners            User[]
 
   @@index([status, createdAt])
   @@index([registerNo])
 }
 
 model MerchantStaff {
-  id          String   @id @default(cuid())
-  merchantId  String
-  userId      String
-  isOwner     Boolean  @default(false)
-  displayName String?
-  createdAt   DateTime @default(now())
+  id           String     @id @default(cuid())
+  merchantId   String
+  accountName  String     @unique
+  nickname     String
+  phone        String
+  passwordHash String
+  displayName  String?
+  status       UserStatus @default(ACTIVE)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
 
-  merchant Merchant @relation(fields: [merchantId], references: [id], onDelete: Cascade)
-  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  merchant     Merchant   @relation(fields: [merchantId], references: [id], onDelete: Cascade)
 
-  @@unique([merchantId, userId])
   @@index([merchantId])
 }
 
@@ -295,6 +333,7 @@ model Product {
   category Category @relation(fields: [categoryId], references: [id])
   brand    Brand?   @relation(fields: [brandId], references: [id])
   skus     Sku[]
+  orderItems OrderItem[]
 
   @@index([merchantId, status, saleStatus])
   @@index([categoryId])
@@ -320,6 +359,7 @@ model Sku {
   updatedAt     DateTime          @updatedAt
 
   product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  orderItems OrderItem[]
 
   @@index([productId])
   @@index([skuCode])
@@ -342,4 +382,131 @@ model ShippingAddress {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
+}
+
+model Order {
+  id              String      @id @default(cuid())
+  buyerId         String
+  orderNo         String      @unique
+
+  totalAmount     Int
+  status          OrderStatus @default(PENDING_PAYMENT)
+
+  addressSnapshot Json
+
+  expireAt        DateTime?
+  cancelledAt     DateTime?
+  cancelReason    String?
+
+  paidAt          DateTime?
+  completedAt     DateTime?
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  buyer           User        @relation(fields: [buyerId], references: [id])
+  subOrders       SubOrder[]
+  payment         Payment?
+
+  @@index([buyerId, status, createdAt])
+  @@index([orderNo])
+  @@index([status, expireAt])
+}
+
+model SubOrder {
+  id            String      @id @default(cuid())
+  orderId       String
+  merchantId    String
+  subOrderNo    String      @unique
+
+  merchantName  String
+  totalAmount   Int
+  status        OrderStatus @default(PENDING_PAYMENT)
+
+  paidAt        DateTime?
+  shippedAt     DateTime?
+  receivedAt    DateTime?
+  completedAt   DateTime?
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  order         Order       @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  merchant      Merchant    @relation(fields: [merchantId], references: [id])
+  items         OrderItem[]
+  shipment      Shipment?
+
+  @@index([orderId])
+  @@index([merchantId, status, createdAt])
+  @@index([subOrderNo])
+}
+
+model OrderItem {
+  id           String   @id @default(cuid())
+  subOrderId   String
+  productId    String
+  skuId        String
+
+  productName  String
+  productImage String
+  skuSpecs     Json
+  skuCode      String
+
+  price        Int
+  quantity     Int
+  amount       Int
+
+  createdAt    DateTime @default(now())
+
+  subOrder     SubOrder @relation(fields: [subOrderId], references: [id], onDelete: Cascade)
+  product      Product  @relation(fields: [productId], references: [id])
+  sku          Sku      @relation(fields: [skuId], references: [id])
+
+  @@index([subOrderId])
+  @@index([skuId])
+}
+
+model Payment {
+  id             String        @id @default(cuid())
+  orderId        String        @unique
+  orderNo        String
+
+  amount         Int
+  method         PaymentMethod
+  status         PaymentStatus @default(PENDING)
+
+  transactionId  String?
+  paidAt         DateTime?
+
+  idempotencyKey String        @unique
+
+  callbackData   Json?
+
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  order          Order         @relation(fields: [orderId], references: [id])
+
+  @@index([orderNo])
+  @@index([idempotencyKey])
+  @@index([status, createdAt])
+}
+
+model Shipment {
+  id           String         @id @default(cuid())
+  subOrderId   String         @unique
+
+  carrier      String
+  trackingNo   String
+  status       ShipmentStatus @default(SHIPPED)
+
+  shippedAt    DateTime
+  deliveredAt  DateTime?
+
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  subOrder     SubOrder       @relation(fields: [subOrderId], references: [id])
+
+  @@index([trackingNo])
 }

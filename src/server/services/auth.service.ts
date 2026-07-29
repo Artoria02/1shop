@@ -2,13 +2,38 @@ import { prisma, redis } from "@/db";
 import { setSessionCookie } from "@/lib/auth";
 import type { SessionPayload } from "@/lib/types";
 import bcrypt from "bcryptjs";
+import crypto from "crypto";
 import { AppError, UnauthorizedError } from "@/lib/errors";
 import { sendSms } from "@/lib/sms";
 
 const SALT_ROUNDS = 12;
 
+// ── online status (Redis) ──
+
+const ONLINE_TTL = 3600; // 1 hour
+
+function onlineKey(merchantId: string, subjectId: string) {
+  return `online:${merchantId}:${subjectId}`;
+}
+
+export async function setOnline(merchantId: string, subjectId: string, sessionToken: string) {
+  await redis.setex(onlineKey(merchantId, subjectId), ONLINE_TTL, sessionToken);
+}
+
+export async function clearOnline(merchantId: string, subjectId: string) {
+  await redis.del(onlineKey(merchantId, subjectId));
+}
+
+export async function isOnline(merchantId: string, subjectId: string): Promise<string | null> {
+  return redis.get(onlineKey(merchantId, subjectId));
+}
+
 export interface AuthResult {
   sessionPayload: Omit<SessionPayload, "iat" | "exp">;
+}
+
+function generateSessionToken(): string {
+  return crypto.randomUUID();
 }
 
 // ── shared auth helpers ──
@@ -30,58 +55,99 @@ async function verifyCredentials(user: { id: string; passwordHash: string | null
 // ── Buyer login ──
 
 export async function loginWithPassword(account: string, password: string): Promise<AuthResult> {
-  const hasEmail = account.includes("@");
-  const user = hasEmail
-    ? await prisma.user.findUnique({
-        where: { email: account },
-        include: { buyerProfile: { select: { passwordHash: true } } }
-      })
-    : await prisma.user.findUnique({
-        where: { phone: account },
-        include: { buyerProfile: { select: { passwordHash: true } } }
-      });
-
-  if (!user) throw new UnauthorizedError("账号或密码错误");
-  if (user.status !== "ACTIVE") throw new UnauthorizedError("账号已被禁用");
-
-  // Buyer login uses BuyerProfile.passwordHash exclusively
-  if (!user.buyerProfile?.passwordHash) throw new UnauthorizedError("账号或密码错误");
-
-  const isValid = await bcrypt.compare(password, user.buyerProfile.passwordHash);
-  if (!isValid) throw new UnauthorizedError("账号或密码错误");
-
-  await prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
-
-  const { getUserRoles } = await import("@/lib/rbac");
-  const roles = await getUserRoles(user.id);
-
-  return {
-    sessionPayload: { sub: user.id, end: "BUYER", roles }
-  };
-}
-
-// ── Merchant staff login ──
-
-export async function loginAsMerchant(account: string, password: string): Promise<AuthResult> {
   const user = await findUserByAccount(account);
   if (!user) throw new UnauthorizedError("账号或密码错误");
 
   await verifyCredentials(user, password);
 
+  await prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
+
+  const { getUserRoles } = await import("@/lib/rbac");
+  const roles = await getUserRoles(user.id);
+
+  const sessionToken = generateSessionToken();
+
+  return {
+    sessionPayload: { sub: user.id, end: "BUYER", roles, sessionToken }
+  };
+}
+
+// ── Merchant login (主账号 + 子账号) ──
+
+export async function loginAsMerchant(account: string, password: string): Promise<AuthResult> {
+  // 1. 尝试主账号登录：查 User 表
+  const user = await findUserByAccount(account);
+  if (user) {
+    await verifyCredentials(user, password);
+    if (!user.merchantId) throw new UnauthorizedError("账号不存在");
+
+    await prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
+
+    const { getUserRoles } = await import("@/lib/rbac");
+    const roles = await getUserRoles(user.id);
+
+    const sessionToken = generateSessionToken();
+    await setOnline(user.merchantId, user.id, sessionToken);
+
+    return {
+      sessionPayload: { sub: user.id, end: "MERCHANT", roles, merchantId: user.merchantId, sessionToken }
+    };
+  }
+
+  // 2. 尝试子账号登录：按 phone 或 accountName 查 MerchantStaff 表
   const staff = await prisma.merchantStaff.findFirst({
-    where: { userId: user.id },
-    orderBy: { createdAt: "desc" },
-    include: { merchant: true }
+    where: { OR: [{ phone: account }, { accountName: account }] }
   });
-  if (!staff) throw new UnauthorizedError("该账号无商家员工身份");
+  if (!staff) throw new UnauthorizedError("账号或密码错误");
+  if (staff.status !== "ACTIVE") throw new UnauthorizedError("账号已被禁用");
+
+  const isValid = await bcrypt.compare(password, staff.passwordHash);
+  if (!isValid) throw new UnauthorizedError("账号或密码错误");
+
+  const sessionToken = generateSessionToken();
+  await setOnline(staff.merchantId, staff.id, sessionToken);
+
+  return {
+    sessionPayload: { sub: staff.id, end: "MERCHANT", roles: ["MERCHANT"], merchantId: staff.merchantId, sessionToken }
+  };
+}
+
+// ── Merchant owner phone + SMS login (主账号快捷登录) ──
+
+export async function loginAsMerchantByPhone(phone: string, code: string): Promise<AuthResult> {
+  if (!PHONE_REGEX.test(phone)) throw new AppError("请输入正确的手机号", 400, "INVALID_PHONE");
+  if (!code || code.length !== 6) throw new AppError("请输入6位验证码", 400, "INVALID_CODE");
+
+  const attemptStr = await redis.get(attemptKey(phone));
+  const attempts = parseInt(attemptStr ?? "0", 10);
+  if (attempts >= SMS_ATTEMPT_MAX) {
+    await redis.del(smsKey(phone), attemptKey(phone));
+    throw new AppError("验证码已失效，请重新获取", 400, "CODE_EXPIRED");
+  }
+
+  const storedCode = await redis.get(smsKey(phone));
+  await redis.incr(attemptKey(phone));
+
+  if (!storedCode || storedCode !== code) throw new AppError("验证码错误", 400, "INVALID_CODE");
+
+  await redis.del(smsKey(phone), attemptKey(phone), cooldownKey(phone), dailyKey(phone));
+
+  const user = await prisma.user.findUnique({ where: { phone } });
+  if (!user || !user.merchantId) {
+    throw new UnauthorizedError("账号不存在，员工请使用账号密码登录");
+  }
+  if (user.status !== "ACTIVE") throw new UnauthorizedError("账号已被禁用");
 
   await prisma.user.update({ where: { id: user.id }, data: { lastLoginAt: new Date() } });
 
   const { getUserRoles } = await import("@/lib/rbac");
   const roles = await getUserRoles(user.id);
 
+  const sessionToken = generateSessionToken();
+  await setOnline(user.merchantId, user.id, sessionToken);
+
   return {
-    sessionPayload: { sub: user.id, end: "MERCHANT_STAFF", roles, merchantId: staff.merchantId }
+    sessionPayload: { sub: user.id, end: "MERCHANT", roles, merchantId: user.merchantId, sessionToken }
   };
 }
 
@@ -95,8 +161,10 @@ export async function loginAsAdmin(email: string, password: string): Promise<Aut
   const isValid = await bcrypt.compare(password, admin.passwordHash);
   if (!isValid) throw new UnauthorizedError("账号或密码错误");
 
+  const sessionToken = generateSessionToken();
+
   return {
-    sessionPayload: { sub: admin.id, end: "PLATFORM_ADMIN", roles: ["PLATFORM_ADMIN"] }
+    sessionPayload: { sub: admin.id, end: "PLATFORM_ADMIN", roles: ["PLATFORM_ADMIN"], sessionToken }
   };
 }
 
@@ -154,13 +222,12 @@ export async function registerUser(params: {
     throw new AppError("密码至少需要6位", 400, "WEAK_PASSWORD");
   }
 
-  const existingUser = await prisma.user.findUnique({
-    where: { phone },
-    include: { buyerProfile: true }
-  });
+  const existingUser = await prisma.user.findUnique({ where: { phone } });
 
-  // 已有买家身份 → 拒绝
-  if (existingUser?.buyerProfile) {
+  if (existingUser) {
+    if (existingUser.merchantId) {
+      throw new AppError("该手机号已注册为商家，可直接登录", 409, "PHONE_EXISTS");
+    }
     throw new AppError("该手机号已注册", 409, "PHONE_EXISTS");
   }
 
@@ -190,29 +257,22 @@ export async function registerUser(params: {
   await redis.del(smsKey(phone), attemptKey(phone), cooldownKey(phone), dailyKey(phone));
 
   const passwordHash = await bcrypt.hash(password, SALT_ROUNDS);
+  const displayName = emailTrimmed?.split("@")[0] ?? `用户${phone.slice(-4)}`;
 
-  if (existingUser) {
-    // 员工转买家：密码存 BuyerProfile，不覆盖 User.passwordHash（保留员工登录密码）
-    await prisma.buyerProfile.create({
-      data: { userId: existingUser.id, passwordHash, displayName: emailTrimmed?.split("@")[0] ?? `用户${phone.slice(-4)}` }
-    });
-
-    return {
-      sessionPayload: { sub: existingUser.id, end: "BUYER", roles: [] }
-    };
-  }
-
-  // 全新用户
   const user = await prisma.user.create({
     data: {
       phone,
       email: emailTrimmed,
-      displayName: emailTrimmed?.split("@")[0] ?? `用户${phone.slice(-4)}`,
+      passwordHash,
+      displayName,
       source: "WEB"
     }
   });
 
-  await prisma.buyerProfile.create({ data: { userId: user.id, passwordHash, displayName: user.displayName } });
+  const buyerRole = await prisma.role.findUnique({ where: { code: "BUYER" } });
+  if (buyerRole) {
+    await prisma.userRole.create({ data: { userId: user.id, roleId: buyerRole.id } });
+  }
 
   return {
     sessionPayload: { sub: user.id, end: "BUYER", roles: [] }
@@ -282,8 +342,10 @@ export async function loginByPhone(phone: string, code: string): Promise<AuthRes
   // 验证成功，清除相关 Redis 键（含每日计数，登录成功重置限额）
   await redis.del(smsKey(phone), attemptKey(phone), cooldownKey(phone), dailyKey(phone));
 
-  // 查找或创建用户
+  // 查找或创建用户，确保有 BUYER 身份
   let user = await prisma.user.findUnique({ where: { phone } });
+  const buyerRole = await prisma.role.findUnique({ where: { code: "BUYER" } });
+
   if (!user) {
     user = await prisma.user.create({
       data: {
@@ -292,14 +354,16 @@ export async function loginByPhone(phone: string, code: string): Promise<AuthRes
         source: "WEB"
       }
     });
-    await prisma.buyerProfile.create({ data: { userId: user.id, displayName: `用户${phone.slice(-4)}` } });
-  } else {
-    // 已有 User 但无 BuyerProfile（如员工被添加后首次买家登录），自动创建
-    const existing = await prisma.buyerProfile.findUnique({ where: { userId: user.id } });
-    if (!existing) {
-      await prisma.buyerProfile.create({
-        data: { userId: user.id, displayName: `用户${phone.slice(-4)}` }
-      });
+    if (buyerRole) {
+      await prisma.userRole.create({ data: { userId: user.id, roleId: buyerRole.id } });
+    }
+  } else if (buyerRole) {
+    // 已有 User 但无 BUYER 角色（如员工被添加后首次买家登录），自动添加
+    const hasBuyerRole = await prisma.userRole.findUnique({
+      where: { userId_roleId: { userId: user.id, roleId: buyerRole.id } }
+    });
+    if (!hasBuyerRole) {
+      await prisma.userRole.create({ data: { userId: user.id, roleId: buyerRole.id } });
     }
   }
 
@@ -312,8 +376,9 @@ export async function loginByPhone(phone: string, code: string): Promise<AuthRes
     data: { lastLoginAt: new Date() }
   });
 
+  const sessionToken = generateSessionToken();
   return {
-    sessionPayload: { sub: user.id, end: "BUYER", roles: [] }
+    sessionPayload: { sub: user.id, end: "BUYER", roles: [], sessionToken }
   };
 }
 
@@ -322,13 +387,9 @@ export async function loginByPhone(phone: string, code: string): Promise<AuthRes
 async function verifyPasswordOrThrow(userId: string, password: string): Promise<void> {
   const user = await prisma.user.findUnique({
     where: { id: userId },
-    select: {
-      passwordHash: true,
-      buyerProfile: { select: { passwordHash: true } }
-    }
+    select: { passwordHash: true }
   });
-  // Check buyer password first, fallback to user password
-  const hash = user?.buyerProfile?.passwordHash || user?.passwordHash;
+  const hash = user?.passwordHash;
   if (!hash) throw new AppError("账号异常", 400, "NO_PASSWORD");
   const valid = await bcrypt.compare(password, hash);
   if (!valid) throw new AppError("密码错误", 400, "WRONG_PASSWORD");
@@ -397,13 +458,6 @@ export async function changePassword(userId: string, oldPassword: string, newPas
   }
 
   const passwordHash = await bcrypt.hash(newPassword, SALT_ROUNDS);
-
-  // 买家密码存 BuyerProfile，否则存 User
-  const buyerProfile = await prisma.buyerProfile.findUnique({ where: { userId } });
-  if (buyerProfile) {
-    await prisma.buyerProfile.update({ where: { userId }, data: { passwordHash } });
-  } else {
-    await prisma.user.update({ where: { id: userId }, data: { passwordHash } });
-  }
+  await prisma.user.update({ where: { id: userId }, data: { passwordHash } });
 }
 

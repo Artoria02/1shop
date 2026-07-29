@@ -1,0 +1,8 @@
+[    8770ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://pixabay.com/bootstrap/72b4731125ad1cf09c05f0ce69bd4bd2f5a60463158ab937b6c8e17c6f7dddfd.json:0
+[    8900ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://pixabay.com/images/search/iphone%2015%20pro/:0
+[    8984ms] Error: Unable to fetch bootstrap
+    at https://pixabay.com/static/frontend/chunk-client_startup.1ef6a1a10631b1bc.js:9:26524
+    at Object.throw (https://pixabay.com/static/frontend/chunk-5245.b9a3c018fa7f1be4.js:16:57022)
+    at r (https://pixabay.com/static/frontend/chunk-5245.b9a3c018fa7f1be4.js:16:39505)
+    at l (https://pixabay.com/static/frontend/chunk-5245.b9a3c018fa7f1be4.js:16:39738)
+[   12413ms] [WARNING] The resource https://pixabay.com/static/img/transparency_grid.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://pixabay.com/images/search/iphone%2015%20pro/:0

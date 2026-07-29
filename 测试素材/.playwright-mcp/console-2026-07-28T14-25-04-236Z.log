@@ -1,0 +1,5 @@
+[    4775ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://ad.doubleclick.net/ccm/s/collect?auid=926256996.1785248709&gtm=45He67o1v78636356za200zd78636356xea:0
+[    5172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_CLOSED @ https://stats.g.doubleclick.net/g/collect?v=2&tid=G-QWX66025LC&cid=669141429.1785248709&gtm=45je67o1v879798583z878636356za20gzb78636356zd78636356&rcb=15&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~119732170~119896803~120124453:0
+[    6204ms] [ERROR] [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored. @ https://accounts.google.com/gsi/client:87
+[    6214ms] [ERROR] Not signed in with the identity provider. @ https://www.magnific.com/search?format=search&query=smartphone%20product&type=photo:0
+[    7645ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87
